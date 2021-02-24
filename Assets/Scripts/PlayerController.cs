@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    
     public delegate void Keycodes();
     public static event Keycodes keyPressed;
     private const string Horizontal = "Horizontal";
@@ -19,13 +20,14 @@ public class PlayerController : MonoBehaviour
     #region Private Refrences
 
     private Animator _anim;
-    
+    private PlayerWeapons _playerWeapons;
 
     #endregion
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible = false;
+        _playerWeapons = GetComponent<PlayerWeapons>();
+        Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Confined;
         _anim = GetComponent<Animator>();
     }

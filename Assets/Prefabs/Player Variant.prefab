@@ -43,6 +43,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   Weapon: {fileID: 0}
+--- !u!114 &1876584176116271156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7599784386874595920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2222022d392c1b4fa3b6691787b058d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponId: 0
+  _pistol: {fileID: 0}
+  _ar: {fileID: 0}
+  _shotgun: {fileID: 0}
 --- !u!1001 &7329241652885022465
 PrefabInstance:
   m_ObjectHideFlags: 0

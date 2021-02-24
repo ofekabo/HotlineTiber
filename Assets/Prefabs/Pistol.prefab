@@ -41,10 +41,9 @@ GameObject:
   - component: {fileID: 8373533886658209786}
   - component: {fileID: 8373533886658209783}
   - component: {fileID: 8373533886658209784}
-  - component: {fileID: 8373533886658209785}
-  - component: {fileID: 8373533886658209780}
   - component: {fileID: 8373533886658209781}
   - component: {fileID: 8373533886658209782}
+  - component: {fileID: 1884654296314016143}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -116,42 +115,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8373533886658209785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8373533886658209787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ddd326cea18fe047bb72c099b123446, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 4765228320017495724, guid: f8fb0d6c58e463042a946eba2192a2bf, type: 3}
-  shootingPoint: {fileID: 0}
-  bulletSpeed: 15
---- !u!114 &8373533886658209780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8373533886658209787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 273c1134f46fe084e9f6bdae1b0fd298, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gunScript: {fileID: 8373533886658209785}
-  rb: {fileID: 8373533886658209781}
-  coll: {fileID: 8373533886658209782}
-  player: {fileID: 7078544873229910250, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
-  gunContainer: {fileID: 5413126506399331699, guid: e929fc6b93153664ca41bb0a8faf510e, type: 3}
-  pickUpRange: 5
-  dropForwardForce: 5
-  dropUpwardForce: 5
-  equipped: 1
 --- !u!54 &8373533886658209781
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -181,3 +144,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.000001, y: 1.0000008, z: 1.0000008}
   m_Center: {x: 0.0000009536743, y: 0.00000070780516, z: 0.0000010728836}
+--- !u!114 &1884654296314016143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373533886658209787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1bfb096506e05947acaafb1f308b804, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firerate: 0
+  startingAmmo: 0
+  maxAmmo: 0
+  automaticShoot: 0
+  bullet: {fileID: 0}
+  shootingPoint: {fileID: 0}
+  bulletSpeed: 0
