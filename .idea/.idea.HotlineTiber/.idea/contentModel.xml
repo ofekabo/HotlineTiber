@@ -25,6 +25,7 @@
           <e p="CameraScript.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="MeleeEnemy.cs" t="Include" />
+          <e p="PickupController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Weapon.cs" t="Include" />
         </e>

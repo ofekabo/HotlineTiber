@@ -15,8 +15,10 @@ public class PlayerController : MonoBehaviour
     [Header("Shooting")]
     [SerializeField] private GameObject Weapon;
     
-    #region Private Refrences
     
+    #region Private Refrences
+
+    private Animator _anim;
     
 
     #endregion
@@ -25,6 +27,7 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
+        _anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -39,7 +42,10 @@ public class PlayerController : MonoBehaviour
     {
         float horziontal = Input.GetAxis(Horizontal);
         float vertical = Input.GetAxis(Vertical);
-
+        
+        _anim.SetFloat("Horizontal_f", horziontal);
+        _anim.SetFloat("Vertical_f", vertical);
+        
         Vector3 movement = new Vector3(horziontal, 0, vertical);
         
         transform.Translate(movement * moveSpeed * Time.deltaTime,Space.World);

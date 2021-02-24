@@ -23,7 +23,12 @@ public class Weapon : MonoBehaviour
 
     private void Fire()
     {
-        Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
-        bulletClone.velocity = transform.forward * bulletSpeed;
+        if (PickUpController.slotFull)
+        {
+            
+            Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
+            bulletClone.velocity = transform.forward * bulletSpeed;
+        }
+        
     }
 }
