@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="" />
+    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/LowerBody.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/LowerBody.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Shotgun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Shotgun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/PickUpController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -18,10 +40,27 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickupController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shotgun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pistol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Shotgun.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,6 +70,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -64,6 +110,12 @@
       <workItem from="1614032877633" duration="9551000" />
       <workItem from="1614043323446" duration="7287000" />
       <workItem from="1614104579872" duration="390000" />
+      <workItem from="1614127067383" duration="2422000" />
+      <workItem from="1614133478642" duration="754000" />
+      <workItem from="1614174906489" duration="3532000" />
+      <workItem from="1614178736624" duration="2923000" />
+      <workItem from="1614325253403" duration="1721000" />
+      <workItem from="1614336395005" duration="779000" />
     </task>
     <servers />
   </component>
@@ -72,7 +124,25 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="782" y="346" key="SettingsEditor" timestamp="1614133917708">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="346" key="SettingsEditor/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1614133917708" />
   </component>
 </project>
