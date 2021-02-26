@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private const string Vertical = "Vertical";
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
-
+    
     
     
     #region Private Refrences
@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rb;
     private Animator _anim;
     private PlayerWeapons _playerWeapons;
+    
 
     #endregion
     // Start is called before the first frame update
@@ -67,29 +68,26 @@ public class PlayerController : MonoBehaviour
     public delegate void ShootingDelegate();
     public static event ShootingDelegate shootPressed;
 
+    
     private void Shoot()
     {
-        if (_playerWeapons.WeaponId != AR)
+    
+
+        // if (_playerWeapons.WeaponId == AR)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButton(0))
             {
+                // bool true for rifle continues shooting
                 shootPressed?.Invoke();
             }
         }
         
 
-        if (Input.GetMouseButton(0))
-        {
-            // bool true for rifle continues shooting
-            
-        }
-
         if (Input.GetMouseButtonUp(0))
         {
             // bool false for rifle continues shooting (stop shooting)
-            
+
         }
     }
-
-   
+    
 }

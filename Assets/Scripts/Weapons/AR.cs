@@ -14,10 +14,10 @@ public class AR : Weapon
     {
         if (weaponID == 3)
         {
-            if (Time.time > PNextFire)
-            {
-                Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
-                bulletClone.velocity = transform.forward * bulletSpeed;
+             if (Time.time > PNextFire)
+             {
+                 Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
+                bulletClone.AddForce(transform.forward * bulletSpeed);
                 
                 
                 ReduceAmmo();
@@ -26,7 +26,7 @@ public class AR : Weapon
         }
 
     }
-
+    
 }
 
 

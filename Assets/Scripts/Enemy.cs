@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
     {
         if (health <= 0)
         {
-            Debug.Log("Im Dead");
+            Destroy(gameObject);
         }
     }
 
@@ -43,6 +43,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        
         Death();
     }
 

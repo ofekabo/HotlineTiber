@@ -13,7 +13,8 @@ public class Pistol :Weapon
             {
                 
                 Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
-                bulletClone.velocity = transform.forward * bulletSpeed;
+                // bulletClone.velocity = transform.forward * bulletSpeed * Time.deltaTime;
+                bulletClone.AddForce(transform.forward * bulletSpeed);
                 ReduceAmmo();
                 PNextFire = Time.time + fireRate;
             }
