@@ -11,6 +11,7 @@ public class Shotgun : Weapon
         {
             if (Time.time > PNextFire)
             {
+                base.Fire();
                 foreach(Transform spoint in shootingPoints)
                 {
                     Rigidbody bulletClone = Instantiate(bullet, spoint.position, Quaternion.identity);

@@ -9,16 +9,19 @@ public class Bullet : MonoBehaviour
 
     public static event damageHandler giveDMG;
     [SerializeField] int damage;
+
+    
     // Start is called before the first frame update
     void Start()
     {
         Destroy(gameObject,4f);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = new Vector3(transform.position.x, 3, transform.position.z);
     }
 
     private void OnCollisionEnter(Collision other)

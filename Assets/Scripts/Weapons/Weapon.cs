@@ -20,9 +20,11 @@ public class Weapon : MonoBehaviour
     
     [Header("Weapon ID")]
     public int weaponID;
-    
 
-    
+
+    public delegate void CameraShakeDel();
+
+    public static event CameraShakeDel activateCameraShake;
     
 
     // Start is called before the first frame update
@@ -41,7 +43,10 @@ public class Weapon : MonoBehaviour
         
     }
 
-    public virtual void Fire() { }
+    public virtual void Fire()
+    {
+        activateCameraShake?.Invoke();
+    }
 
     
 

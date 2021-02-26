@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private const int AR = 3;
+    private const int Shotgun = 2;
     private const string Horizontal = "Horizontal";
 
     private const string Vertical = "Vertical";
@@ -67,18 +67,21 @@ public class PlayerController : MonoBehaviour
 
     public delegate void ShootingDelegate();
     public static event ShootingDelegate shootPressed;
+    public static event ShootingDelegate shotgunShot;
 
     
     private void Shoot()
     {
-    
-
-        // if (_playerWeapons.WeaponId == AR)
+        
         {
             if (Input.GetMouseButton(0))
             {
                 // bool true for rifle continues shooting
                 shootPressed?.Invoke();
+                if (_playerWeapons.WeaponId == Shotgun)
+                {
+                    shotgunShot?.Invoke();
+                }
             }
         }
         

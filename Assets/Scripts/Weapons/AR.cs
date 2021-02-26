@@ -16,6 +16,7 @@ public class AR : Weapon
         {
              if (Time.time > PNextFire)
              {
+                 base.Fire();
                  Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
                 bulletClone.AddForce(transform.forward * bulletSpeed);
                 

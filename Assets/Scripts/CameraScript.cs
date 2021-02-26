@@ -1,16 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class CameraScript : MonoBehaviour
 {
 
-    private Transform player;
     
+    private Transform player;
+
     void Start()
     {
         player = FindObjectOfType<PlayerController>().transform;
-
     }
 
     [SerializeField] float damping = 12.0f;
@@ -19,6 +21,7 @@ public class CameraScript : MonoBehaviour
 
     private Vector3 _center;
     [SerializeField] float viewDistance = 3.0f;
+    
 
     void FixedUpdate()
     {
@@ -34,4 +37,7 @@ public class CameraScript : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, _center + new Vector3(0, height, offset),
             Time.deltaTime * damping);
     }
+
+
+    
 }
