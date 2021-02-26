@@ -13,19 +13,11 @@ public class PlayerWeapons : MonoBehaviour
     [SerializeField] GameObject _ar;
     [SerializeField] GameObject _shotgun;
 
-   
-
-
     void Update()
     {
         WeaponOrder();
         WeaponChange();
     }
-
-
-
-
-
 
     private void WeaponOrder()
 
@@ -49,8 +41,6 @@ public class PlayerWeapons : MonoBehaviour
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
         }
     }
-    
-    
 
     private void WeaponChange()
     {
@@ -82,9 +72,6 @@ public class PlayerWeapons : MonoBehaviour
 
                 break;
         }
-       
-
-
     }
 
     private int ReturnWeaponID(int Weaponid)
@@ -93,9 +80,4 @@ public class PlayerWeapons : MonoBehaviour
         return Weaponid;
          
     }
-
-
-    
-
-
 }

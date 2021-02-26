@@ -1,24 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
-    public delegate void Keycodes();
-    public static event Keycodes keyPressed;
+    private const int AR = 3;
     private const string Horizontal = "Horizontal";
 
     private const string Vertical = "Vertical";
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
 
-    [Header("Shooting")]
-    [SerializeField] private GameObject Weapon;
     
     
     #region Private Refrences
 
+    private Rigidbody _rb;
     private Animator _anim;
     private PlayerWeapons _playerWeapons;
 
@@ -26,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _rb = GetComponent<Rigidbody>();
         _playerWeapons = GetComponent<PlayerWeapons>();
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Confined;
@@ -35,9 +34,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
         Aim();
         Shoot();
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
     }
 
     private void Move()
@@ -51,6 +54,7 @@ public class PlayerController : MonoBehaviour
         Vector3 movement = new Vector3(horziontal, 0, vertical);
         
         transform.Translate(movement * moveSpeed * Time.deltaTime,Space.World);
+        //_rb.velocity = new Vector3(horziontal, 0, vertical) * moveSpeed;
     }
 
     private void Aim()
@@ -60,21 +64,32 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
     }
 
+    public delegate void ShootingDelegate();
+    public static event ShootingDelegate shootPressed;
+
     private void Shoot()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (_playerWeapons.WeaponId != AR)
         {
-            keyPressed?.Invoke();
+            if (Input.GetMouseButtonDown(0))
+            {
+                shootPressed?.Invoke();
+            }
         }
+        
 
         if (Input.GetMouseButton(0))
         {
             // bool true for rifle continues shooting
+            
         }
 
         if (Input.GetMouseButtonUp(0))
         {
             // bool false for rifle continues shooting (stop shooting)
+            
         }
     }
+
+   
 }

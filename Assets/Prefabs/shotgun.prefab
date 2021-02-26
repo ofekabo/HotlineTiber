@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45745638982876642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.59, y: -0, z: 0.555}
+  m_LocalPosition: {x: 0, y: -5.72, z: 0.657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2369839926806150198}
@@ -41,8 +41,6 @@ GameObject:
   - component: {fileID: 2369839926806150198}
   - component: {fileID: 2369839926806150203}
   - component: {fileID: 2369839926806150196}
-  - component: {fileID: 2369839926806150201}
-  - component: {fileID: 2369839926806150202}
   - component: {fileID: 6113522624658590302}
   m_Layer: 0
   m_Name: shotgun
@@ -117,35 +115,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &2369839926806150201
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2369839926806150199}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 2
-  m_Constraints: 0
-  m_CollisionDetection: 3
---- !u!65 &2369839926806150202
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2369839926806150199}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.000001, y: 1.0000008, z: 1.0000008}
-  m_Center: {x: 0.0000009536743, y: 0.00000070780516, z: 0.0000010728836}
 --- !u!114 &6113522624658590302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,17 +127,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3aab8aa8228ba449a2713f570a19e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firerate: 1
   startingAmmo: 0
   maxAmmo: 0
-  automaticShoot: 0
-  bullet: {fileID: 0}
+  firerate: 1
+  bullet: {fileID: 4765228320017495724, guid: f8fb0d6c58e463042a946eba2192a2bf, type: 3}
   shootingPoint: {fileID: 0}
-  bulletSpeed: 0
+  bulletSpeed: 10
+  weaponid: 0
   shootingPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 9134890711258522193}
+  - {fileID: 2660102636191729830}
+  - {fileID: 8304282227514888614}
 --- !u!1 &3499814145322495465
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3499814145322495465}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.77, y: 0, z: 0.555}
+  m_LocalPosition: {x: 0, y: 4.8, z: 0.657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2369839926806150198}
@@ -223,7 +192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7845870516683592421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: 0, z: 0.555}
+  m_LocalPosition: {x: 0.19, y: -0, z: 0.657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2369839926806150198}
