@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
     public int health;
     public int maxhealth;
@@ -14,13 +14,14 @@ public class Enemy : MonoBehaviour
     public virtual void Start()
     {
         health = maxhealth;
-        Bullet.giveDMG += RecieveDamage;
+        
     }
 
     public virtual void Update()
     {
         health = Mathf.Clamp(health,0,maxhealth);
-        
+        Bullet.giveDMG += SetDamageRecieved;
+
     }
 
     public virtual void MoveToPlayer()
@@ -40,13 +41,21 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
     }
-
-    private void OnCollisionEnter(Collision other)
+    
+    private void SetDamageRecieved(int damage) // setting the bullet damage == to damage rec
     {
-        
-        Death();
+         damageRec = damage;
     }
 
+    public abstract void OnCollisionEnter(Collision other);
+    // each enemy must have on collision enter ,
+    // take example from MeleeEnemy.cs and add for each enemy script IDamageable.
+
+    protected void IDamageable()
+    {
+        RecieveDamage(damageRec);
+        Death();
+    }
     private void OnDestroy()
     {
         Bullet.giveDMG -= RecieveDamage;

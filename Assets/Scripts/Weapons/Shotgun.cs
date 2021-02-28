@@ -7,7 +7,7 @@ public class Shotgun : Weapon
     [SerializeField] Transform[] shootingPoints;
     public override void Fire()
     {
-        if (weaponID == 2)
+        if (weaponID == 2 && CheckAmmo())
         {
             if (Time.time > PNextFire)
             {
@@ -15,7 +15,7 @@ public class Shotgun : Weapon
                 foreach(Transform spoint in shootingPoints)
                 {
                     Rigidbody bulletClone = Instantiate(bullet, spoint.position, Quaternion.identity);
-                    bulletClone.velocity = transform.forward * bulletSpeed;
+                    bulletClone.AddForce(transform.forward * bulletSpeed);
                 } 
                 ReduceAmmo();
                 PNextFire = Time.time + fireRate;

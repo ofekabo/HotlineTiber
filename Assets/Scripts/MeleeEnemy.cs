@@ -18,5 +18,8 @@ public class MeleeEnemy : Enemy
         base.Update();
     }
 
-    
+    public override void OnCollisionEnter(Collision other)
+    {
+        IDamageable();
+    }
 }

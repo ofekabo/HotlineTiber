@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - GunContainer
+  - Pickable
   layers:
   - Default
   - TransparentFX

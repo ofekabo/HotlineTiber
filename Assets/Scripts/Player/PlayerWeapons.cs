@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class PlayerWeapons : MonoBehaviour
 {
+    private const int Pistol = 1;
+    private const int Shotgun = 2;
+    private const int AR = 3;
+    
     public delegate void ChooseWeaponDelegate(int weaponid);
     public static event ChooseWeaponDelegate ChooseWepDel;
 
@@ -13,6 +17,16 @@ public class PlayerWeapons : MonoBehaviour
     [SerializeField] GameObject _ar;
     [SerializeField] GameObject _shotgun;
 
+    public bool shotgunUnlocked = false;
+    public bool arUnlocked = false;
+
+    private void Start()
+    {
+      
+        WeaponId = 1;
+        ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
+    }
+    
     void Update()
     {
         WeaponOrder();
@@ -24,20 +38,20 @@ public class PlayerWeapons : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            WeaponId = 1;
+            WeaponId = Pistol;
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
            
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha2) && shotgunUnlocked)
         {
-            WeaponId = 2;
+            WeaponId = Shotgun;
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (Input.GetKeyDown(KeyCode.Alpha3) && arUnlocked)
         {
-            WeaponId = 3;
+            WeaponId = AR;
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
         }
     }
@@ -46,7 +60,7 @@ public class PlayerWeapons : MonoBehaviour
     {
         switch (WeaponId)
         {
-            case 1:
+            case Pistol:
 
                 _pistol.SetActive(true);
                 _shotgun.SetActive(false);
@@ -55,7 +69,7 @@ public class PlayerWeapons : MonoBehaviour
                  break;
 
 
-            case 2:
+            case Shotgun:
 
                 _pistol.SetActive(false);
                 _shotgun.SetActive(true);
@@ -64,7 +78,7 @@ public class PlayerWeapons : MonoBehaviour
                 break;
 
 
-            case 3:
+            case AR:
 
                 _pistol.SetActive(false);
                 _shotgun.SetActive(false);
@@ -80,4 +94,5 @@ public class PlayerWeapons : MonoBehaviour
         return Weaponid;
          
     }
+    
 }

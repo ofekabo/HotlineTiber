@@ -2,11 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class CameraScript : MonoBehaviour
 {
-
+    [Tooltip("damping is the move speed the camera follows the mouse , the higher the faster.")]
+    [SerializeField] float damping = 12.0f;
+    [Tooltip("height is the offset of the camera from the player in Y axis.")]
+    [SerializeField] float height = 11.0f;
+    [Tooltip("offset is Z offset for the camera , more forward or backwards.")]
+    [SerializeField] float offset = 0f;
+    [Tooltip("change view distance to get farther sight with mouse.")]
+    [SerializeField] float viewDistance = 3.0f;
+    private Vector3 _center;
+    
     
     private Transform player;
 
@@ -15,12 +23,7 @@ public class CameraScript : MonoBehaviour
         player = FindObjectOfType<PlayerController>().transform;
     }
 
-    [SerializeField] float damping = 12.0f;
-    [SerializeField] float height = 11.0f;
-    [SerializeField] float offset = 0f;
-
-    private Vector3 _center;
-    [SerializeField] float viewDistance = 3.0f;
+ 
     
 
     void FixedUpdate()

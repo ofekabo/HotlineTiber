@@ -12,13 +12,13 @@ public class AR : Weapon
 
     public override void Fire()
     {
-        if (weaponID == 3)
+        if (weaponID == 3 && CheckAmmo())
         {
              if (Time.time > PNextFire)
              {
                  base.Fire();
                  Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
-                bulletClone.AddForce(transform.forward * bulletSpeed);
+                 bulletClone.AddForce(transform.forward * bulletSpeed);
                 
                 
                 ReduceAmmo();

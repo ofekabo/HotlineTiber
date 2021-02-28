@@ -5,7 +5,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private const int Pistol = 1;
     private const int Shotgun = 2;
+    private const int AR = 3;
+    
     private const string Horizontal = "Horizontal";
 
     private const string Vertical = "Vertical";
