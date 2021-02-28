@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private const string Horizontal = "Horizontal";
 
     private const string Vertical = "Vertical";
+
+    private float horizontal;
+    private float vertical;
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
     
@@ -49,16 +52,30 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        float horziontal = Input.GetAxis(Horizontal);
-        float vertical = Input.GetAxis(Vertical);
+        horizontal = Input.GetAxis(Horizontal);
+        vertical = Input.GetAxis(Vertical);
+        AnimatingMovement(horizontal,vertical);
+ 
         
-        _anim.SetFloat("Horizontal_f", horziontal);
-        _anim.SetFloat("Vertical_f", vertical);
-        
-        Vector3 movement = new Vector3(horziontal, 0, vertical);
+        Vector3 movement = new Vector3(horizontal, 0, vertical);
         
         transform.Translate(movement * moveSpeed * Time.deltaTime,Space.World);
-        //_rb.velocity = new Vector3(horziontal, 0, vertical) * moveSpeed;
+        //_rb.velocity = new Vector3(horizontal, 0, vertical) * moveSpeed;
+    }
+
+    private Vector3 moveDirection = Vector3.zero;
+
+    void AnimatingMovement(float h, float v)
+    {
+        moveDirection = new Vector3(h, 0, v);
+        if (moveDirection.magnitude > 1.0f)
+        {
+            moveDirection = moveDirection.normalized;
+        }
+
+        moveDirection = transform.InverseTransformDirection(moveDirection);
+        _anim.SetFloat("Horizontal_f", moveDirection.x,0.05f,Time.deltaTime);
+        _anim.SetFloat("Vertical_f", moveDirection.z, 0.05f,Time.deltaTime);
     }
 
     private void Aim()
