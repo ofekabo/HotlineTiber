@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  maxhealth: 100
+  maxhealth: 10
   viewRange: 0
   attackRange: 0
 --- !u!54 &7432502953238756212
