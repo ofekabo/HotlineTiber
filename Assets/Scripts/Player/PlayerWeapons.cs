@@ -8,25 +8,30 @@ public class PlayerWeapons : MonoBehaviour
     private const int Pistol = 1;
     private const int Shotgun = 2;
     private const int AR = 3;
-    
+
     public delegate void ChooseWeaponDelegate(int weaponid);
+
     public static event ChooseWeaponDelegate ChooseWepDel;
 
     public int WeaponId;
     [SerializeField] GameObject _pistol;
-    [SerializeField] GameObject _ar;
+    
     [SerializeField] GameObject _shotgun;
+    [SerializeField] GameObject _ar;
+
+    #region Private bools
 
     public bool shotgunUnlocked = false;
     public bool arUnlocked = false;
+    
+    #endregion
 
     private void Start()
     {
-      
-        WeaponId = 1;
+        WeaponId = Pistol;
         ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
     }
-    
+
     void Update()
     {
         WeaponOrder();
@@ -40,7 +45,6 @@ public class PlayerWeapons : MonoBehaviour
         {
             WeaponId = Pistol;
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
-           
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && shotgunUnlocked)
@@ -66,7 +70,7 @@ public class PlayerWeapons : MonoBehaviour
                 _shotgun.SetActive(false);
                 _ar.SetActive(false);
 
-                 break;
+                break;
 
 
             case Shotgun:
@@ -74,7 +78,7 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(false);
                 _shotgun.SetActive(true);
                 _ar.SetActive(false);
-                
+
                 break;
 
 
@@ -90,9 +94,6 @@ public class PlayerWeapons : MonoBehaviour
 
     private int ReturnWeaponID(int Weaponid)
     {
-       
         return Weaponid;
-         
     }
-    
 }

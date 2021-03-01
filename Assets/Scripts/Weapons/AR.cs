@@ -8,6 +8,7 @@ public class AR : Weapon
     public override void Start()
     {
         base.Start();
+        
     }
 
     public override void Fire()
@@ -17,7 +18,7 @@ public class AR : Weapon
              if (Time.time > PNextFire)
              {
                  base.Fire();
-                 Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, Quaternion.identity);
+                 Rigidbody bulletClone = Instantiate(bullet, shootingPoint.position, transform.rotation);
                  bulletClone.AddForce(transform.forward * bulletSpeed);
                 
                 
