@@ -110,8 +110,8 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   mode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 2
 --- !u!114 &-2082174889069514267
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
@@ -181,7 +181,7 @@ MonoBehaviour:
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.36
+    m_Value: 1.62
     min: 0
   scatter:
     m_OverrideState: 1
@@ -232,6 +232,7 @@ MonoBehaviour:
   - {fileID: -4447790179500470405}
   - {fileID: -1967991031813797006}
   - {fileID: 7448336374746006714}
+  - {fileID: -2807799723838812131}
 --- !u!114 &7448336374746006714
 MonoBehaviour:
   m_ObjectHideFlags: 3
