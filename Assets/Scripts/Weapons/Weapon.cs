@@ -34,9 +34,9 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     public virtual void Start()
     {
+        PlayerWeapons.ChooseWepDel += SetWeaponID;
         SetShootingPoints();
         _currentAmmo = startingAmmo;
-        PlayerWeapons.ChooseWepDel += SetWeaponID;
         PlayerController.shootPressed += Fire;
         GameEvents.events.onGunPickupTrigger += RefillAmmo;
     }

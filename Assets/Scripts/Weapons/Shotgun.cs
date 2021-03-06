@@ -7,7 +7,7 @@ public class Shotgun : Weapon
     public override void Start()
     {
         base.Start();
-        
+        weaponID = 1;
     }
 
     public override void Fire()
@@ -28,7 +28,7 @@ public class Shotgun : Weapon
                     spread += transform.right * Random.Range(-1f, 1f);
                     spread += transform.up * Random.Range(-1f, 1f);
 
-                    direction += spread.normalized * Random.Range(-0.35f, 0.35f);
+                    direction += spread.normalized * Random.Range(-0.55f, 0.55f);
                     bulletClone = Instantiate(bullet, shootingPoint.position, transform.rotation);
                     bulletClone.transform.rotation = Quaternion.LookRotation(new Vector3(direction.x,0,direction.z));
                     bulletClone.AddForce(direction * bulletSpeed);

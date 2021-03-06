@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     private float vertical;
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
+
+    [SerializeField] private GameObject mouseObject;
     
     
     
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         Aim();
         Shoot();
+        LookAtObject();
     }
 
     private void FixedUpdate()
@@ -85,30 +88,41 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
     }
 
+    private void LookAtObject()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawRay(ray.origin, ray.direction * 100,Color.red);
+        if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity))
+        {
+            mouseObject.transform.position = new Vector3(hit.point.x, 2, hit.point.z);
+        }
+        
+        
+        
+            
+
+
+    }
+
     public delegate void ShootingDelegate();
     public static event ShootingDelegate shootPressed;
-    public static event ShootingDelegate shotgunShot;
 
-    
+
     private void Shoot()
     {
         
+       
+        if (Input.GetMouseButton(0))
         {
-            if (Input.GetMouseButton(0))
-            {
-                // bool true for rifle continues shooting
-                shootPressed?.Invoke();
-                if (_playerWeapons.WeaponId == Shotgun)
-                {
-                    shotgunShot?.Invoke();
-                }
-            }
+            shootPressed?.Invoke();
         }
+ 
         
 
         if (Input.GetMouseButtonUp(0))
         {
-            // bool false for rifle continues shooting (stop shooting)
+            
 
         }
     }

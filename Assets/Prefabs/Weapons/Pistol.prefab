@@ -125,10 +125,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1bfb096506e05947acaafb1f308b804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firerate: 0.3
   startingAmmo: 0
   maxAmmo: 0
-  automaticShoot: 0
+  _currentAmmo: 0
+  fireRate: 0
+  amountOfBullets: 0
   bullet: {fileID: 4765228320017495724, guid: f8fb0d6c58e463042a946eba2192a2bf, type: 3}
   shootingPoint: {fileID: 794404496987657399}
   bulletSpeed: 10
+  weaponID: 0
+  ammoWepID: 0
