@@ -6,6 +6,8 @@ TagManager:
   tags:
   - GunContainer
   - Pickable
+  - Enemy
+  - Prop
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - 
   - Bullet
-  - 
-  - 
+  - Prop
+  - Enemy
   - 
   - 
   - 

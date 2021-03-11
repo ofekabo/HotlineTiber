@@ -41,6 +41,11 @@ public class Weapon : MonoBehaviour
         GameEvents.events.onGunPickupTrigger += RefillAmmo;
     }
 
+    public virtual void Update()
+    {
+        _currentAmmo = Mathf.Clamp(_currentAmmo, 0, maxAmmo);
+    }
+
 
     public delegate void CameraShakeDel();
 
