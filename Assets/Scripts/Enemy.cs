@@ -10,20 +10,14 @@ public abstract class Enemy : MonoBehaviour
     public int maxhealth;
     public float viewRange;
     public float attackRange;
-    private int damageRec;
     public virtual void Start()
     {
         health = maxhealth;
-        
-        
     }
 
     public virtual void Update()
     {
         health = Mathf.Clamp(health,0,maxhealth);
-        Bullet.GiveDMG += SetDamageRecieved;
-
-        Death();
     }
 
     public virtual void MoveToPlayer()
@@ -39,28 +33,19 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    private void RecieveDamage(int damage)
+    public void RecieveDamage(int damage)
     {
         health -= damage;
+        Death();
     }
     
-    private void SetDamageRecieved(int damage) // setting the bullet damage == to damage rec
-    {
-         damageRec = damage;
-    }
-
-    public abstract void OnTriggerEnter(Collider other);
-    
-    // each enemy must have on trigger enter ,
-    // take example from MeleeEnemy.cs and add for each enemy script IDamageable.
 
     protected void IDamageable()
     {
-        RecieveDamage(damageRec);
         Death();
     }
     private void OnDestroy()
     {
-        Bullet.GiveDMG -= RecieveDamage;
+        
     }
 }

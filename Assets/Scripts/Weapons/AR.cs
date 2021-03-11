@@ -8,6 +8,7 @@ public class AR : Weapon
     public override void Start()
     {
         base.Start();
+        weaponID = 1;
         
     }
 

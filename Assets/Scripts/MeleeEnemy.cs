@@ -20,9 +20,5 @@ public class MeleeEnemy : Enemy
     }
 
     
-
-    public override void OnTriggerEnter(Collider other)
-    {
-        IDamageable();
-    }
+    
 }

@@ -115,8 +115,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   bulletHeight: 2.2
-  bulletSpeed: 80
-  bulletDetectionRadius: 0.26
+  bulletSpeed: 85
+  bulletDetectionRadius: 0.25
+  propLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!65 &6363765594871899137
 BoxCollider:
   m_ObjectHideFlags: 0
