@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4489316523346478006
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
+  m_Name: LiftGammaGain
+  m_EditorClassIdentifier: 
+  active: 0
+  m_AdvancedMode: 0
+  lift:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  gamma:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0.91790557}
+  gain:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0.015083035}
 --- !u!114 &-4447790179500470405
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -15,7 +38,7 @@ MonoBehaviour:
   active: 0
   m_AdvancedMode: 0
   redOutRedIn:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 200
     min: -200
     max: 200
@@ -59,42 +82,6 @@ MonoBehaviour:
     m_Value: 100
     min: -200
     max: 200
---- !u!114 &-2952643092987764292
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
-  m_Name: Vignette
-  m_EditorClassIdentifier: 
-  active: 0
-  m_AdvancedMode: 0
-  color:
-    m_OverrideState: 1
-    m_Value: {r: 0.5660378, g: 0.045389827, b: 0.08488272, a: 1}
-    hdr: 0
-    showAlpha: 0
-    showEyeDropper: 1
-  center:
-    m_OverrideState: 0
-    m_Value: {x: 0.5, y: 0.5}
-  intensity:
-    m_OverrideState: 1
-    m_Value: 0.368
-    min: 0
-    max: 1
-  smoothness:
-    m_OverrideState: 0
-    m_Value: 0.2
-    min: 0.01
-    max: 1
-  rounded:
-    m_OverrideState: 1
-    m_Value: 1
 --- !u!114 &-2807799723838812131
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -107,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
@@ -128,7 +115,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.221
     min: 0
     max: 1
 --- !u!114 &-1967991031813797006
@@ -150,7 +137,7 @@ MonoBehaviour:
     m_Value: 0
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   intensity:
     m_OverrideState: 1
     m_Value: 1
@@ -227,12 +214,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: -861052132973026739}
-  - {fileID: -2952643092987764292}
+  - {fileID: -4489316523346478006}
+  - {fileID: -2807799723838812131}
   - {fileID: -2082174889069514267}
   - {fileID: -4447790179500470405}
   - {fileID: -1967991031813797006}
   - {fileID: 7448336374746006714}
-  - {fileID: -2807799723838812131}
+  - {fileID: 8791764864143836319}
 --- !u!114 &7448336374746006714
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -263,3 +251,39 @@ MonoBehaviour:
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+--- !u!114 &8791764864143836319
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  center:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.293
+    min: 0
+    max: 1
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 0.185
+    min: 0.01
+    max: 1
+  rounded:
+    m_OverrideState: 1
+    m_Value: 0

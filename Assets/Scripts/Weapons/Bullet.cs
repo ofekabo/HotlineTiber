@@ -38,10 +38,14 @@ public class Bullet : MonoBehaviour
                 hit.collider.GetComponent<Rigidbody>().AddForce(transform.forward * 2f, ForceMode.Impulse);
                 Destroy(gameObject,UnityEngine.Random.Range(0.3f,0.9f));
             }
-               
+            
             if (hit.collider.CompareTag("Enemy"))
             {
                 hit.collider.GetComponent<Enemy>().RecieveDamage(damage);
+                Destroy(gameObject);
+            }
+            if (hit.collider.CompareTag("Static"))
+            {
                 Destroy(gameObject);
             }
                 

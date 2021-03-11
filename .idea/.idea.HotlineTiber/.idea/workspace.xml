@@ -7,26 +7,40 @@
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets 1/Settings/GameVolume.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets 1/Settings/GameVolume.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/New Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/New Lighting Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/Coffe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/Coffe.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/DocPaper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/DocPaper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/Keyboard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/Keyboard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/Mouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/Mouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Door.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/DocPaper.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/DocPaper.002.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/DocPaper.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Moveable/DocPaper.003.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Pillar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Pillar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/WallDoorWay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/WallDoorWay.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +68,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +140,7 @@
       <workItem from="1614955591800" duration="2419000" />
       <workItem from="1615420152854" duration="8868000" />
       <workItem from="1615474081588" duration="2659000" />
+      <workItem from="1615479729844" duration="723000" />
     </task>
     <servers />
   </component>
