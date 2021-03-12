@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 
 public class PlayerWeapons : MonoBehaviour
@@ -9,6 +10,7 @@ public class PlayerWeapons : MonoBehaviour
     private const int Shotgun = 2;
     private const int AR = 3;
 
+   
     public delegate void ChooseWeaponDelegate(int weaponid);
 
     public static event ChooseWeaponDelegate ChooseWepDel;
@@ -19,10 +21,11 @@ public class PlayerWeapons : MonoBehaviour
     [SerializeField] GameObject _shotgun;
     [SerializeField] GameObject _ar;
 
-    #region Private bools
+    #region Private vars
 
     public bool shotgunUnlocked = false;
     public bool arUnlocked = false;
+    private Rig _pistolRig;
     
     #endregion
 
@@ -30,6 +33,7 @@ public class PlayerWeapons : MonoBehaviour
     {
         WeaponId = Pistol;
         ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
+        _pistolRig = GetComponentInChildren<Rig>();
     }
 
     void Update()
@@ -58,6 +62,7 @@ public class PlayerWeapons : MonoBehaviour
             WeaponId = AR;
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
         }
+        
     }
 
     private void WeaponChange()
@@ -69,7 +74,7 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(true);
                 _shotgun.SetActive(false);
                 _ar.SetActive(false);
-
+                _pistolRig.weight = 1;
                 break;
 
 
@@ -78,6 +83,7 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(false);
                 _shotgun.SetActive(true);
                 _ar.SetActive(false);
+                _pistolRig.weight = 0;
 
                 break;
 
@@ -87,7 +93,7 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(false);
                 _shotgun.SetActive(false);
                 _ar.SetActive(true);
-
+                _pistolRig.weight = 0;
                 break;
         }
     }
