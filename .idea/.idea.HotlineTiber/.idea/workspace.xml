@@ -7,15 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets 1/Settings/GameVolume.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets 1/Settings/GameVolume.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/GlowShader.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/GlowShader.shadergraph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/AR_Pickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/AR_Pickup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/Shotgun_Pickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/Shotgun_Pickup.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +27,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Shotgun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +111,7 @@
       <workItem from="1615479729844" duration="723000" />
       <workItem from="1615497655263" duration="1559000" />
       <workItem from="1615538280106" duration="950000" />
+      <workItem from="1615547130482" duration="958000" />
     </task>
     <servers />
   </component>
@@ -142,10 +136,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog" timestamp="1615475780778">
+    <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog" timestamp="1615547397513">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615475780778" />
+    <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615547397513" />
     <state x="937" y="331" key="run.anything.popup" timestamp="1615427823971">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

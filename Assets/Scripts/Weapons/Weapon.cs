@@ -27,6 +27,8 @@ public class Weapon : MonoBehaviour
     public int ammoWepID;
 
 
+
+
     private void OnEnable()
     {
     }
@@ -54,6 +56,7 @@ public class Weapon : MonoBehaviour
     public virtual void Fire()
     {
         activateCameraShake?.Invoke();
+        
     }
 
     public bool CheckAmmo()
