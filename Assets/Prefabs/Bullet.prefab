@@ -117,12 +117,7 @@ MonoBehaviour:
   bulletHeight: 2.2
   bulletSpeed: 85
   bulletDetectionRadius: 0.25
-  propLayer:
-    serializedVersion: 2
-    m_Bits: 512
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 1024
+  particleEffect: {fileID: 1196905903267669349, guid: c79dabd5c81116c48a275e03f59111a3, type: 3}
 --- !u!65 &6363765594871899137
 BoxCollider:
   m_ObjectHideFlags: 0

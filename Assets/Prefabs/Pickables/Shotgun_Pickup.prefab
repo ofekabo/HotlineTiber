@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3621366148712903724}
-  m_LocalRotation: {x: -0.009006481, y: -0.027558092, z: -0.9995654, w: 0.0053350045}
+  m_LocalRotation: {x: 0.009003349, y: 0.027561072, z: 0.99956536, w: -0.005338992}
   m_LocalPosition: {x: 0.16096687, y: 2.2711678, z: 7.1171856}
   m_LocalScale: {x: 0.30000004, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: -176.836, y: 181.016, z: 0.58399963}
 --- !u!33 &1055432664352776499
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -114,8 +114,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.7849007, y: 0.2465349, z: 0.942681}
-  m_Center: {x: -1.4153073, y: 0.0000012459698, z: -0.0919208}
+  m_Size: {x: 5.7848997, y: 0.2465349, z: 3.1399584}
+  m_Center: {x: -1.4153008, y: 0.0000012410162, z: 0.018733295}
 --- !u!114 &4503815693896803169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7067be83104b024f812375462d537d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minAmmo: 2
-  maxAmmo: 15
+  minAmmo: 10
+  maxAmmo: 28
   weapon: 1

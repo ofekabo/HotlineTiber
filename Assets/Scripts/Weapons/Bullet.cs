@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Bullet : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float bulletHeight = 2f;
     [SerializeField] private float bulletSpeed = 80f;
     [SerializeField] private float bulletDetectionRadius = 0.5f;
+    [SerializeField] private GameObject particleEffect;
 
 
     //bullet raycasting
@@ -33,20 +35,24 @@ public class Bullet : MonoBehaviour
 
         foreach (RaycastHit hit in hits)
         {
+            
             if(hit.collider.CompareTag("Prop"))
             {
-                hit.collider.GetComponent<Rigidbody>().AddForce(transform.forward * 2f, ForceMode.Impulse);
-                Destroy(gameObject,UnityEngine.Random.Range(0.3f,0.9f));
+                hit.collider.GetComponent<Rigidbody>().AddForce(transform.forward * Random.Range(4f,8f), ForceMode.Impulse);
+                Destroy(gameObject);
+                SpawnHitVFX();
             }
             
             if (hit.collider.CompareTag("Enemy"))
             {
                 hit.collider.GetComponent<Enemy>().RecieveDamage(damage);
                 Destroy(gameObject);
+                
             }
             if (hit.collider.CompareTag("Static"))
             {
                 Destroy(gameObject);
+                SpawnHitVFX();
             }
                 
         }
@@ -57,5 +63,10 @@ public class Bullet : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(transform.position, bulletDetectionRadius);
     }
-    
+
+    private void SpawnHitVFX()
+    {
+        GameObject hitVFX = Instantiate(particleEffect, transform.position, Quaternion.identity);
+        Destroy(hitVFX, 0.8f);
+    }
 }
