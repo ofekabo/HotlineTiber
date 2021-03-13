@@ -111,19 +111,9 @@ public class PlayerController : MonoBehaviour
 
     private void Shoot()
     {
-        
-       
         if (Input.GetMouseButton(0))
         {
             shootPressed?.Invoke();
-        }
- 
-        
-
-        if (Input.GetMouseButtonUp(0))
-        {
-            
-
         }
     }
     

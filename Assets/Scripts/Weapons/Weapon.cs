@@ -5,7 +5,11 @@ using UnityEngine;
 
 [System.Serializable]
 public class Weapon : MonoBehaviour
+
 {
+    [SerializeField] AudioSource _myaudioclip;
+
+
     [Header("Ammo")] //
     public int startingAmmo;
 
@@ -36,11 +40,13 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     public virtual void Start()
     {
+       
         PlayerWeapons.ChooseWepDel += SetWeaponID;
         SetShootingPoints();
         _currentAmmo = startingAmmo;
-        PlayerController.shootPressed += Fire;
+        PlayerController.shootPressed += Fire; 
         GameEvents.events.onGunPickupTrigger += RefillAmmo;
+        
     }
 
     public virtual void Update()
@@ -56,6 +62,8 @@ public class Weapon : MonoBehaviour
     public virtual void Fire()
     {
         activateCameraShake?.Invoke();
+
+        GameEvents.events.PlayGunshot();
         
     }
 
@@ -95,7 +103,5 @@ public class Weapon : MonoBehaviour
         shootingPoint = this.gameObject.transform.GetChild(0).transform;
     }
 
-    private void OnDisable()
-    {
-    }
+    
 }

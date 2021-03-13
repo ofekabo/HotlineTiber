@@ -6,13 +6,20 @@ using UnityEngine;
 public class GameEvents : MonoBehaviour
 {
     public static GameEvents events;
+  
+
+
 
     private void Awake()
     {
         events = this;
     }
 
-    // Start is called before the first frame update
+    public event Action OnplayGunshot;
+    public void PlayGunshot()
+    {
+        OnplayGunshot?.Invoke();
+    }
 
     public event Action<int,int> onGunPickupTrigger;
 
