@@ -4,41 +4,42 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioClip[] index;
-    private AudioSource _auditt;
-    private int weaponid;
+    public AudioClip[] weaponSounds;
+    private AudioSource _adSource;
+    private int _weaponID;
 
     private void Start()
     {
-        PlayerWeapons.ChooseWepDel += SetWepid;
-        GameEvents.events.OnplayGunshot += PlaySound;
-        _auditt = GetComponent<AudioSource>();
+        PlayerWeapons.ChooseWepDel += SetWepID;
+        GameEvents.events.OnplayGunshot += PlayGunshotSound;
+        _adSource = GetComponent<AudioSource>();
 
     }
 
    
-    private void SetWepid(int id)
+    private void SetWepID(int id)
     {
-        weaponid = id;
+        _weaponID = id;
     }
 
-    private void PlaySound()
+    private void PlayGunshotSound()
     {
-        if (weaponid == 1)
+        if (_weaponID == 1)
         {
-            _auditt.clip = index[0];
+            _adSource.clip = weaponSounds[0];
         }
 
-        if (weaponid == 2)
+        if (_weaponID == 2)
         {
-            return;
+            _adSource.clip = weaponSounds[1];
         }
 
-        if (weaponid == 3)
+        if (_weaponID == 3)
         {
-            _auditt.clip = index[1];
+            _adSource.clip = weaponSounds[2];
         }
-        _auditt.Play();
+
+        _adSource.Play();
     }
    
 

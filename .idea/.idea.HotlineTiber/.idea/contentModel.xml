@@ -25,13 +25,16 @@
           <e p="CameraShake.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="Game" t="Include">
+            <e p="AudioManager.cs" t="Include" />
             <e p="GameEvents.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
           <e p="MeleeEnemy.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayerWeapons.cs" t="Include" />
           </e>
+          <e p="Prop.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="AR.cs" t="Include" />
             <e p="Bullet.cs" t="Include" />

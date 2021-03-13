@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _playerWeapons = GetComponent<PlayerWeapons>();
-        Cursor.visible = true;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         _anim = GetComponent<Animator>();
     }
@@ -58,12 +58,16 @@ public class PlayerController : MonoBehaviour
         horizontal = Input.GetAxis(Horizontal);
         vertical = Input.GetAxis(Vertical);
         AnimatingMovement(horizontal,vertical);
- 
+        
         
         Vector3 movement = new Vector3(horizontal, 0, vertical);
+
+        if (movement.magnitude > 1.0f)
+        {
+            movement = movement.normalized;
+        }
+        transform.Translate(movement * moveSpeed* Time.deltaTime,Space.World);
         
-        transform.Translate(movement * moveSpeed * Time.deltaTime,Space.World);
-        //_rb.velocity = new Vector3(horizontal, 0, vertical) * moveSpeed;
     }
 
     private Vector3 moveDirection = Vector3.zero;

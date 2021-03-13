@@ -38,7 +38,12 @@ public class Bullet : MonoBehaviour
             
             if(hit.collider.CompareTag("Prop"))
             {
-                hit.collider.GetComponent<Rigidbody>().AddForce(transform.forward * Random.Range(4f,8f), ForceMode.Impulse);
+                if (hit.collider.GetComponent<Prop>() != null)
+                {
+                    hit.collider.GetComponent<Prop>().RecDamage(damage);
+                    hit.collider.GetComponent<Rigidbody>().AddForce(transform.forward * Random.Range(4f,8f), ForceMode.Impulse);
+                }
+                
                 Destroy(gameObject);
                 SpawnHitVFX();
             }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8991258229481169843}
   - component: {fileID: 7712071422209075514}
   - component: {fileID: 7712071422209075515}
+  - component: {fileID: -2794027683393958882}
   m_Layer: 0
   m_Name: Cabinet
   m_TagString: Prop
@@ -112,3 +113,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9746696, y: 2.880903, z: 0.9725865}
   m_Center: {x: 0, y: 1.4404515, z: 0.032726243}
+--- !u!114 &-2794027683393958882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478123590440174182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce0ce1efc2cdf04a95f8f3e77c11a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  Destructable: 1
+  propDestroyFX: {fileID: 5929273141824214540, guid: 53dcb296bea65ae4dbeda09bdebcb2f2, type: 3}
