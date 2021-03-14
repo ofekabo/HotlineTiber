@@ -8,11 +8,11 @@ public class AudioManager : MonoBehaviour
     private AudioSource _adSource;
     private int _weaponID;
 
-    private void Start()
+    private void Awake()
     {
+        _adSource = GetComponent<AudioSource>();
         PlayerWeapons.ChooseWepDel += SetWepID;
         GameEvents.events.OnplayGunshot += PlayGunshotSound;
-        _adSource = GetComponent<AudioSource>();
 
     }
 
@@ -26,20 +26,19 @@ public class AudioManager : MonoBehaviour
     {
         if (_weaponID == 1)
         {
-            _adSource.clip = weaponSounds[0];
+            _adSource.PlayOneShot(weaponSounds[0],1f);
         }
 
         if (_weaponID == 2)
         {
-            _adSource.clip = weaponSounds[1];
+            _adSource.PlayOneShot(weaponSounds[1],1f);
         }
 
         if (_weaponID == 3)
         {
-            _adSource.clip = weaponSounds[2];
+            _adSource.PlayOneShot(weaponSounds[2],1f);
         }
-
-        _adSource.Play();
+        
     }
    
 
