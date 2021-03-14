@@ -7,16 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Floor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Floor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.002.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.002.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/ExplosionParticle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/ExplosionParticle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +116,7 @@
       <workItem from="1615659037791" duration="139000" />
       <workItem from="1615659194747" duration="4365000" />
       <workItem from="1615710165084" duration="4520000" />
-      <workItem from="1615718882277" duration="916000" />
+      <workItem from="1615718882277" duration="2112000" />
     </task>
     <servers />
   </component>
