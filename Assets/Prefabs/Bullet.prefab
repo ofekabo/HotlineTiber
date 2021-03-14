@@ -116,7 +116,7 @@ MonoBehaviour:
   damage: 5
   bulletHeight: 2.2
   bulletSpeed: 85
-  bulletDetectionRadius: 0.25
+  bulletDetectionRadius: 0.1
   particleEffect: {fileID: 1196905903267669349, guid: c79dabd5c81116c48a275e03f59111a3, type: 3}
 --- !u!65 &6363765594871899137
 BoxCollider:

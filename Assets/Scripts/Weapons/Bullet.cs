@@ -15,7 +15,7 @@ public class Bullet : MonoBehaviour
 
     //bullet raycasting
     private Vector3 _previousPos;
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,10 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         _previousPos = transform.position;
-        transform.position = new Vector3(transform.position.x, bulletHeight, transform.position.z);
+        
+        if (!Input.GetKey(KeyCode.LeftShift)) // if not pressing using fixed bullet height
+            transform.position = new Vector3(transform.position.x, bulletHeight, transform.position.z);
+        
         transform.Translate(transform.forward * bulletSpeed * Time.deltaTime,Space.World);
         RaycastHit[] hits= Physics.SphereCastAll(new Ray(_previousPos, (transform.position - _previousPos).normalized),bulletDetectionRadius,
             (transform.position - _previousPos).magnitude);

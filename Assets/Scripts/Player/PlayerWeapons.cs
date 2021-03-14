@@ -21,11 +21,12 @@ public class PlayerWeapons : MonoBehaviour
     [SerializeField] GameObject _shotgun;
     [SerializeField] GameObject _ar;
 
-    #region Private vars
+    #region public vars
 
     public bool shotgunUnlocked = false;
     public bool arUnlocked = false;
-    private Rig _pistolRig;
+    [SerializeField] private Rig pistol;
+    [SerializeField] private Rig twoHandedRig;
     
     #endregion
 
@@ -33,7 +34,6 @@ public class PlayerWeapons : MonoBehaviour
     {
         WeaponId = Pistol;
         ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
-        _pistolRig = GetComponentInChildren<Rig>();
     }
 
     void Update()
@@ -74,7 +74,8 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(true);
                 _shotgun.SetActive(false);
                 _ar.SetActive(false);
-                _pistolRig.weight = 1;
+                pistol.weight = 1;
+                twoHandedRig.weight = 0;
                 break;
 
 
@@ -83,7 +84,8 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(false);
                 _shotgun.SetActive(true);
                 _ar.SetActive(false);
-                _pistolRig.weight = 0;
+                pistol.weight = 0;
+                twoHandedRig.weight = 1;
 
                 break;
 
@@ -93,7 +95,8 @@ public class PlayerWeapons : MonoBehaviour
                 _pistol.SetActive(false);
                 _shotgun.SetActive(false);
                 _ar.SetActive(true);
-                _pistolRig.weight = 0;
+                pistol.weight = 0;
+                twoHandedRig.weight = 1;
                 break;
         }
     }

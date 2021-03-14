@@ -92,14 +92,19 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
     }
 
-    private void LookAtObject()
+    private void LookAtObject() // looking at mouse
     {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 100,Color.red);
         if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity))
         {
-            mouseObject.transform.position = new Vector3(hit.point.x, 2, hit.point.z);
+           
+            if(Input.GetKey(KeyCode.LeftShift))
+                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y + 0.2f, hit.point.z);
+            else
+                mouseObject.transform.position = new Vector3(hit.point.x, 2, hit.point.z);
+            
         }
         
         

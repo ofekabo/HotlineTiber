@@ -6,46 +6,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/BigPlanet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/BigPlanet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Cabinet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Cabinet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.003.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Coffe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Coffe.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DeskPlanet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DeskPlanet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.003.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Documents.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Documents.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/BulletMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/BulletMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Dust.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Dust.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/GlowPartical.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/GlowPartical.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imgs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imgs/MainChar_UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imgs/MainChar_UI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imgs/MainChar_UI_White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imgs/MainChar_UI_White.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Keyboard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Keyboard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Monitor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Monitor.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Mouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Mouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Phone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Phone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Sofa.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Table.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Tablearound.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Tablearound.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Trashcan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Trashcan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Waiting Chair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Waiting Chair.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaterBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaterBar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Welcome_Desk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Welcome_Desk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RailgunVFX.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RailgunVFX.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bulletHit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bulletHit.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/5.56-AR15-Single-Close-GunShot-H.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/5.56-AR15-Single-Close-GunShot-H.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Beefy-1911-.45-ACP-Close-Single-Gunshot-C.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Beefy-1911-.45-ACP-Close-Single-Gunshot-C.wav.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +53,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableProp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
@@ -154,6 +137,7 @@
       <workItem from="1615547130482" duration="958000" />
       <workItem from="1615659037791" duration="139000" />
       <workItem from="1615659194747" duration="4365000" />
+      <workItem from="1615710165084" duration="4520000" />
     </task>
     <servers />
   </component>
@@ -182,10 +166,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615547397513" />
-    <state x="937" y="331" key="run.anything.popup" timestamp="1615427823971">
+    <state x="937" y="331" key="run.anything.popup" timestamp="1615715268192">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615427823971" />
+    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615715268192" />
     <state x="943" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1615538818160">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
