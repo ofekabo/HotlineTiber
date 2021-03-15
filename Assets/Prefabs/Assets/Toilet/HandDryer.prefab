@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3574194964547864999}
   - component: {fileID: 1620979394573860205}
   - component: {fileID: 2829191030545313453}
+  - component: {fileID: -2346587274621428792}
   m_Layer: 0
   m_Name: HandDryer
-  m_TagString: Static
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,3 +96,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.012, y: 0.012, z: 0.0061417846}
   m_Center: {x: 0, y: 1.0910001e-17, z: 0.0030708923}
+--- !u!114 &-2346587274621428792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972245751010876600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce0ce1efc2cdf04a95f8f3e77c11a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  Destructable: 1
+  propDestroyFX: {fileID: 5929273141824214540, guid: 53dcb296bea65ae4dbeda09bdebcb2f2, type: 3}

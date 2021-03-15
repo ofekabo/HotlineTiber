@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6125096986318032770}
   - component: {fileID: 7111021996615548967}
   - component: {fileID: 4993255712232748269}
+  - component: {fileID: 6282887379353947546}
   m_Layer: 0
   m_Name: Painting
-  m_TagString: Static
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -81,3 +82,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6282887379353947546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794638732017079608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce0ce1efc2cdf04a95f8f3e77c11a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  Destructable: 1
+  propDestroyFX: {fileID: 5929273141824214540, guid: 53dcb296bea65ae4dbeda09bdebcb2f2, type: 3}

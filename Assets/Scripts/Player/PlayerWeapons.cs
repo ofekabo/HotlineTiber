@@ -30,16 +30,32 @@ public class PlayerWeapons : MonoBehaviour
     
     #endregion
 
+    #region private Refs
+
+    private PlayerController _pc;
+    
+
+    #endregion
+
     private void Start()
     {
         WeaponId = Pistol;
         ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
+        _pc = GetComponent<PlayerController>();
     }
 
     void Update()
     {
         WeaponOrder();
         WeaponChange();
+        
+        if (_pc.isDancing)
+        {
+            Debug.Log("hello");
+            pistol.weight = 0f;
+            twoHandedRig.weight = 0f;
+            WeaponsFalse();
+        }
     }
 
     private void WeaponOrder()
@@ -62,6 +78,8 @@ public class PlayerWeapons : MonoBehaviour
             WeaponId = AR;
             ChooseWepDel?.Invoke(ReturnWeaponID(WeaponId));
         }
+
+    
         
     }
 
@@ -104,5 +122,12 @@ public class PlayerWeapons : MonoBehaviour
     private int ReturnWeaponID(int Weaponid)
     {
         return Weaponid;
+    }
+
+    private void WeaponsFalse()
+    {
+        _pistol.SetActive(false);
+        _shotgun.SetActive(false);
+        _ar.SetActive(false);
     }
 }

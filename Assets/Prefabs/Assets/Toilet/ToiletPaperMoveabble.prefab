@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6369552254270521354}
   - component: {fileID: 4153805969011338882}
   - component: {fileID: 133960906}
+  - component: {fileID: 2771066041960392925}
   m_Layer: 0
   m_Name: ToiletPaperMoveabble
-  m_TagString: Untagged
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,3 +114,18 @@ CapsuleCollider:
   m_Height: 0.002488496
   m_Direction: 1
   m_Center: {x: -0.0000032600365, y: -0.001244248, z: 0}
+--- !u!114 &2771066041960392925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856514783966061023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce0ce1efc2cdf04a95f8f3e77c11a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  Destructable: 1
+  propDestroyFX: {fileID: 5929273141824214540, guid: 53dcb296bea65ae4dbeda09bdebcb2f2, type: 3}

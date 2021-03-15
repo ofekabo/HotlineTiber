@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     
 
     #endregion
+
+    public bool isDancing;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,7 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         _anim = GetComponent<Animator>();
+        isDancing = false;
     }
 
     // Update is called once per frame
@@ -133,8 +136,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.E))
         {
             _anim.SetBool("Clapping", true);
+            isDancing = true;
         }
         else
+        {
             _anim.SetBool("Clapping", false);
+
+            isDancing = false;
+        }
+     
     }
 }
