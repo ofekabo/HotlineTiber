@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Prop
   - Static
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX

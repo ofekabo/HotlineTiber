@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         Aim();
         Shoot();
         LookAtObject();
+        ClappingMechanic();
     }
 
     private void FixedUpdate()
@@ -125,5 +126,15 @@ public class PlayerController : MonoBehaviour
             shootPressed?.Invoke();
         }
     }
-    
+
+
+    private void ClappingMechanic()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            _anim.SetBool("Clapping", true);
+        }
+        else
+            _anim.SetBool("Clapping", false);
+    }
 }
