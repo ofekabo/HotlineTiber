@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1208363189406662553}
   - component: {fileID: 8461437414928342472}
   - component: {fileID: 2917024384710208938}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BigPlanet
   m_TagString: Prop
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1849226852132676465}
   - component: {fileID: 807689397887170769}
   - component: {fileID: -8272907790211950466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Keyboard
   m_TagString: Prop
   m_Icon: {fileID: 0}

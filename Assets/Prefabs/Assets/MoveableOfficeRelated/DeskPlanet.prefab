@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7385912674093232936}
   - component: {fileID: 2414251862348068148}
   - component: {fileID: 138229775070064055}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DeskPlanet
   m_TagString: Prop
   m_Icon: {fileID: 0}

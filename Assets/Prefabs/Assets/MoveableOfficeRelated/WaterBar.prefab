@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8656294664965779046}
   - component: {fileID: 5361286057963125481}
   - component: {fileID: -971842725293289334}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WaterBar
   m_TagString: Prop
   m_Icon: {fileID: 0}

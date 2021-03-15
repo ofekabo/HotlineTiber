@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2709256390491175797}
   - component: {fileID: 471406755666610310}
   - component: {fileID: -7563474960772857622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Waiting Chair
   m_TagString: Prop
   m_Icon: {fileID: 0}

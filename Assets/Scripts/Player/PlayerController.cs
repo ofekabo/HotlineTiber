@@ -27,8 +27,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rb;
     private Animator _anim;
     private PlayerWeapons _playerWeapons;
-    
 
+    private bool _shiftHold;
     #endregion
 
     public bool isDancing;
@@ -93,7 +93,18 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
+
+        Vector3 Target = (mouseObject.transform.position - transform.position).normalized;
+        if (!_shiftHold || Vector3.Dot(Target,transform.forward) < 0)
+        {
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
+        }
+
+        else
+        {
+            Debug.Log("wrong axis");
+        }
+
     }
 
     private void LookAtObject() // looking at mouse
@@ -103,11 +114,18 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(ray.origin, ray.direction * 100,Color.red);
         if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity))
         {
-           
-            if(Input.GetKey(KeyCode.LeftShift))
+
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                _shiftHold = true;
                 mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y + 0.2f, hit.point.z);
+            }
             else
+            {
+                _shiftHold = false;
                 mouseObject.transform.position = new Vector3(hit.point.x, 2, hit.point.z);
+            }
+                 
             
         }
         

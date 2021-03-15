@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AudioChange.cs" t="Include" />
         <e p="ExampleAssets 1" t="Include">
           <e p="Scripts" t="Include">
             <e p="SimpleCameraController.cs" t="Include" />
@@ -21,6 +20,7 @@
             </e>
           </e>
         </e>
+        <e p="RadioScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
           <e p="CameraShake.cs" t="Include" />

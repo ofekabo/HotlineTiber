@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8929126763633602699}
   - component: {fileID: 313900824059419465}
   - component: {fileID: -1809411958950642584}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DocPaper.002
   m_TagString: Prop
   m_Icon: {fileID: 0}

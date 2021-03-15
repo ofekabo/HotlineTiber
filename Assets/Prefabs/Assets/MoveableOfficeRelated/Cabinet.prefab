@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7712071422209075514}
   - component: {fileID: 7712071422209075515}
   - component: {fileID: -2794027683393958882}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cabinet
   m_TagString: Prop
   m_Icon: {fileID: 0}
