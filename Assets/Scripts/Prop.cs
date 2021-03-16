@@ -10,11 +10,14 @@ public class Prop : MonoBehaviour
 
     [SerializeField] private bool Destructable = true;
 
-    [SerializeField] private GameObject propDestroyFX;
+    [SerializeField] private ParticleSystem propDestroyFX;
+
+    private float _psLifeTime;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        _psLifeTime = propDestroyFX.startLifetime;
     }
 
     // Update is called once per frame
@@ -27,15 +30,17 @@ public class Prop : MonoBehaviour
     {
         if (Destructable)
         {
+            
             health -= damage;
             if (health <= 1)
             {
-                GameObject DestructFX = Instantiate(propDestroyFX, transform.position, Quaternion.identity);
-                Destroy(DestructFX, 0.4f);
+                ParticleSystem DestructFX = Instantiate(propDestroyFX, transform.position += new Vector3(0,2f,0),quaternion.Euler(-90,0,0));
+                Destroy(DestructFX, _psLifeTime);
                 Destroy(gameObject);
 
             }
         }
         
     }
+
 }

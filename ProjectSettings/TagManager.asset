@@ -23,7 +23,7 @@ TagManager:
   - Prop
   - Enemy
   - DontAffectShadows
-  - 
+  - DontCollideWithSelf
   - 
   - 
   - 
