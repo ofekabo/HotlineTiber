@@ -7,8 +7,6 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 
 {
-    [SerializeField] AudioSource _myaudioclip;
-
 
     [Header("Ammo")] //
     public int startingAmmo;

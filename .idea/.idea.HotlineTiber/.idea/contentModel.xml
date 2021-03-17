@@ -22,6 +22,24 @@
         </e>
         <e p="RadioScript.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Ai" t="Include">
+            <e p="AiAgentConfig.cs" t="Include" />
+            <e p="AiHealth.cs" t="Include" />
+            <e p="AILocomotion.cs" t="Include" />
+            <e p="AiStates" t="Include">
+              <e p="AiAgent.cs" t="Include" />
+              <e p="AiChasePlayerState.cs" t="Include" />
+              <e p="AiDeathState.cs" t="Include" />
+              <e p="AiFindWeaponState.cs" t="Include" />
+              <e p="AiIldeState.cs" t="Include" />
+              <e p="AiState.cs" t="Include" />
+              <e p="AiStateMachine.cs" t="Include" />
+            </e>
+            <e p="DebugNavMeshAgent.cs" t="Include" />
+            <e p="HitBox.cs" t="Include" />
+            <e p="RagdollController.cs" t="Include" />
+            <e p="UIHealthBar.cs" t="Include" />
+          </e>
           <e p="CameraScript.cs" t="Include" />
           <e p="CameraShake.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />

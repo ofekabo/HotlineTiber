@@ -100,11 +100,6 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
         }
 
-        else
-        {
-            Debug.Log("wrong axis");
-        }
-
     }
 
     private void LookAtObject() // looking at mouse

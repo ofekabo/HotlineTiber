@@ -6,49 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Dresser.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Dresser.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Floor_Meeting.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Floor_Meeting.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairBlack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairBlack.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairWhite.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairWhite.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperParticle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperParticle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperSingle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperSingle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersLong.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersLong.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersShort.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersShort.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Pencils.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Pencils.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Picture.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Picture.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteBlue.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteBlue.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteCyan.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteCyan.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteRed.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteRed.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/SuitCase.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/SuitCase.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/BigPlanet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/BigPlanet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Cabinet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Cabinet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.003.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Chair.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Coffe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Coffe.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DeskPlanet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DeskPlanet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.003.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/DocPaper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Documents.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Documents.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Keyboard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Keyboard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Monitor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Monitor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Mouse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Mouse.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Phone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Phone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Trashcan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Trashcan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Waiting Chair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/Waiting Chair.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaterBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaterBar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/ExplosionParticle 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/ExplosionParticle 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Smoke.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Smoke.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Tablearound.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Tablearound.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +26,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/Udemy/Unity Projects/RPG/RPGc/Assets/Scripts/Control/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/94/97816a94/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/49/eb9a0f12/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -75,16 +48,36 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableProp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/RadioScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/PaperParticleScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prop.cs" />
+        <option value="$PROJECT_DIR$/Assets/AILocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/DebugNavMeshAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/AiLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ragdoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/UIHealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/RagdollController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgentConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdeState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
       </list>
     </option>
   </component>
@@ -165,6 +158,8 @@
       <workItem from="1615718882277" duration="2711000" />
       <workItem from="1615820762210" duration="7444000" />
       <workItem from="1615926654937" duration="3518000" />
+      <workItem from="1615970693280" duration="5362000" />
+      <workItem from="1615985501824" duration="12012000" />
     </task>
     <servers />
   </component>
@@ -189,6 +184,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1114" y="402" key="RiderGenerateDialog" timestamp="1615999249396">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="402" key="RiderGenerateDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615999249396" />
     <state x="970" y="411" key="RollbackChangesDialog" timestamp="1615930899378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -201,9 +200,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615833151661" />
-    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1615830138704">
+    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1615985967504">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615830138704" />
+    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615985967504" />
   </component>
 </project>

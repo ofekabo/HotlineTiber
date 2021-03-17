@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] int damage;
+    public int damage;
     [SerializeField] private float bulletHeight = 2f;
     [SerializeField] private float bulletSpeed = 80f;
     [SerializeField] private float bulletDetectionRadius = 0.5f;
@@ -38,7 +39,8 @@ public class Bullet : MonoBehaviour
 
         foreach (RaycastHit hit in hits)
         {
-            
+
+          
             if(hit.collider.CompareTag("Prop"))
             {
                 if (hit.collider.GetComponent<Prop>() != null)
@@ -51,18 +53,22 @@ public class Bullet : MonoBehaviour
                 SpawnHitVFX();
             }
             
-            if (hit.collider.CompareTag("Enemy"))
-            {
-                hit.collider.GetComponent<Enemy>().RecieveDamage(damage);
-                Destroy(gameObject);
-                
-            }
+            
             if (hit.collider.CompareTag("Static"))
             {
-                Destroy(gameObject);
                 SpawnHitVFX();
+                Destroy(gameObject);
             }
-                
+
+            HitBox hitBox = hit.collider.GetComponent<HitBox>();
+            Ray ray = new Ray(transform.position, transform.forward);
+            if (hitBox)
+            {
+                hitBox.ONSphereCastHit(this,ray.direction);
+                SpawnHitVFX();
+                Destroy(gameObject);
+            }
+
         }
     }
     
