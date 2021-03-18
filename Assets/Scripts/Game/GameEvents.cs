@@ -27,4 +27,12 @@ public class GameEvents : MonoBehaviour
     {
         onGunPickupTrigger?.Invoke(weaponID, Ammo);
     }
+
+    public event Action<int> OnWeaponPickup;
+    
+    public int PlayGunShotID(int weaponID)
+    {
+        OnWeaponPickup?.Invoke(weaponID);
+        return weaponID;
+    }
 }

@@ -45,7 +45,7 @@ public class Bullet : MonoBehaviour
             {
                 if (hit.collider.GetComponent<Prop>() != null)
                 {
-                    hit.collider.GetComponent<Prop>().RecDamage(damage);
+                    // hit.collider.GetComponent<Prop>().RecDamage(damage);
                     hit.collider.GetComponent<Rigidbody>().AddForce(transform.forward * Random.Range(4f,8f), ForceMode.Impulse);
                 }
                 
@@ -64,7 +64,7 @@ public class Bullet : MonoBehaviour
             Ray ray = new Ray(transform.position, transform.forward);
             if (hitBox)
             {
-                hitBox.ONSphereCastHit(this,ray.direction);
+                
                 SpawnHitVFX();
                 Destroy(gameObject);
             }

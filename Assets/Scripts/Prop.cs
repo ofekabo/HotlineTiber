@@ -26,12 +26,11 @@ public class Prop : MonoBehaviour
         
     }
 
-    public void RecDamage(int damage)
+    public void RecDamage(RaycastWeapon weapon)
     {
         if (Destructable)
         {
-            
-            health -= damage;
+            health -= weapon.damage;
             if (health <= 1)
             {
                 ParticleSystem DestructFX = Instantiate(propDestroyFX, transform.position += new Vector3(0,2f,0),quaternion.Euler(-90,0,0));
@@ -41,6 +40,24 @@ public class Prop : MonoBehaviour
             }
         }
         
+    }
+    
+    
+    
+    public void OnRaycastHit(RaycastWeapon weapon)
+    {
+        health -= weapon.damage;
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        ParticleSystem DestructFX = Instantiate(propDestroyFX, transform.position += new Vector3(0,2f,0),quaternion.Euler(-90,0,0));
+        Destroy(DestructFX, _psLifeTime);
+        Destroy(gameObject);
     }
 
 }

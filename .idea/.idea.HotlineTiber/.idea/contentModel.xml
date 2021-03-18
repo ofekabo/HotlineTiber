@@ -35,6 +35,9 @@
               <e p="AiState.cs" t="Include" />
               <e p="AiStateMachine.cs" t="Include" />
             </e>
+            <e p="AiWeapons" t="Include">
+              <e p="AiWeapons.cs" t="Include" />
+            </e>
             <e p="DebugNavMeshAgent.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
             <e p="RagdollController.cs" t="Include" />
@@ -49,7 +52,12 @@
             <e p="UIManager.cs" t="Include" />
           </e>
           <e p="MeleeEnemy.cs" t="Include" />
+          <e p="NewWeapons" t="Include">
+            <e p="RaycastWeapon.cs" t="Include" />
+            <e p="WeaponPickup.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
+            <e p="ActiveWeapon.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayerWeapons.cs" t="Include" />
           </e>
@@ -60,7 +68,7 @@
             <e p="Pistol.cs" t="Include" />
             <e p="Shotgun.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
-            <e p="WeaponPickup.cs" t="Include" />
+            <e p="WeaponPickupOld.cs" t="Include" />
           </e>
         </e>
       </e>

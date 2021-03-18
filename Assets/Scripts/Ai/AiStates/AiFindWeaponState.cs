@@ -11,7 +11,9 @@ public class AiFindWeaponState : AiState
 
     public void Enter(AiAgent agent)
     {
-
+        WeaponPickup pickupOld = FindClosetWeapon(agent);
+        agent.navMeshAgent.destination = pickupOld.transform.position;
+        agent.navMeshAgent.speed = 5;
     }
 
     public void Update(AiAgent agent)
@@ -24,18 +26,21 @@ public class AiFindWeaponState : AiState
 
     }
 
-    // private WeaponPickup FindclosetWeapon(AiAgent agent)
-    // {
-    //     WeaponPickup weapons = Object.FindObjectOfType<WeaponPickup>();
-    //     WeaponPickup closestWeapon = null;
-    //     float closestDistance = float.MaxValue;
-    //     foreach (var weapon in weapons)
-    //     {
-    //         float distanceToWeapon = Vector3.Distance(agent.transform.position, weapon.transform.position);
-    //         if (distanceToWeapon < closestDistance)
-    //         {
-    //             closestDistance = distanceToWeapon;
-    //         }
-    //     }
-    // }
+    private WeaponPickup FindClosetWeapon(AiAgent agent)
+    {
+        WeaponPickup[] weapons = Object.FindObjectsOfType<WeaponPickup>();
+        WeaponPickup closestWeapon = null;
+        float closestDistance = float.MaxValue;
+        foreach (var weapon in weapons)
+        {
+            float distanceToWeapon = Vector3.Distance(agent.transform.position, weapon.transform.position);
+            if (distanceToWeapon < closestDistance)
+            {
+                closestDistance = distanceToWeapon;
+                closestWeapon = weapon;
+            }
+        }
+
+        return closestWeapon;
+    }
 }

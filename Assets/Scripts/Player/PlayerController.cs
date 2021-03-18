@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float moveSpeed;
 
+    [SerializeField] private float turnSpeed;
+    
     [SerializeField] private GameObject mouseObject;
     
     
@@ -26,30 +28,43 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody _rb;
     private Animator _anim;
-    private PlayerWeapons _playerWeapons;
+
 
     private bool _shiftHold;
     #endregion
 
     public bool isDancing;
+
+    #region Firing
+
+    private RaycastWeapon weapon;
+    
+
+    #endregion
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
-        _playerWeapons = GetComponent<PlayerWeapons>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         _anim = GetComponent<Animator>();
         isDancing = false;
+        weapon = GetComponentInChildren<RaycastWeapon>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Aim();
-        Shoot();
+        // Shoot();
         LookAtObject();
         ClappingMechanic();
+    }
+
+    private void LateUpdate()
+    {
+  
+        
     }
 
     private void FixedUpdate()
@@ -97,7 +112,8 @@ public class PlayerController : MonoBehaviour
         Vector3 Target = (mouseObject.transform.position - transform.position).normalized;
         if (!_shiftHold || Vector3.Dot(Target,transform.forward) < 0)
         {
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.down);
+            Quaternion targetRotation = Quaternion.AngleAxis(angle, Vector3.down);
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * turnSpeed);
         }
 
     }
@@ -113,7 +129,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 _shiftHold = true;
-                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y + 0.2f, hit.point.z);
+                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
             }
             else
             {

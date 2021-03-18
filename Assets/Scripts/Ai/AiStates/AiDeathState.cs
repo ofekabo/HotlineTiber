@@ -9,6 +9,7 @@ public class AiDeathState : AiState
     public AiStateId GetId()
     {
         return AiStateId.Death;
+        
     }
 
     public void Enter(AiAgent agent)

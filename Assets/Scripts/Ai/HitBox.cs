@@ -6,8 +6,8 @@ public class HitBox : MonoBehaviour
 {
   public AiHealth aiHealth;
   
-  public void ONSphereCastHit(Bullet bullet,Vector3 direction)
+  public void OnRaycastHit(RaycastWeapon weapon, Vector3 direction) 
   {
-      aiHealth.TakeDamage(bullet.damage,direction); 
+      aiHealth.TakeDamage(weapon.damage, direction);
   }
 }
