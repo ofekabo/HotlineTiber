@@ -29062,6 +29062,8 @@ MonoBehaviour:
   weaponForce: 20
   maxAmmo: 0
   initAmmo: 0
+  isShotgun: 1
+  amountOfBullets: 5
   muzzleFlash:
   - {fileID: 3808653886383464473}
   - {fileID: 3808373276006850751}

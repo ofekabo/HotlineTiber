@@ -538,6 +538,7 @@ MonoBehaviour:
   moveSpeed: 7.8
   turnSpeed: 5
   mouseObject: {fileID: 0}
+  mainIKRig: {fileID: 970107448151637649}
   isDancing: 0
 --- !u!114 &8994403404910041903
 MonoBehaviour:
@@ -555,6 +556,8 @@ MonoBehaviour:
   - m_Rig: {fileID: 8994403405437467868}
     m_Active: 1
   - m_Rig: {fileID: 8994403405362766730}
+    m_Active: 1
+  - m_Rig: {fileID: 970107448151637649}
     m_Active: 1
   m_Effectors:
   - m_Transform: {fileID: 2228860911805499052}
@@ -1384,6 +1387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6582590393257520746}
   - component: {fileID: 147034336}
+  - component: {fileID: 970107448151637649}
   m_Layer: 0
   m_Name: ~~~Rig Layers~~~
   m_TagString: Untagged
@@ -1427,6 +1431,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &970107448151637649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246552474175197148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b342d8ce5c2fd48b8fa3147d48d1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Weight: 1
+  m_Effectors: []
 --- !u!1 &7850967186871121504
 GameObject:
   m_ObjectHideFlags: 0

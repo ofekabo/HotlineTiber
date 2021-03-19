@@ -40,6 +40,8 @@ public class RaycastWeapon : MonoBehaviour
     public ActiveWeapon.WeaponSlot weaponSlot;
     public int weaponID;
     private float PNextFire;
+    
+    
 
     private void Start()
     {
@@ -127,40 +129,53 @@ public class RaycastWeapon : MonoBehaviour
         ray.origin = start;
         ray.direction = direction;
         Debug.DrawRay(ray.origin, ray.direction * distance, Color.blue, 3);
-        if (Physics.Raycast(ray, out hitInfo,distance))
-        {
-            hitEffect.transform.position = hitInfo.point;
-            hitEffect.transform.forward = hitInfo.normal;
-            hitEffect.Emit(1);
-            bullet.tracer.transform.position = hitInfo.point;
-            bullet.time = bulletLifeTime;
 
-            var Prop = hitInfo.collider.GetComponent<Prop>();
-            if (Prop)
+         if (Physics.Raycast(ray, out hitInfo,distance))
             {
-                Prop.OnRaycastHit(this);
-            }
+                hitEffect.transform.position = hitInfo.point;
+                hitEffect.transform.forward = hitInfo.normal;
+                hitEffect.Emit(1);
+                bullet.tracer.transform.position = hitInfo.point;
+                bullet.time = bulletLifeTime;
+
+                var Prop = hitInfo.collider.GetComponent<Prop>();
+                if (Prop)
+                {
+                    Prop.OnRaycastHit(this);
+                }
+                
+                
+                Rigidbody rb = hitInfo.collider.GetComponent<Rigidbody>();
+                if (rb) 
+                {
+                    rb.AddForceAtPosition(ray.direction * weaponForce, hitInfo.point, ForceMode.Impulse);
+                }
             
-            
-            Rigidbody rb = hitInfo.collider.GetComponent<Rigidbody>();
-            if (rb) 
-            {
-                rb.AddForceAtPosition(ray.direction * weaponForce, hitInfo.point, ForceMode.Impulse);
+                var hitBox = hitInfo.collider.GetComponent<HitBox>();
+                if (hitBox)
+                {
+                    hitBox.OnRaycastHit(this, ray.direction);
+                }
+
+                Debug.DrawRay(hitInfo.point, ray.direction * distance, Color.green, 1f);
+
+                var radioScript = hitInfo.collider.GetComponent<RadioScript>();
+                if (radioScript)
+                {
+                    radioScript.ReducePitch();
+                }
             }
+
         
-            var hitBox = hitInfo.collider.GetComponent<HitBox>();
-            if (hitBox)
-            {
-                hitBox.OnRaycastHit(this, ray.direction);
-            }
-           
-        }
-        if (bullet.tracer) 
+       
+        if (bullet.tracer)
         {
             bullet.tracer.transform.position = end;
         }
+       
 
     }
+    
     
     private void FireBullet()
     {

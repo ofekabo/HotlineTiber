@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
+using Random = System.Random;
 
 public class RadioScript : MonoBehaviour
 {
@@ -21,25 +22,33 @@ public class RadioScript : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    // // Update is called once per frame
+    // void Update()
+    // {
+    //
+    //     Collider[] hits = (Physics.OverlapBox(transform.position, new Vector3(1.5f, 1.5f, 1.5f), transform.rotation));
+    //     foreach (var hit in hits)
+    //     {
+    //         if (hit.gameObject.GetComponent<RaycastWeapon>() && hit.GetInstanceID() != _lastBullet)
+    //         {
+    //             
+    //             ReducePitch();
+    //             _lastBullet = GetInstanceID();
+    //
+    //         }
+    //
+    //        
+    //
+    //     }
+    //
+    //
+    // }
 
-        Collider[] hits = (Physics.OverlapBox(transform.position, new Vector3(1.5f, 1.5f, 1.5f), transform.rotation));
-        foreach (var hit in hits)
-        {
-            if (hit.gameObject.GetComponent<Bullet>() && hit.GetInstanceID() != _lastBullet)
-            {
-                
-                _lastBullet = hit.GetInstanceID();
-                _as.pitch -= 0.1f;
-            }
-
-           
-
-        }
-
-
+    public void ReducePitch()
+    { // -0.4 - 0.4
+        
+        
+        _as.pitch = UnityEngine.Random.Range(0.5f, 1.5f);
     }
 
     private void OnDrawGizmos()

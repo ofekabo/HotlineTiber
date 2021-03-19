@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 public class PlayerController : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float turnSpeed;
     
     [SerializeField] private GameObject mouseObject;
-    
+    [SerializeField] private Rig mainIKRig;
     
     
     #region Private Refrences
@@ -166,12 +167,14 @@ public class PlayerController : MonoBehaviour
         {
             _anim.SetBool("Clapping", true);
             isDancing = true;
+            mainIKRig.weight = 0.0f;
         }
         else
         {
             _anim.SetBool("Clapping", false);
 
             isDancing = false;
+            mainIKRig.weight = 1.0f;
         }
      
     }
