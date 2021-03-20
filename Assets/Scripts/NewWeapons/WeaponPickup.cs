@@ -13,7 +13,16 @@ public class WeaponPickup : MonoBehaviour
         {
             RaycastWeapon newWeapon = Instantiate(weaponFab);
             activeWeapon.Equip(newWeapon);
-            Destroy(this.gameObject);
+            Destroy(gameObject);
+        }
+
+        AiWeapons aiWeapon = other.gameObject.GetComponent<AiWeapons>();
+        if (aiWeapon)
+        {
+            RaycastWeapon newWeapon = Instantiate(weaponFab);
+            aiWeapon.EquipWeapon(newWeapon);
+            aiWeapon.pickedUpWeapon = true;
+            Destroy(gameObject);
         }
     }
 }

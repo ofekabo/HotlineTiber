@@ -17,11 +17,6 @@ public class ActiveWeapon : MonoBehaviour
     private RaycastWeapon[] equipped_weapons = new RaycastWeapon[2];
     private int activeWeaponIndex;
     
-    public Rig handIK;
-
-    public Transform weaponLeftGrip;
-    public Transform weaponRightGrip;
-
     public Animator rigController;
 
     private bool isHolstered;
@@ -51,19 +46,24 @@ public class ActiveWeapon : MonoBehaviour
     void Update()
     {
         // var weapon = GetWeapon(activeWeaponIndex);
+       
         if (weapon)
         {
-            
-            if (Input.GetButton("Fire1"))
+            isHolstered = rigController.GetBool("Holster_Weapon");
+            if (!isHolstered)
             {
-                weapon.StartFiring();
-            }
+                if (Input.GetButton("Fire1"))
+                {
+                    weapon.StartFiring();
+                }
 
-            if (Input.GetButtonUp("Fire1"))
-            {
-                weapon.StopFiring();
-            }
+                if (Input.GetButtonUp("Fire1"))
+                {
+                    weapon.StopFiring();
+                }
 
+               
+            }
             weapon.UpdateWeapon(Time.deltaTime);
         }
 
@@ -97,8 +97,21 @@ public class ActiveWeapon : MonoBehaviour
 
     
     }
+    
+        public void DropWeaon()
+        {
+            if (weapon)
+            {
+                weapon.transform.SetParent(null);
+                weapon.gameObject.GetComponent<BoxCollider>().enabled = true;
+                weapon.gameObject.AddComponent<Rigidbody>();
+                weapon = null;
+            }
+        }
 
-    // void SetActiveWeapon(WeaponSlot weaponSlot)
+
+
+        // void SetActiveWeapon(WeaponSlot weaponSlot)
     // {
     //     int holsterIndex = activeWeaponIndex;
     //     int activateIndex = (int)weaponSlot;

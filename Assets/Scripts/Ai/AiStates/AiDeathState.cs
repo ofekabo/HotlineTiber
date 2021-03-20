@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AiDeathState : AiState
 {
-    public Vector3 direction;
+    public Vector3 Direction;
+    public float ForceFromWep;
 
     public AiStateId GetId()
     {
@@ -15,9 +16,11 @@ public class AiDeathState : AiState
     public void Enter(AiAgent agent)
     {
         agent.ragdoll.ActivateRagdoll();
-        direction.y = 0.5f;
-        agent.ragdoll.ApplyForce(direction * agent.config.dieForce);
+        Direction.y = 0.5f;
+        agent.ragdoll.ApplyForce(Direction * ForceFromWep);
         agent.healthBar.gameObject.SetActive(false);
+        agent.weapons.DropWeaon();
+        agent.navMeshAgent.enabled = false;
     }
 
     public void Update(AiAgent agent)

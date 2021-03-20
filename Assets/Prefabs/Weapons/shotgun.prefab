@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822022003902201440}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0, y: 0.091, z: 0.432}
+  m_LocalPosition: {x: -0, y: 0.091, z: 0.561}
   m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children: []
   m_Father: {fileID: 7986439373759758476}
@@ -29015,6 +29015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7986439373759758476}
   - component: {fileID: 3540875964617323551}
+  - component: {fileID: 1693285947638618336}
   m_Layer: 0
   m_Name: Shotgun
   m_TagString: Untagged
@@ -29058,12 +29059,13 @@ MonoBehaviour:
   fireRate: 0.8
   bulletSpeed: 100
   bulletDrop: 100
-  damage: 25
-  weaponForce: 20
+  damage: 45
+  weaponForce: 50
   maxAmmo: 0
   initAmmo: 0
-  isShotgun: 1
-  amountOfBullets: 5
+  layer:
+    serializedVersion: 2
+    m_Bits: 4294967295
   muzzleFlash:
   - {fileID: 3808653886383464473}
   - {fileID: 3808373276006850751}
@@ -29074,3 +29076,16 @@ MonoBehaviour:
   bulletLifeTime: 3
   weaponSlot: 0
   weaponID: 1
+--- !u!65 &1693285947638618336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7986439373759758477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.23027349, y: 0.5354085, z: 2.6471195}
+  m_Center: {x: 0.012019753, y: 0.03792572, z: 1.1932192}

@@ -22,6 +22,7 @@ public class RaycastWeapon : MonoBehaviour
     public float maxAmmo;
     public float initAmmo;
     private float _currentAmmo;
+    public LayerMask layer;
     public ParticleSystem[] muzzleFlash;
     public ParticleSystem hitEffect;
     public TrailRenderer tracerEffect;
@@ -78,25 +79,12 @@ public class RaycastWeapon : MonoBehaviour
 
     public void UpdateWeapon(float deltaTime)
     {
-        if (isFiring) {
-            UpdateFiring(deltaTime);
-        }
-        
         // Need to keep track of cooldown even when not firing to prevent click spam.
         accumlatedTime += deltaTime;
-
         UpdateBullet(deltaTime);
     }
     
-    public void UpdateFiring(float deltaTime)
-    {
-        // float fireInterval = 1.0f / fireRate;
-        // while(accumlatedTime >= 0.0f) {
-        //     FireBullet();
-        //     accumlatedTime -= fireInterval;
-        // }
  
-    }
 
     public void UpdateBullet(float deltaTime)
     {
@@ -130,7 +118,7 @@ public class RaycastWeapon : MonoBehaviour
         ray.direction = direction;
         Debug.DrawRay(ray.origin, ray.direction * distance, Color.blue, 3);
 
-         if (Physics.Raycast(ray, out hitInfo,distance))
+         if (Physics.Raycast(ray, out hitInfo,distance, layer))
             {
                 hitEffect.transform.position = hitInfo.point;
                 hitEffect.transform.forward = hitInfo.normal;
@@ -154,7 +142,7 @@ public class RaycastWeapon : MonoBehaviour
                 var hitBox = hitInfo.collider.GetComponent<HitBox>();
                 if (hitBox)
                 {
-                    hitBox.OnRaycastHit(this, ray.direction);
+                    hitBox.OnRaycastHit(this, ray.direction,weaponForce);
                 }
 
                 Debug.DrawRay(hitInfo.point, ray.direction * distance, Color.green, 1f);

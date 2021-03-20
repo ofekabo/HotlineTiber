@@ -11,14 +11,17 @@ public class AiFindWeaponState : AiState
 
     public void Enter(AiAgent agent)
     {
-        WeaponPickup pickupOld = FindClosetWeapon(agent);
-        agent.navMeshAgent.destination = pickupOld.transform.position;
+        WeaponPickup pickup = FindClosetWeapon(agent);
+        agent.navMeshAgent.destination = pickup.transform.position;
         agent.navMeshAgent.speed = 5;
     }
 
     public void Update(AiAgent agent)
     {
-
+        if (agent.weapons.HasWeapon() && Vector3.Distance(agent.transform.position,agent.playerTransform.position) < agent.config.shootingRange)
+        {
+            agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
+        }
     }
 
     public void Exit(AiAgent agent)

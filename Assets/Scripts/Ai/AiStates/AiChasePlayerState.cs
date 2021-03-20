@@ -21,6 +21,11 @@ public class AiChasePlayerState : AiState
 
     public void Update(AiAgent agent)
     {
+
+        if (!agent.navMeshAgent.hasPath)
+        {
+            agent.navMeshAgent.destination = agent.playerTransform.position;
+        }
         _timer -= Time.deltaTime;
         if (_timer < 0.0f)
         {
@@ -30,6 +35,7 @@ public class AiChasePlayerState : AiState
                 agent.navMeshAgent.destination = agent.playerTransform.position;
             }
             _timer = agent.config.maxTime;
+            
         }
     }
 

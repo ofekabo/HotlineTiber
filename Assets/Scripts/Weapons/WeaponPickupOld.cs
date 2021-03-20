@@ -44,7 +44,7 @@ public class WeaponPickupOld : MonoBehaviour
         HitBox hitBox = other.gameObject.GetComponent<HitBox>();
         if (hitBox)
         {
-            AiWeapons weapons = hitBox.aiHealth.GetComponent<AiWeapons>();
+            AiWeapons weapons = hitBox.health.GetComponent<AiWeapons>();
             if (weapons != null)
             {
                 

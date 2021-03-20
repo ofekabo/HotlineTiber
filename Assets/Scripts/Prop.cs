@@ -17,7 +17,7 @@ public class Prop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _psLifeTime = propDestroyFX.startLifetime;
+        _psLifeTime = propDestroyFX.main.startLifetimeMultiplier;
     }
 
     // Update is called once per frame

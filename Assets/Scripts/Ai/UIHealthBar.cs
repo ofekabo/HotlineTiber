@@ -18,7 +18,7 @@ public class UIHealthBar : MonoBehaviour
     void LateUpdate()
     {
         Vector3 direction = target.position - Camera.main.transform.position.normalized;
-        // bool isBehind = Vector3.Dot(direction, Camera.main.transform.forward) <= 0.0f;
+        // bool isBehind = Vector3.Dot(Direction, Camera.main.transform.forward) <= 0.0f;
         // foregroundImage.enabled = !isBehind;
         // backgroundImage.enabled = !isBehind;
         transform.position = Camera.main.WorldToScreenPoint(target.position + offset);

@@ -6,15 +6,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Radio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Radio.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/Animations/AiController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/Animations/AiController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/CameraRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/CameraRig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Pistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Pistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Rifle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/shotgun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/shotgun.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RadioScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RadioScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/UIHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/UIHealthBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ar.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/ar.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickupOld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickupOld.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,32 +57,28 @@
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.38862/HitBox.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.21534/RaycastWeapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/94/97816a94/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.26380/ActiveWeapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.36570/RaycastWeapon.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/49/eb9a0f12/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DebugDrawLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WeaponIK.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/49/eb9a0f12/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Shotgun.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/AR.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Pistol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestructableProp.cs" />
-        <option value="$PROJECT_DIR$/Assets/AudioChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/PaperParticleScript.cs" />
         <option value="$PROJECT_DIR$/Assets/AILocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/DebugNavMeshAgent.cs" />
@@ -70,33 +91,45 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiLocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgentConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdeState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickupOld.cs" />
         <option value="$PROJECT_DIR$/Assets/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa376.26933/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa376.28195/RaycastWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/RadioScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prop.cs" />
+        <option value="$PROJECT_DIR$/Assets/MeshScoket.cs" />
+        <option value="$PROJECT_DIR$/Assets/MeshSockets.cs" />
+        <option value="$PROJECT_DIR$/Assets/MeshSocket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/DebugDrawLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/DebugDrawSphere.cs" />
+        <option value="$PROJECT_DIR$/Assets/WeaponIK.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
       </list>
     </option>
   </component>
@@ -184,7 +217,7 @@
       <workItem from="1615985501824" duration="40524000" />
       <workItem from="1616055641535" duration="6585000" />
       <workItem from="1616149683804" duration="2545000" />
-      <workItem from="1616153841495" duration="1365000" />
+      <workItem from="1616153841495" duration="27872000" />
     </task>
     <servers />
   </component>
@@ -273,10 +306,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state x="1114" y="402" key="RiderGenerateDialog" timestamp="1615999249396">
+    <state x="1114" y="402" key="RiderGenerateDialog" timestamp="1616251069376">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1114" y="402" key="RiderGenerateDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615999249396" />
+    <state x="1114" y="402" key="RiderGenerateDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616251069376" />
     <state x="970" y="411" key="RollbackChangesDialog" timestamp="1615930899378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -293,13 +326,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1957" y="-12" width="1936" height="1127" maximized="true" key="dock-window-2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616052987751" />
-    <state x="937" y="331" key="run.anything.popup" timestamp="1616153993478">
+    <state x="937" y="331" key="run.anything.popup" timestamp="1616260772394">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616153993478" />
-    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1616052486391">
+    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616260772394" />
+    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1616251350954">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616052486391" />
+    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616251350954" />
   </component>
 </project>
