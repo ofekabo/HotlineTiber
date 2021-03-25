@@ -130,7 +130,8 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 _shiftHold = true;
-                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
+                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y , hit.point.z);
+                
             }
             else
             {
@@ -159,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
     private void ClappingMechanic()
     {
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey (KeyCode.E))
         {
             _anim.SetBool("Clapping", true);
             isDancing = true;
