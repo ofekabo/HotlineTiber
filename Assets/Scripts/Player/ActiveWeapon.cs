@@ -6,13 +6,14 @@ using UnityEditor.Animations;
 
 public class ActiveWeapon : MonoBehaviour
 {
+    private const string HostlerWeapon = "holster_weapon";
     public enum WeaponSlot
     {
         Primary = 0,
         Secondary = 1
     }
 
-    private RaycastWeapon weapon;
+    public RaycastWeapon weapon;
     public Transform weaponSlot;
     private RaycastWeapon[] equipped_weapons = new RaycastWeapon[2];
     private int activeWeaponIndex;
@@ -20,6 +21,11 @@ public class ActiveWeapon : MonoBehaviour
     public Animator rigController;
 
     private bool isHolstered;
+
+    private bool _pickupWeapon;
+
+    public bool PickupWeapon {get => _pickupWeapon;}
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +37,7 @@ public class ActiveWeapon : MonoBehaviour
             Equip(existingWeapon);
         }
 
-        isHolstered = false;
+        
     }
 
     // RaycastWeapon GetWeapon(int index)
@@ -49,7 +55,7 @@ public class ActiveWeapon : MonoBehaviour
        
         if (weapon)
         {
-            isHolstered = rigController.GetBool("Holster_Weapon");
+            isHolstered = rigController.GetBool(HostlerWeapon);
             if (!isHolstered)
             {
                 if (Input.GetButton("Fire1"))
@@ -69,9 +75,17 @@ public class ActiveWeapon : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            isHolstered = rigController.GetBool("Holster_Weapon");
-            rigController.SetBool("Holster_Weapon", !isHolstered);
-            
+            isHolstered = rigController.GetBool(HostlerWeapon);
+            rigController.SetBool(HostlerWeapon, !isHolstered);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            _pickupWeapon = true;
+        }
+        if (Input.GetKeyUp(KeyCode.F))
+        {
+            _pickupWeapon = false;
         }
        
     }
@@ -90,7 +104,7 @@ public class ActiveWeapon : MonoBehaviour
         weapon.transform.localRotation = Quaternion.identity;
         weapon.transform.localScale = Vector3.one;
         rigController.Play("equip_" + weapon.weaponName);
-        rigController.SetBool("Holster_Weapon", false);
+        rigController.SetBool(HostlerWeapon, false);
         // equipped_weapons[weaponSlotIndex] = weapon;
         //
         // SetActiveWeapon(newWeapon.weaponSlot);

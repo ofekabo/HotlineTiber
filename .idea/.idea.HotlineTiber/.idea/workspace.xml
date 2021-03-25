@@ -6,567 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Animations/equip_pistol 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Animations/equip_pistol 1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Toilet/Toilet_Booth_Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Toilet/Toilet_Booth_Door.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Animations/weapon_anim_shotgun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Animations/weapon_anim_shotgun.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Pistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Pistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Rifle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Shotgun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Shotgun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Rifle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorStates.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorStates.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorUndoHelper.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorUndoHelper.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorUndoStackPointer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorUndoStackPointer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/BoneMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/BoneMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/BoneWireMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/BoneWireMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/CharacterDirMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/CharacterDirMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/DashedLineMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/DashedLineMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/LineMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/LineMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/PlaneMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/PlaneMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/StickMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Materials/StickMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Bone.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Bone.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/CharacterDir.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/CharacterDir.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/IkPlane.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/IkPlane.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Joint.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Joint.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Line.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Line.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Stick.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Stick.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/StickJoint.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/StickJoint.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Transform.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Meshes/Transform.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Textures/UMotionTabLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Textures/UMotionTabLogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Textures/UMotionTabLogoDark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/Textures/UMotionTabLogoDark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/UMotionResources.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/InternalResources/UMotionResources.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/AnimatedPropertiesList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/AnimatedPropertiesList.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Animation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Animation.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Channels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Channels.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ChildOf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ChildOf.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ClipEditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ClipEditor.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ClipSettings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ClipSettings.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ConfigDisplay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ConfigDisplay.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ConfigMode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ConfigMode.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Configuration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Configuration.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Constraints.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Constraints.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Credits.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Credits.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Curves.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Curves.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/CustomProperty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/CustomProperty.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Dopesheet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Dopesheet.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/DopesheetCurves.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/DopesheetCurves.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/EditInPlayMode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/EditInPlayMode.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ExportingAnimationsFAQ.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ExportingAnimationsFAQ.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/FKtoIKConversion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/FKtoIKConversion.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/GeneralTutorials.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/GeneralTutorials.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/GettingStarted.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/GettingStarted.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/HowToCreateBetterAnimations.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/HowToCreateBetterAnimations.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/IKSetupWizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/IKSetupWizard.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ImportExport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ImportExport.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice1.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice2.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice3.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InPractice4.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Introduction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Introduction.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InverseKinematics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/InverseKinematics.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Jayanam.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Jayanam.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Jayanam1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Jayanam1.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/KnownIssues.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/KnownIssues.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Layers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Layers.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson1.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson2.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson3.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson4.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson5.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson6.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson7.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson8.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Lesson9.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MainNavigation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MainNavigation.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBar.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBarEdit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBarEdit.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBarFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBarFile.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBarHelp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MenuBarHelp.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MirrorMapping.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/MirrorMapping.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Options.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Playback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Playback.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/PoseDisplay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/PoseDisplay.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/PoseEditor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/PoseEditor.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/PoseMode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/PoseMode.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Preferences.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Preferences.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson1.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson2.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson3.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson4.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProLesson5.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProfessionalExclusive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProfessionalExclusive.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProjectSettings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ProjectSettings.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/QuickStart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/QuickStart.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ReleaseNotes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ReleaseNotes.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/RigHierarchy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/RigHierarchy.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/RootMotion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/RootMotion.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/RotationModes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/RotationModes.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Selection.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Selection.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Support.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Support.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ToolAssistant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/ToolAssistant.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Tools.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/Tools.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/UMotionAPI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/UMotionAPI.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/UMotionManual.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/UMotionManual.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/UnityTimelineIntegration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/UnityTimelineIntegration.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/VideoTutorials.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/VideoTutorials.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AddKeysDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AddKeysDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimationEventDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimationEventDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimationEventMinus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimationEventMinus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimationEventWarningIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimationEventWarningIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimatorComponent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/AnimatorComponent.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/BindShortcutDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/BindShortcutDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/BoneIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/BoneIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CalibrateCharacterFront.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CalibrateCharacterFront.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CalibrateCharacterFrontSceneView.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CalibrateCharacterFrontSceneView.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ChildOfChannelsContext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ChildOfChannelsContext.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ChildOfConstraintSetup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ChildOfConstraintSetup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ChildOfSpacesCurve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ChildOfSpacesCurve.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorAddClipButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorAddClipButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorAddEvent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorAddEvent.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorAnimatedPropertiesList.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorAnimatedPropertiesList.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorCleanup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorCleanup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorCurveView.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorCurveView.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorDeleteAllClips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorDeleteAllClips.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorDeleteClip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorDeleteClip.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorDuplicateClipButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorDuplicateClipButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorExportAllClips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorExportAllClips.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorFooter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorFooter.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorInputField.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorInputField.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMainNavigation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMainNavigation.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBarEdit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBarEdit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBarFile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBarFile.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBarHelp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorMenuBarHelp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorNextKeyFramey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorNextKeyFramey.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlayback.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlayback.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackEnd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackEnd.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackFromBeginning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackFromBeginning.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackLoop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackLoop.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackNext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackNext.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackPlayBackwards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackPlayBackwards.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackPlayForward.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackPlayForward.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackPrev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackPrev.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackRootMotion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackRootMotion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackSeekEnd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackSeekEnd.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackSeekStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackSeekStart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackSpeed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackSpeed.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackStart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackStopReturnToStart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPlaybackStopReturnToStart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPopup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPopup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPrevKeyFrame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPrevKeyFrame.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPropertyContextMenu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorPropertyContextMenu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSettingsButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSettingsButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSyncAnimWindow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSyncAnimWindow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSyncButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSyncButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSyncTimeline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorSyncTimeline.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorTimeRuler.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipEditorTimeRuler.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ClipSettings.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CreateConfigurationDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CreateConfigurationDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CurvesViewTangentHandle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CurvesViewTangentHandle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintAnimatorParameterSetup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintAnimatorParameterSetup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintComponentPropertySetup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintComponentPropertySetup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintControllerSetup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintControllerSetup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintMassApply.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/CustomPropertyConstraintMassApply.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/Dopesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/Dopesheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportClipInspector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportClipInspector.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportClipSize.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportClipSize.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxCommonIssue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxCommonIssue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxIssueAvatarConfiguration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxIssueAvatarConfiguration.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxIssueConfigure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxIssueConfigure.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxIssueCopyAvatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ExportFbxIssueCopyAvatar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/FkToIkConversion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/FkToIkConversion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/HumanoidIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/HumanoidIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKConstraintSetup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKConstraintSetup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKNamingDefinitions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKNamingDefinitions.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKPinning2Keys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKPinning2Keys.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKPlane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKPlane.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizard.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardCustomIK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardCustomIK.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardGeneral.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardGeneral.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardHumanIK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardHumanIK.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardMenuBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/IKSetupWizardMenuBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportClipsDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportClipsDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportSettingsAnimationsRm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportSettingsAnimationsRm.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportSettingsRigRm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportSettingsRigRm.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportingDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ImportingDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/JointBoneNamingDefinition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/JointBoneNamingDefinition.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/KnownIssue06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/KnownIssue06.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/KnownIssue07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/KnownIssue07.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersAddButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersAddButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersAdditiveLabel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersAdditiveLabel.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersBlendWeightBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersBlendWeightBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersDeleteAllButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersDeleteAllButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersDeleteButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersDeleteButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersDownButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersDownButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersEditButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersEditButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersMuteButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersMuteButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersUpButton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersUpButton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersView.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/LayersView.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MissingAnimatedProperty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MissingAnimatedProperty.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MoveToolAssistant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MoveToolAssistant.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MuscleGroupsHands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MuscleGroupsHands.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MuscleGroupsLowerBody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MuscleGroupsLowerBody.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MuscleGroupsUpperBody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/MuscleGroupsUpperBody.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/NewProjectDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/NewProjectDialog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PlayModeButtons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PlayModeButtons.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorAnimation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorAnimation.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorChannels.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorChannels.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorChannelsContext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorChannelsContext.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorConfigurationProperties.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorConfigurationProperties.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorConfigurationRefPose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorConfigurationRefPose.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorDisplay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorDisplay.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorExtendingUMotion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorExtendingUMotion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorMirrorMapping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorMirrorMapping.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorMirrorMappingDelete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorMirrorMappingDelete.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorMirrorMappingEdit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorMirrorMappingEdit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorOptions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorOptions.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorRigHierarchy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorRigHierarchy.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorSelection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorSelection.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorTools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseEditorTools.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseModeConstraints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PoseModeConstraints.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PreferencesWindowSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PreferencesWindowSettings.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PreferencesWindowShortcuts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/PreferencesWindowShortcuts.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ProjectSettings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ProjectSettings.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/RotateToolAssistantAbsolute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/RotateToolAssistantAbsolute.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/RotateToolAssistantRelative.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/RotateToolAssistantRelative.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ScaleToolAssistant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/ScaleToolAssistant.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/SoxwareLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/SoxwareLogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/TransformIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/TransformIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionDefaultLayout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionDefaultLayout.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionLockedHierachy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionLockedHierachy.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionMultipleSceneViews.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionMultipleSceneViews.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionSetupFinished.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UMotionSetupFinished.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UnityWindowUmotionEditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/UnityWindowUmotionEditor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/VersionDefinition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/images/VersionDefinition.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/BlueHeaderRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/BlueHeaderRight.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/FollowLinkArrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/FollowLinkArrow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/TreeViewCollapse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/TreeViewCollapse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/TreeViewExpand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/TreeViewExpand.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/TreeViewItem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/TreeViewItem.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/UMotionFavicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/UMotionFavicon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/UMotionLogoHeader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/UMotionLogoHeader.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/element_styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/element_styles.css.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/theme_styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/theme_styles.css.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/treeview_styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Manual/styles/treeview_styles.css.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Application.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Application/UMotionApplication.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Application/UMotionApplication.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Editor/UMotionEditor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Editor/UMotionEditor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS/Editor/x64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS/Editor/x64/AutodeskFbxSdkLicense.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS/Editor/x64/AutodeskFbxSdkLicense.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS/Editor/x64/UMotionFBX_Mac_x64.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/MacOS/Editor/x64/UMotionFBX_Mac_x64.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows/Editor/x64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows/Editor/x64/AutodeskFbxSdkLicense.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows/Editor/x64/AutodeskFbxSdkLicense.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows/Editor/x64/UMotionFBX_Win_x64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Plugins/Windows/Editor/x64/UMotionFBX_Win_x64.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application/AssetResourcesFile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application/AssetResourcesFile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application/UMotionSourceApplication.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application/UMotionSourceApplication.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application/VersionCompatibilityUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Application/VersionCompatibilityUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/AnimationCurveUtilityRecent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/AnimationCurveUtilityRecent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/EditorVersionCompatibilityUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/EditorVersionCompatibilityUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/GUICompatibilityUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/GUICompatibilityUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/UMotionSourceEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Scripts/Editor/UMotionSourceEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/CameraLit.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/CameraLit.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/ColorUnlit.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/ColorUnlit.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/ColorUnlitTransparent.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/ColorUnlitTransparent.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/UnlitDashedLine.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/UnlitDashedLine.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/UnlitLine.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/UnlitLine.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/VertexColorUnlit.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/VertexColorUnlit.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/WiresOnly.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Shaders/WiresOnly.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/umotion_character.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/umotion_character.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/AutoBackups/20210320_123219_umotion_character.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/AutoBackups/20210320_123743_umotion_character.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/AutoBackups/20210320_124310_umotion_character.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/AutoBackups/20210320_124951_umotion_character.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/AutoBackups/20210320_125526_umotion_character.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/Temp/EditorUndoStack.dat" beforeDir="false" afterPath="$PROJECT_DIR$/UMotionData/Temp/EditorUndoStack.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMotionData/Temp/EditorUndoTable.dat" beforeDir="false" afterPath="$PROJECT_DIR$/UMotionData/Temp/EditorUndoTable.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -579,15 +31,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/Udemy/Unity Projects/RPG/RPGc/Assets/Scripts/Control/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.41281/ActiveWeapon.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.26933/ActiveWeapon.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.38862/HitBox.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.21534/RaycastWeapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/94/97816a94/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.26380/ActiveWeapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa376.36570/RaycastWeapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DebugDrawLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" root0="FORCE_HIGHLIGHTING" />
@@ -651,13 +97,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
       </list>
     </option>
@@ -750,6 +196,7 @@
       <workItem from="1616264780760" duration="1836000" />
       <workItem from="1616342739828" duration="2746000" />
       <workItem from="1616681539474" duration="4710000" />
+      <workItem from="1616686692121" duration="1850000" />
     </task>
     <servers />
   </component>
@@ -850,6 +297,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615547397513" />
+    <state x="1098" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616686913007">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1098" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616686913007" />
     <state x="603" y="273" width="2531" height="1387" key="dock-window-1" timestamp="1616682114427">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

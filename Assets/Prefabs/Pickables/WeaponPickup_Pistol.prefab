@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponFab: {fileID: 6382692758656135680, guid: 90f64f4c9ea0e314babe90bb425e29e8, type: 3}
+  weaponName: pistol
 --- !u!54 &3787497746010778525
 Rigidbody:
   m_ObjectHideFlags: 0

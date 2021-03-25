@@ -29062,7 +29062,7 @@ MonoBehaviour:
   damage: 45
   weaponForce: 50
   maxAmmo: 0
-  initAmmo: 0
+  initAmmo: 250
   layer:
     serializedVersion: 2
     m_Bits: 4294967295

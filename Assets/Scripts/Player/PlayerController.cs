@@ -138,11 +138,7 @@ public class PlayerController : MonoBehaviour
                 _shiftHold = false;
                 mouseObject.transform.position = new Vector3(hit.point.x, 2, hit.point.z);
             }
-                 
-            
         }
-        
-
     }
 
     public delegate void ShootingDelegate();

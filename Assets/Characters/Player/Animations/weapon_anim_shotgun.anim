@@ -69,7 +69,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 0}
+        value: {x: -0.139, y: -1.136, z: 0.008}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -95,7 +95,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: -0.06100032}
+        value: {x: 0.239, y: -0.148, z: 0.212}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -253,7 +253,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 0.239
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -281,7 +281,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: -0.148
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -309,7 +309,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.06100032
+        value: 0.212
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -700,7 +700,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: -0.139
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -728,7 +728,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: -1.136
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -756,7 +756,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 0.008
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -786,8 +786,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: GameObject/Container/PrimaryWeapon
+    attribute: m_LocalEulerAngles.x
+    path: GameObject/Container/ref_LeftHand_IK
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -797,7 +797,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: GameObject/Container/PrimaryWeapon
+    path: GameObject/Container/ref_LeftHand_IK
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -806,8 +806,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: GameObject/Container/PrimaryWeapon
+    attribute: m_LocalEulerAngles.z
+    path: GameObject/Container/ref_LeftHand_IK
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -846,8 +846,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: GameObject/Container/ref_LeftHand_IK
+    attribute: m_LocalEulerAngles.x
+    path: GameObject/Container/PrimaryWeapon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -857,7 +857,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: GameObject/Container/ref_LeftHand_IK
+    path: GameObject/Container/PrimaryWeapon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -866,8 +866,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: GameObject/Container/ref_LeftHand_IK
+    attribute: m_LocalEulerAngles.z
+    path: GameObject/Container/PrimaryWeapon
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

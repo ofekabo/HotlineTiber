@@ -21,7 +21,7 @@ public class RaycastWeapon : MonoBehaviour
     public float weaponForce; 
     public float maxAmmo;
     public float initAmmo;
-    private float _currentAmmo;
+    
     public LayerMask layer;
     public ParticleSystem[] muzzleFlash;
     public ParticleSystem hitEffect;
@@ -42,11 +42,12 @@ public class RaycastWeapon : MonoBehaviour
     public int weaponID;
     private float PNextFire;
     
-    
+    [Header("Read Only")]
+    [SerializeField] float currentAmmo;
 
     private void Start()
     {
-        _currentAmmo = initAmmo;
+        currentAmmo = initAmmo;
     }
 
     Vector3 GetPosition(Bullet bullet)
@@ -69,10 +70,11 @@ public class RaycastWeapon : MonoBehaviour
     public void StartFiring()
     {
         isFiring = true;
-        if (Time.time > PNextFire)
+        if (Time.time > PNextFire && currentAmmo >= 0)
         {
             FireBullet();
             PNextFire = Time.time + fireRate;
+            currentAmmo--;
         }
         
     }
@@ -189,4 +191,10 @@ public class RaycastWeapon : MonoBehaviour
     {
         isFiring = false;
     }
+
+    public void AddAmmo(int amount)
+    {
+        currentAmmo += amount;
+    }
+    
 }

@@ -63,6 +63,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponFab: {fileID: 3746846041419277689, guid: c9feb0f5ee529f345b2f4a56c71328f4, type: 3}
+  weaponName: rifle
 --- !u!65 &3230312134925647469
 BoxCollider:
   m_ObjectHideFlags: 0
