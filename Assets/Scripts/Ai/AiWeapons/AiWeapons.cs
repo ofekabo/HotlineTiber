@@ -14,17 +14,23 @@ public class AiWeapons : MonoBehaviour
     public Transform aiTarget;
     public float inAccuracy;
     public bool weaponActive = false;
-    [HideInInspector] public bool pickedUpWeapon;
-
+    [HideInInspector] public bool pickedUpWeapon; // not used
+    public bool hasWeapon;
     [Header("Randomness Rate")]
     public float randomRate;
     public float nextRandom;
+    
     void Start()
     {
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
         {
+            hasWeapon = true;
             EquipWeapon(existingWeapon);
+        }
+        if(!existingWeapon)
+        {
+            hasWeapon = false;
         }
     }
 
@@ -53,7 +59,7 @@ public class AiWeapons : MonoBehaviour
         currentWeapon.transform.SetParent(weaponSlot,false);
         currentWeapon.transform.localPosition = Vector3.zero;
         rigController.Play("hostler_" + weapon.weaponName);
-        DrawWeapon(weapon);
+        hasWeapon = true;
     }
 
     public void DrawWeapon(bool drawWeapon)

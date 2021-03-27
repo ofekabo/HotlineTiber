@@ -1019,7 +1019,7 @@ GameObject:
   - component: {fileID: 101899050}
   - component: {fileID: 101899051}
   - component: {fileID: 596357824463253847}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: SwatEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,6 +1178,7 @@ MonoBehaviour:
   inAccuracy: 0.5
   weaponActive: 0
   pickedUpWeapon: 0
+  hasWeapon: 0
   randomRate: 0.5
   nextRandom: 0
 --- !u!114 &101899050

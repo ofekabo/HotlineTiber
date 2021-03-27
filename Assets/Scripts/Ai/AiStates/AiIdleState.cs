@@ -11,7 +11,7 @@ public class AiIdleState : AiState
 
     public void Enter(AiAgent agent)
     {
-        
+       
     }
 
     public void Update(AiAgent agent)
@@ -32,6 +32,11 @@ public class AiIdleState : AiState
         if (dotProduct > 0.0)
         {
             agent.stateMachine.ChangeState(AiStateId.ChasePlayer);
+        }
+        
+        if (agent.weapons.hasWeapon && Vector3.Distance(agent.transform.position,agent.playerTransform.position) < agent.config.shootingRange)
+        {
+            agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
         }
     }
 

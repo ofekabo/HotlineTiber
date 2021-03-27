@@ -11,12 +11,12 @@ public class AiFindWeaponState : AiState
 
     public void Enter(AiAgent agent)
     {
-        if (agent.weapons.currentWeapon)
+        if (agent.weapons.hasWeapon)
         {
             agent.stateMachine.ChangeState(AiStateId.Idle);
         }
         
-        if (!agent.weapons.currentWeapon)
+        if (!agent.weapons.hasWeapon)
         {
             WeaponPickup pickup = FindClosetWeapon(agent);
             agent.navMeshAgent.destination = pickup.transform.position;
