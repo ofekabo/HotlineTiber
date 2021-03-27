@@ -67,10 +67,13 @@ public class ActiveWeapon : MonoBehaviour
                 {
                     weapon.StopFiring();
                 }
-
-               
             }
             weapon.UpdateWeapon(Time.deltaTime);
+
+            if (weapon.CurrentAmmo <= 0)
+            {
+                DropWeapon();
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -112,7 +115,7 @@ public class ActiveWeapon : MonoBehaviour
     
     }
     
-        public void DropWeaon()
+        public void DropWeapon()
         {
             if (weapon)
             {

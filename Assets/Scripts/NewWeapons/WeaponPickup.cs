@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class WeaponPickup : MonoBehaviour
 {
     public RaycastWeapon weaponFab;
-    [SerializeField] private string weaponName;
-    [SerializeField] private int amountToAdd;
+    public string weaponName;
+    public int amountToAdd;
 
     // AI
     private void OnTriggerEnter(Collider other)
@@ -26,23 +27,25 @@ public class WeaponPickup : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         ActiveWeapon activeWeapon = other.gameObject.GetComponent<ActiveWeapon>();
-        if (activeWeapon && activeWeapon.PickupWeapon )
+        if (activeWeapon && activeWeapon.PickupWeapon)
         {
-            if(activeWeapon.weapon.weaponName == weaponName)
+            if (!activeWeapon.weapon)
             {
-                activeWeapon.weapon.AddAmmo(amountToAdd);
-                Destroy(gameObject);
+                RaycastWeapon newWeapon = Instantiate(weaponFab);
+                activeWeapon.Equip(newWeapon);
             }
-
+            
             if (activeWeapon.weapon.weaponName != weaponName)
             {
                 RaycastWeapon newWeapon = Instantiate(weaponFab);
                 activeWeapon.Equip(newWeapon);
-                
             }
             
+            if(activeWeapon.weapon.weaponName == weaponName)
+            {
+                activeWeapon.weapon.AddAmmo(amountToAdd);
+            }
+            Destroy(gameObject);
         }
-
-        
     }
 }

@@ -19,10 +19,13 @@ public class AiWeapons : MonoBehaviour
     [Header("Randomness Rate")]
     public float randomRate;
     public float nextRandom;
-
     void Start()
     {
-        
+        RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
+        if (existingWeapon)
+        {
+            EquipWeapon(existingWeapon);
+        }
     }
 
     private void Update()
@@ -50,6 +53,7 @@ public class AiWeapons : MonoBehaviour
         currentWeapon.transform.SetParent(weaponSlot,false);
         currentWeapon.transform.localPosition = Vector3.zero;
         rigController.Play("hostler_" + weapon.weaponName);
+        DrawWeapon(weapon);
     }
 
     public void DrawWeapon(bool drawWeapon)

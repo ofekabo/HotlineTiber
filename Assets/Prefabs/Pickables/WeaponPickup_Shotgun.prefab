@@ -64,6 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponFab: {fileID: 3540875964617323551, guid: 88b081be5b11f77438aee5faf5a7c103, type: 3}
   weaponName: shotgun
+  amountToAdd: 500
 --- !u!65 &2565608327538198657
 BoxCollider:
   m_ObjectHideFlags: 0

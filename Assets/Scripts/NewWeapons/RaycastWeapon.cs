@@ -43,11 +43,12 @@ public class RaycastWeapon : MonoBehaviour
     private float PNextFire;
     
     [Header("Read Only")]
-    [SerializeField] float currentAmmo;
+    [SerializeField] float currentAmmo; public float CurrentAmmo { get => currentAmmo; }
 
     private void Start()
     {
         currentAmmo = initAmmo;
+        
     }
 
     Vector3 GetPosition(Bullet bullet)
@@ -64,6 +65,7 @@ public class RaycastWeapon : MonoBehaviour
         bullet.time = 0.0f;
         bullet.tracer = Instantiate(tracerEffect,position, Quaternion.identity);
         bullet.tracer.AddPosition(position);
+        Destroy(bullet.tracer.gameObject, bulletLifeTime);
         return bullet;
     }
     
@@ -127,6 +129,7 @@ public class RaycastWeapon : MonoBehaviour
                 hitEffect.Emit(1);
                 bullet.tracer.transform.position = hitInfo.point;
                 bullet.time = bulletLifeTime;
+                
 
                 var Prop = hitInfo.collider.GetComponent<Prop>();
                 if (Prop)

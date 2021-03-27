@@ -11,9 +11,18 @@ public class AiFindWeaponState : AiState
 
     public void Enter(AiAgent agent)
     {
-        WeaponPickup pickup = FindClosetWeapon(agent);
-        agent.navMeshAgent.destination = pickup.transform.position;
-        agent.navMeshAgent.speed = 5;
+        if (agent.weapons.currentWeapon)
+        {
+            agent.stateMachine.ChangeState(AiStateId.Idle);
+        }
+        
+        if (!agent.weapons.currentWeapon)
+        {
+            WeaponPickup pickup = FindClosetWeapon(agent);
+            agent.navMeshAgent.destination = pickup.transform.position;
+            agent.navMeshAgent.speed = 5;
+        }
+
     }
 
     public void Update(AiAgent agent)

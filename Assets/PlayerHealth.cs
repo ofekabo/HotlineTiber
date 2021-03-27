@@ -16,7 +16,7 @@ public class PlayerHealth : Health
     public override void OnDeath(Vector3 direction,float force)
     {
         _ragdollController.ActivateRagdoll();
-        _activeWeapon.DropWeaon();
+        _activeWeapon.DropWeapon();
         _pc.enabled = false;
 
     }public override void OnDamage(Vector3 direction,float force)

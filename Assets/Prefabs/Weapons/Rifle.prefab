@@ -24230,6 +24230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f054fab54d1fb13499f66c1dd733f2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponPickup: {fileID: 3230312134925647468, guid: 22c13127e27e54b4f85387dec6e0a22b, type: 3}
   isFiring: 0
   fireRate: 0.07
   bulletSpeed: 1000
@@ -24248,9 +24249,10 @@ MonoBehaviour:
   tracerEffect: {fileID: 8138248881943852672}
   shootingPoint: {fileID: 5689009620239827761}
   weaponName: rifle
-  bulletLifeTime: 0.2
+  bulletLifeTime: 3
   weaponSlot: 0
   weaponID: 2
+  currentAmmo: 0
 --- !u!65 &1345081147651199861
 BoxCollider:
   m_ObjectHideFlags: 0

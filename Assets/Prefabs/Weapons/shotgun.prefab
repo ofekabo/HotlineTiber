@@ -29055,6 +29055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f054fab54d1fb13499f66c1dd733f2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponPickup: {fileID: 2565608327538198662, guid: cae03742b79a8cb4e8a194b3e9d09347, type: 3}
   isFiring: 0
   fireRate: 0.8
   bulletSpeed: 100
@@ -29076,6 +29077,7 @@ MonoBehaviour:
   bulletLifeTime: 3
   weaponSlot: 0
   weaponID: 1
+  currentAmmo: 0
 --- !u!65 &1693285947638618336
 BoxCollider:
   m_ObjectHideFlags: 0
