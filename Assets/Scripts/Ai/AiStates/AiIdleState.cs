@@ -28,7 +28,7 @@ public class AiIdleState : AiState
         playerDirection.Normalize();
 
         float dotProduct = Vector3.Dot(playerDirection, agentDirection);
-        Debug.Log(dotProduct);
+        
         if (dotProduct > 0.0)
         {
             agent.stateMachine.ChangeState(AiStateId.ChasePlayer);

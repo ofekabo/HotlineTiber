@@ -43,12 +43,17 @@ public class RaycastWeapon : MonoBehaviour
     private float PNextFire;
     
     [Header("Read Only")]
-    [SerializeField] float currentAmmo; public float CurrentAmmo { get => currentAmmo; }
+    [SerializeField] float currentAmmo;
+    public float CurrentAmmo { get => currentAmmo; }
 
+
+    private bool _isPlayer;
     private void Start()
     {
         currentAmmo = initAmmo;
-        
+
+        _isPlayer = transform.root.GetComponent<PlayerController>();
+
     }
 
     Vector3 GetPosition(Bullet bullet)
@@ -77,6 +82,8 @@ public class RaycastWeapon : MonoBehaviour
             FireBullet();
             PNextFire = Time.time + fireRate;
             currentAmmo--;
+            if (_isPlayer)
+                WeaponCameraShake();
         }
         
     }
@@ -198,6 +205,11 @@ public class RaycastWeapon : MonoBehaviour
     public void AddAmmo(int amount)
     {
         currentAmmo += amount;
+    }
+
+    void WeaponCameraShake()
+    {
+        GameEvents.events.PlayCameraShake();
     }
     
 }

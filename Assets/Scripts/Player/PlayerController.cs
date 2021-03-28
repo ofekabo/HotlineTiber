@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private const int Pistol = 1;
     private const int Shotgun = 2;
     private const int AR = 3;
-    
+
     private const string Horizontal = "Horizontal";
 
     private const string Vertical = "Vertical";
@@ -20,18 +20,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed;
 
     [SerializeField] private float turnSpeed;
-    
+
     [SerializeField] private GameObject mouseObject;
     [SerializeField] private Rig mainIKRig;
-    
-    
+
+
     #region Private Refrences
 
     private Rigidbody _rb;
     private Animator _anim;
 
-
-    private bool _shiftHold;
     #endregion
 
     public bool isDancing;
@@ -39,9 +37,9 @@ public class PlayerController : MonoBehaviour
     #region Firing
 
     private RaycastWeapon weapon;
-    
 
     #endregion
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,11 +49,13 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         isDancing = false;
         weapon = GetComponentInChildren<RaycastWeapon>();
+        _rb.isKinematic = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        _rb.velocity = Vector3.zero;
         Aim();
         // Shoot();
         LookAtObject();
@@ -64,8 +64,6 @@ public class PlayerController : MonoBehaviour
 
     private void LateUpdate()
     {
-  
-        
     }
 
     private void FixedUpdate()
@@ -77,17 +75,18 @@ public class PlayerController : MonoBehaviour
     {
         horizontal = Input.GetAxis(Horizontal);
         vertical = Input.GetAxis(Vertical);
-        AnimatingMovement(horizontal,vertical);
-        
-        
+        AnimatingMovement(horizontal, vertical);
+
+
         Vector3 movement = new Vector3(horizontal, 0, vertical);
 
         if (movement.magnitude > 1.0f)
         {
             movement = movement.normalized;
         }
-        transform.Translate(movement * moveSpeed* Time.deltaTime,Space.World);
-        
+
+        // transform.Translate(movement * moveSpeed* Time.deltaTime,Space.World);
+        _rb.MovePosition(transform.position + movement * (moveSpeed * Time.deltaTime));
     }
 
     private Vector3 moveDirection = Vector3.zero;
@@ -101,8 +100,8 @@ public class PlayerController : MonoBehaviour
         }
 
         moveDirection = transform.InverseTransformDirection(moveDirection);
-        _anim.SetFloat("Horizontal_f", moveDirection.x,0.05f,Time.deltaTime);
-        _anim.SetFloat("Vertical_f", moveDirection.z, 0.05f,Time.deltaTime);
+        _anim.SetFloat("Horizontal_f", moveDirection.x, 0.05f, Time.deltaTime);
+        _anim.SetFloat("Vertical_f", moveDirection.z, 0.05f, Time.deltaTime);
     }
 
     private void Aim()
@@ -111,37 +110,35 @@ public class PlayerController : MonoBehaviour
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
 
         Vector3 Target = (mouseObject.transform.position - transform.position).normalized;
-        if (!_shiftHold || Vector3.Dot(Target,transform.forward) < 0)
+        if (Vector3.Dot(Target, transform.forward) < 0.7f)
         {
             Quaternion targetRotation = Quaternion.AngleAxis(angle, Vector3.down);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * turnSpeed);
         }
 
+        // Debug.Log(Vector3.Dot(Target, transform.forward));
     }
 
     private void LookAtObject() // looking at mouse
     {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction * 100,Color.red);
+        Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
         if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity))
         {
-
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                _shiftHold = true;
-                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y , hit.point.z);
-                
+                mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
             }
             else
             {
-                _shiftHold = false;
                 mouseObject.transform.position = new Vector3(hit.point.x, 2, hit.point.z);
             }
         }
     }
 
     public delegate void ShootingDelegate();
+
     public static event ShootingDelegate shootPressed;
 
 
@@ -156,7 +153,7 @@ public class PlayerController : MonoBehaviour
 
     private void ClappingMechanic()
     {
-        if (Input.GetKey (KeyCode.E))
+        if (Input.GetKey(KeyCode.E))
         {
             _anim.SetBool("Clapping", true);
             isDancing = true;
@@ -169,6 +166,9 @@ public class PlayerController : MonoBehaviour
             isDancing = false;
             mainIKRig.weight = 1.0f;
         }
-     
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
     }
 }

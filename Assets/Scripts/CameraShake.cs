@@ -12,7 +12,7 @@ public class CameraShake : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Weapon.activateCameraShake += StartShake;
+        GameEvents.events.OnGunShotCamera += StartShake;
     }
 
 

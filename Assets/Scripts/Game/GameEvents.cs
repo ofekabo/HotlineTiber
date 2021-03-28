@@ -35,4 +35,12 @@ public class GameEvents : MonoBehaviour
         OnWeaponPickup?.Invoke(weaponID);
         return weaponID;
     }
+
+    public event Action OnGunShotCamera;
+
+    public void PlayCameraShake()
+    {
+        OnGunShotCamera?.Invoke();
+    }
+    
 }
