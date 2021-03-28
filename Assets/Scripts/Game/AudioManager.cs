@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,8 +19,14 @@ public class AudioManager : MonoBehaviour
 
     private void PlayGunshotSound(int weaponID)
     {
-        _adSource.PlayOneShot(weaponSounds[weaponID],1f);
-
+        try
+        {
+            _adSource.PlayOneShot(weaponSounds[weaponID], 1f);
+        }
+        catch (IndexOutOfRangeException)
+        {
+            Debug.Log("Index of audio out of range weapon ID" + weaponID);
+        }
     }
    
 

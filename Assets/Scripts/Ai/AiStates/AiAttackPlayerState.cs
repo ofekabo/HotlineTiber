@@ -15,7 +15,6 @@ public class AiAttackPlayerState : AiState
     public void Enter(AiAgent agent)
     {
         agent.weapons.SetWeightAiming(1);
-        agent.navMeshAgent.stoppingDistance = 5.0f;
         agent.weapons.weaponActive = true;
         agent.weapons.DrawWeapon(true);
     }

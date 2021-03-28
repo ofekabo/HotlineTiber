@@ -48,12 +48,30 @@ public class RaycastWeapon : MonoBehaviour
 
 
     private bool _isPlayer;
+
+
+    public enum WeaponType
+    {
+        RangeWeapon,
+        MeleeWeapon
+    }
+
+    public WeaponType weaponType;
+    
     private void Start()
     {
         currentAmmo = initAmmo;
 
         _isPlayer = transform.root.GetComponent<PlayerController>();
-
+        
+        if (weaponType == WeaponType.MeleeWeapon)
+        {
+            foreach (Transform t in transform.root)
+            {
+                if (t.CompareTag("PlayerMiddle"))
+                    shootingPoint = t;
+            }
+        }
     }
 
     Vector3 GetPosition(Bullet bullet)
@@ -84,6 +102,7 @@ public class RaycastWeapon : MonoBehaviour
             currentAmmo--;
             if (_isPlayer)
                 WeaponCameraShake();
+           
         }
         
     }

@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &347701649798600194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 347701649798600199}
+  - component: {fileID: 347701649798600195}
+  - component: {fileID: 347701649798600193}
+  - component: {fileID: 347701649798600192}
+  m_Layer: 0
+  m_Name: WeaponPickup_Bat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &347701649798600199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347701649798600194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.747236, y: 0.42, z: 16.717045}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children:
+  - {fileID: 7000232686343772457}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &347701649798600195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347701649798600194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea5f93a4e5bac54d80e18ede0bf1489, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponFab: {fileID: 566941793, guid: 2e2ebd02c8665154fbcaa98b7bd248af, type: 3}
+  weaponName: bat
+  amountToAdd: 50
+--- !u!54 &347701649798600193
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347701649798600194}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &347701649798600192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347701649798600194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.47, y: 2.223691, z: 1.47}
+  m_Center: {x: 0.006839752, y: 0.7030482, z: 0}
+--- !u!65 &7399251422700111303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7669069580042044307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9384155, y: 2.1254349, z: 1.9396954}
+  m_Center: {x: -0.006942749, y: 0.6742778, z: -0.0075731277}
+--- !u!1001 &7399251423141314242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 347701649798600199}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89786136
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.44027832
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 52.243
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+      propertyPath: m_Name
+      value: Baseball_Bat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+--- !u!1 &7669069580042044307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+  m_PrefabInstance: {fileID: 7399251423141314242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7000232686343772457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 96a3b4abc07b0ed42ae35984b68521ad, type: 3}
+  m_PrefabInstance: {fileID: 7399251423141314242}
+  m_PrefabAsset: {fileID: 0}

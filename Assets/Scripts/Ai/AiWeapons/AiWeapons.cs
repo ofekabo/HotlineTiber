@@ -7,6 +7,7 @@ using Random = System.Random;
 
 public class AiWeapons : MonoBehaviour
 {
+    private AiAgent _aiAgent;
     [HideInInspector] public RaycastWeapon currentWeapon;
     public Animator rigController;
     public Rig aimingRig;
@@ -19,9 +20,11 @@ public class AiWeapons : MonoBehaviour
     [Header("Randomness Rate")]
     public float randomRate;
     public float nextRandom;
+
     
     void Awake()
     {
+       
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
         {
@@ -32,6 +35,12 @@ public class AiWeapons : MonoBehaviour
         {
             hasWeapon = false;
         }
+        
+    }
+
+    void Start()
+    {
+        
     }
 
     private void Update()
@@ -40,6 +49,10 @@ public class AiWeapons : MonoBehaviour
         {
             currentWeapon.UpdateWeapon(Time.deltaTime);
             currentWeapon.StartFiring();
+            if (currentWeapon.weaponType == RaycastWeapon.WeaponType.MeleeWeapon)
+            {
+                rigController.Play("hit_" + currentWeapon.weaponName);
+            }
         }
         if(currentWeapon)
         {
@@ -51,6 +64,7 @@ public class AiWeapons : MonoBehaviour
 
     public void EquipWeapon(RaycastWeapon weapon)
     {
+        
         if (currentWeapon)
         {
             Destroy(currentWeapon.gameObject);
@@ -60,6 +74,22 @@ public class AiWeapons : MonoBehaviour
         currentWeapon.transform.localPosition = Vector3.zero;
         rigController.Play("hostler_" + weapon.weaponName);
         hasWeapon = true;
+        StartCoroutine(SetWeaponRange(weapon));
+    }
+
+    IEnumerator SetWeaponRange(RaycastWeapon weapon)
+    {
+        yield return new WaitForSeconds(0.5f);
+        if (weapon.weaponType == RaycastWeapon.WeaponType.MeleeWeapon)
+        {
+            GetComponent<AiAgent>().navMeshAgent.stoppingDistance = 2f;
+        }
+        if (weapon.weaponType == RaycastWeapon.WeaponType.RangeWeapon)
+        {
+            GetComponent<AiAgent>().navMeshAgent.stoppingDistance = 6f;
+        }
+        
+
     }
 
     public void DrawWeapon(bool drawWeapon)
