@@ -66,6 +66,7 @@ public class ActiveWeapon : MonoBehaviour
                 if (Input.GetButtonUp("Fire1"))
                 {
                     weapon.StopFiring();
+                    weapon.PNextFire = Time.time;
                 }
             }
             weapon.UpdateWeapon(Time.deltaTime);

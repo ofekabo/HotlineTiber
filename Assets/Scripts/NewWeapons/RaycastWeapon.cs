@@ -40,7 +40,7 @@ public class RaycastWeapon : MonoBehaviour
 
     public ActiveWeapon.WeaponSlot weaponSlot;
     public int weaponID;
-    private float PNextFire;
+    public float PNextFire;
     
     [Header("Read Only")]
     [SerializeField] float currentAmmo;
