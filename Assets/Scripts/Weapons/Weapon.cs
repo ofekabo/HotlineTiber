@@ -42,7 +42,6 @@ public class Weapon : MonoBehaviour
         PlayerWeapons.ChooseWepDel += SetWeaponID;
         SetShootingPoints();
         _currentAmmo = startingAmmo;
-        PlayerController.shootPressed += Fire; 
         GameEvents.events.onGunPickupTrigger += RefillAmmo;
         
     }

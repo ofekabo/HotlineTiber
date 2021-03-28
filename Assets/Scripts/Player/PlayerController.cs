@@ -137,20 +137,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public delegate void ShootingDelegate();
-
-    public static event ShootingDelegate shootPressed;
-
-
-    private void Shoot()
-    {
-        if (Input.GetMouseButton(0))
-        {
-            shootPressed?.Invoke();
-        }
-    }
-
-
     private void ClappingMechanic()
     {
         if (Input.GetKey(KeyCode.E))
@@ -167,8 +153,5 @@ public class PlayerController : MonoBehaviour
             mainIKRig.weight = 1.0f;
         }
     }
-
-    private void OnCollisionEnter(Collision other)
-    {
-    }
+    
 }
