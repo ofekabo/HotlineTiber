@@ -6,10 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/Animations/equip_shotgun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/Animations/equip_shotgun.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,24 +83,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/deathfall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
       </list>
     </option>
   </component>

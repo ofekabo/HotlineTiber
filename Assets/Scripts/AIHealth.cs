@@ -17,6 +17,8 @@ public class AIHealth : Health
         AiDeathState deathState = agent.stateMachine.GetState(AiStateId.Death) as AiDeathState;
         deathState.Direction = direction;
         deathState.ForceFromWep = force;
+        agent.capsuleCollider.enabled = false;
+
     }public override void OnDamage(Vector3 direction,float force)
     {
         

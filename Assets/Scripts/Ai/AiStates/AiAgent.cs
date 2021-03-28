@@ -14,7 +14,8 @@ public class AiAgent : MonoBehaviour
     [HideInInspector] public RagdollController ragdoll;
     [HideInInspector] public UIHealthBar healthBar;
     [HideInInspector] public AiWeapons weapons;
-    
+
+    public CapsuleCollider capsuleCollider;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,8 @@ public class AiAgent : MonoBehaviour
         {
             playerTransform = FindObjectOfType<PlayerController>().transform;
         }
+
+        capsuleCollider = GetComponent<CapsuleCollider>();
         
         
         navMeshAgent = GetComponent<NavMeshAgent>();

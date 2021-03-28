@@ -146,7 +146,8 @@ public class RaycastWeapon : MonoBehaviour
                 
                 
                 Rigidbody rb = hitInfo.collider.GetComponent<Rigidbody>();
-                if (rb) 
+                PlayerController pc = hitInfo.collider.GetComponent<PlayerController>();
+                if (rb && !pc) 
                 {
                     rb.AddForceAtPosition(ray.direction * weaponForce, hitInfo.point, ForceMode.Impulse);
                 }

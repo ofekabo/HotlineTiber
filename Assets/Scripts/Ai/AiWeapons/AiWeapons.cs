@@ -20,7 +20,7 @@ public class AiWeapons : MonoBehaviour
     public float randomRate;
     public float nextRandom;
     
-    void Start()
+    void Awake()
     {
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
