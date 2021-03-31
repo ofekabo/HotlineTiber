@@ -6,17 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/AIRigController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/AIRigController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/Animations/empty.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/Animations/empty.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/Udemy/Unity Projects/RPG/RPGc/Assets/Scripts/Control/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/Udemy/Unity Projects/RPG/RPGc/Assets/Scripts/Combat/Fighter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/94/97816a94/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/49/eb9a0f12/Component.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,7 +78,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
@@ -90,6 +88,7 @@
         <option value="$PROJECT_DIR$/Assets/BatScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +189,7 @@
       <workItem from="1616901497584" duration="4786000" />
       <workItem from="1616952770684" duration="769000" />
       <workItem from="1616954577979" duration="5904000" />
+      <workItem from="1617217206339" duration="2626000" />
     </task>
     <servers />
   </component>

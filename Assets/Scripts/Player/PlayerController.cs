@@ -143,15 +143,14 @@ public class PlayerController : MonoBehaviour
         {
             _anim.SetBool("Clapping", true);
             isDancing = true;
-            mainIKRig.weight = 0.0f;
+            // mainIKRig.weight = 0.0f;
         }
         else
         {
             _anim.SetBool("Clapping", false);
 
             isDancing = false;
-            mainIKRig.weight = 1.0f;
+            // mainIKRig.weight = 1.0f;
         }
     }
-    
 }

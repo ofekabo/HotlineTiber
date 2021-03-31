@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8899108173155412934}
   - component: {fileID: 566941793}
+  - component: {fileID: 981935807535132660}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -97,6 +98,19 @@ MonoBehaviour:
   PNextFire: 0
   currentAmmo: 0
   weaponType: 1
+--- !u!65 &981935807535132660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3121232857055956921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8269304568749904283
 PrefabInstance:
   m_ObjectHideFlags: 0
