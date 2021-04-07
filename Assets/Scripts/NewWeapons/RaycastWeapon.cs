@@ -190,7 +190,9 @@ public class RaycastWeapon : MonoBehaviour
        
         if (bullet.tracer)
         {
-            bullet.tracer.transform.position = end;
+            // bullet.tracer.transform.position = end;
+            // bullet.tracer.SetPosition(0,shootingPoint.position);
+            // bullet.tracer.SetPosition(1,hitInfo.point);
         }
        
 
@@ -199,11 +201,6 @@ public class RaycastWeapon : MonoBehaviour
     
     private void FireBullet()
     {
-        /*
-         if(ammoCount <=0){
-         return;
-         }
-         */
         foreach (var flash in muzzleFlash)
         {
             flash.Emit(1);

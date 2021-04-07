@@ -9964,6 +9964,7 @@ GameObject:
   - component: {fileID: 6476529855103096879}
   - component: {fileID: 6382692758656135680}
   - component: {fileID: 1604475607885426991}
+  - component: {fileID: -2838629261142440983}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -9978,7 +9979,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6476529855103096878}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10003,7 +10004,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f054fab54d1fb13499f66c1dd733f2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponPickup: {fileID: 3787497746010778526, guid: b1758036d75631247ac5f3baf37e3dda, type: 3}
   isFiring: 0
   fireRate: 0.5
   bulletSpeed: 1000
@@ -10025,7 +10025,9 @@ MonoBehaviour:
   bulletLifeTime: 3
   weaponSlot: 1
   weaponID: 0
-  currentAmmo: 0
+  PNextFire: 7.1838565
+  currentAmmo: -1
+  weaponType: 0
 --- !u!65 &1604475607885426991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10035,10 +10037,26 @@ BoxCollider:
   m_GameObject: {fileID: 6476529855103096878}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.23071805, y: 0.59221864, z: 0.93382066}
   m_Center: {x: -0.010305002, y: 0.08260834, z: 0.4046096}
+--- !u!54 &-2838629261142440983
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476529855103096878}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7289672145069758877
 GameObject:
   m_ObjectHideFlags: 0
@@ -24291,8 +24309,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8288304670422645886}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -10.76138, y: 2.1353536, z: 9.983224}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000017881393}
+  m_LocalPosition: {x: 0, y: 0.28499997, z: 12.806909}
   m_LocalScale: {x: 2.4999993, y: 2.5, z: 2.4999993}
   m_Children:
   - {fileID: 8291573944549337402}

@@ -24,6 +24,9 @@ public class ActiveWeapon : MonoBehaviour
 
     private bool _pickupWeapon;
 
+    [Header("Default Weapon")]
+    [SerializeField] private RaycastWeapon defWeapon;
+
     public bool PickupWeapon {get => _pickupWeapon;}
 
     // Start is called before the first frame update
@@ -66,7 +69,11 @@ public class ActiveWeapon : MonoBehaviour
                 if (Input.GetButtonUp("Fire1"))
                 {
                     weapon.StopFiring();
-                    weapon.PNextFire = Time.time;
+                    if (weapon.weaponID == 0)
+                    {
+                        weapon.PNextFire = Time.time;
+                    }
+                   
                 }
             }
             weapon.UpdateWeapon(Time.deltaTime);

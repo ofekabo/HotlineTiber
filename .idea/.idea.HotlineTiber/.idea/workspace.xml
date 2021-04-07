@@ -5,16 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Animations/RigController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,73 +15,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/Udemy/Unity Projects/RPG/RPGc/Assets/Scripts/Control/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/Udemy/Unity Projects/RPG/RPGc/Assets/Scripts/Combat/Fighter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/94/97816a94/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/49/eb9a0f12/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BatScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/AiLocomotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ragdoll.cs" />
-        <option value="$PROJECT_DIR$/Assets/UIHealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/RagdollController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiLocomotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgentConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdeState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/WeaponPickupOld.cs" />
-        <option value="$PROJECT_DIR$/Assets/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/WeaponPickup.cs" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa376.26933/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Bullet.cs" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa376.28195/RaycastWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/RadioScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prop.cs" />
-        <option value="$PROJECT_DIR$/Assets/MeshScoket.cs" />
-        <option value="$PROJECT_DIR$/Assets/MeshSockets.cs" />
-        <option value="$PROJECT_DIR$/Assets/MeshSocket.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/DebugDrawLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/DebugDrawSphere.cs" />
-        <option value="$PROJECT_DIR$/Assets/WeaponIK.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIldeState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/deathfall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
-        <option value="$PROJECT_DIR$/Assets/BatScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/FootstepSoundsHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,7 +59,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -130,7 +68,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -190,6 +128,8 @@
       <workItem from="1616952770684" duration="769000" />
       <workItem from="1616954577979" duration="5904000" />
       <workItem from="1617217206339" duration="2626000" />
+      <workItem from="1617759743527" duration="44000" />
+      <workItem from="1617759806875" duration="3228000" />
     </task>
     <servers />
   </component>
@@ -212,103 +152,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="2517" height="519" key="GridCell.Tab.0.bottom" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.0.center" timestamp="1616055557288">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557288" />
-    <state width="2517" height="519" key="GridCell.Tab.0.left" timestamp="1616055557288">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557288" />
-    <state width="2517" height="519" key="GridCell.Tab.0.right" timestamp="1616055557288">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557288" />
-    <state width="2517" height="519" key="GridCell.Tab.1.bottom" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.1.center" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.1.left" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.1.right" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.2.bottom" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.2.center" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.2.left" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.2.right" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.2.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.3.bottom" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.3.center" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.3.left" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state width="2517" height="519" key="GridCell.Tab.3.right" timestamp="1616055557289">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616055557289" />
-    <state x="1114" y="402" key="RiderGenerateDialog" timestamp="1616251069376">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1114" y="402" key="RiderGenerateDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616251069376" />
-    <state x="970" y="411" key="RollbackChangesDialog" timestamp="1615930899378">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="970" y="411" key="RollbackChangesDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615930899378" />
-    <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog" timestamp="1615547397513">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="100" y="100" width="2360" height="1200" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1615547397513" />
-    <state x="1098" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616686913007">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1098" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616686913007" />
-    <state x="603" y="273" width="2531" height="1387" key="dock-window-1" timestamp="1616682114427">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="603" y="273" width="2531" height="1387" key="dock-window-1/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616682114426" />
-    <state x="542" y="347" width="2531" height="1387" key="dock-window-2" timestamp="1616682114427">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="542" y="347" width="2531" height="1387" key="dock-window-2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616682114427" />
-    <state x="937" y="331" key="run.anything.popup" timestamp="1616858564600">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616858564600" />
-    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1616251350954">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1616251350954" />
   </component>
 </project>
