@@ -92,7 +92,7 @@ MonoBehaviour:
   tracerEffect: {fileID: 3247627500887931493, guid: 9274f9dfc09811943aeb457e9f601d98, type: 3}
   shootingPoint: {fileID: 840967990303662480}
   weaponName: bat
-  bulletLifeTime: 0.05
+  bulletLifeTime: 0.1
   weaponSlot: 0
   weaponID: 3
   PNextFire: 0
