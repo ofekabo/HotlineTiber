@@ -42985,6 +42985,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 977287811, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9489563
+      objectReference: {fileID: 0}
+    - target: {fileID: 977287811, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_Size.z
+      value: 0.55310565
+      objectReference: {fileID: 0}
+    - target: {fileID: 977287811, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_Center.x
+      value: -0.011395268
+      objectReference: {fileID: 0}
+    - target: {fileID: 977287811, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_Center.y
+      value: 0.33676717
+      objectReference: {fileID: 0}
+    - target: {fileID: 977287811, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_Center.z
+      value: 0.0541801
+      objectReference: {fileID: 0}
     - target: {fileID: 1307187763, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
       propertyPath: m_Data.m_SourceObjects.m_Item0.transform
       value: 
@@ -43037,6 +43057,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5106044176750070289, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106044176750070289, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106044176750070289, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.158
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224446765803108506, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 8994403404733206489, guid: 4f0eeea454c25d14e9b8667c446086b2, type: 3}
       propertyPath: mouseObject
       value: 
