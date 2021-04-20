@@ -25,6 +25,9 @@ public class PlayerHealth : Health
     public override void OnDamage(Vector3 direction,float force)
     {
         
+            print(currentHealth);
+        
     }
+    
     
 }

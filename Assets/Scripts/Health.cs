@@ -50,10 +50,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(float damage,Vector3 direction,float force)
     {
         currentHealth -= damage;
-        if(gameObject.CompareTag("Player"))
-        {
-            print(currentHealth);
-        }
+       
         
         if(healthBar)
             healthBar.SetHealthBarPrecentage(currentHealth / maxHealth);
