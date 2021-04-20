@@ -13,6 +13,8 @@ public class PlayerHealth : Health
         _activeWeapon = GetComponent<ActiveWeapon>();
         _pc = GetComponent<PlayerController>();
     }
+    
+    
     public override void OnDeath(Vector3 direction,float force)
     {
         _ragdollController.ActivateRagdoll();
