@@ -19,7 +19,8 @@ public class PlayerHealth : Health
         _activeWeapon.DropWeapon();
         _pc.enabled = false;
 
-    }public override void OnDamage(Vector3 direction,float force)
+    }
+    public override void OnDamage(Vector3 direction,float force)
     {
         
     }

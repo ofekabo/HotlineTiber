@@ -19,8 +19,9 @@ public class AIHealth : Health
         deathState.ForceFromWep = force;
         agent.capsuleCollider.enabled = false;
 
-    }public override void OnDamage(Vector3 direction,float force)
+    }
+    public override void OnDamage(Vector3 direction,float force)
     {
-        
+        agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
     }
 }

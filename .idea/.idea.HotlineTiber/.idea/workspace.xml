@@ -6,11 +6,178 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BatScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BatScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DebugDrawLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DebugDrawLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DebugDrawSphere.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DebugDrawSphere.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FootstepSoundsHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FootstepSoundsHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/AllMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/AllMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/New Lighting Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/New Lighting Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/BigPlanet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/BigPlanet.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Cabinet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Cabinet.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/CameraRig.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/CameraRig.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Chair.002.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Chair.002.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Chair.003.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Chair.003.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Chair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Chair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Coffe.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Coffe.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DeskPlanet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DeskPlanet.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DocPaper.002.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DocPaper.002.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DocPaper.003.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DocPaper.003.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DocPaper.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/DocPaper.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Documents.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Documents.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Door.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Floor.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Floor.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Keyboard.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Keyboard.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/MettingTable.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/MettingTable.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Monitor.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Monitor.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Mouse.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Mouse.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Phone.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Phone.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Pillar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Pillar.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Sofa.002.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Sofa.002.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Sofa.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Sofa.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/TV.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/TV.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Table.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Table.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Tablearound.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Tablearound.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Trashcan.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Trashcan.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Waiting Chair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Waiting Chair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/WaitingTable.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/WaitingTable.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Wall.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Wall.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/WallDoorWay.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/WallDoorWay.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/WaterBar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/WaterBar.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Welcome_Desk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Welcome_Desk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Welcome_Desk_Short.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/OfficeOverall/Welcome_Desk_Short.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/P_ColorPallate8Rows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/P_ColorPallate8Rows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/Radio.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/Radio.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/BigSink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/BigSink.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/HandDryer.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/HandDryer.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Mirror.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Mirror.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Painting.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Painting.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Painting2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Painting2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Painting3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Painting3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Sink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Sink.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletClosed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletClosed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletFloor.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletFloor.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletOpen.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletOpen.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletPaper.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletPaper.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletPaper2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/ToiletPaper2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Toilet_Booth.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Toilet_Booth.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Toilet_Booth_Door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Toilet_Booth_Door.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Toilet_Trash.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/SecondLayer/Toilet_Trash.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Dresser.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Dresser.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Floor_Meeting.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Floor_Meeting.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairBlack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairBlack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairWhite.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/ManagerChairWhite.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperParticle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperParticle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperSingle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PaperSingle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersLong.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersLong.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersShort.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/PapersShort.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Pencils.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Pencils.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Picture.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/Picture.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteBlue.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteBlue.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteCyan.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteCyan.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteRed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/StickyNoteRed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/SuitCase.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/ThirdLayer/SuitCase.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/music_note.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Meshes/AssetsMeshesOnly/music_note.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Pistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Pistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Rifle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RadioScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RadioScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WeaponIK.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WeaponIK.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +192,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BatScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ParticleEffectOnCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,6 +313,9 @@
       <workItem from="1617759806875" duration="3228000" />
       <workItem from="1617906581467" duration="1876000" />
       <workItem from="1617964841895" duration="489000" />
+      <workItem from="1618903157606" duration="104000" />
+      <workItem from="1618903275258" duration="3273000" />
+      <workItem from="1618907467799" duration="4827000" />
     </task>
     <servers />
   </component>
@@ -152,5 +338,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1618907646456">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1618907646456" />
   </component>
 </project>

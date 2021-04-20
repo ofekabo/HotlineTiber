@@ -23,17 +23,23 @@ public class AiAttackPlayerState : AiState
     {
 
         agent.transform.LookAt(agent.playerTransform.position, Vector3.up);
-        agent.navMeshAgent.destination = agent.playerTransform.position;
-        if (Time.time > agent.weapons.nextRandom)
+        if (Time.time > agent.weapons.currentWeapon.nextRandom)
         {
-            
             agent.weapons.SetTarget(agent.playerTransform);
-            agent.weapons.nextRandom = Time.time + agent.weapons.randomRate;
+            agent.weapons.currentWeapon.nextRandom = Time.time + agent.weapons.currentWeapon.randomSpeed;
         }
+
+        if ((agent.transform.position - agent.playerTransform.position).sqrMagnitude 
+            >
+            agent.weapons.currentWeapon.shootingRange * agent.weapons.currentWeapon.shootingRange)
+        {
+            agent.navMeshAgent.destination = agent.playerTransform.position;
+        }
+       
     }
 
     public void Exit(AiAgent agent)
     {
-        agent.navMeshAgent.stoppingDistance = 0.0f;
+        // agent.navMeshAgent.stoppingDistance = 0.0f;
     }
 }

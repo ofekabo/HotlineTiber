@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -16,10 +17,12 @@ public class Health : MonoBehaviour
     [Header("Read only")]
     public float currentHealth;
 
-    [Header("HitEffect")] public bool hitEffect = true;
+    [Header("HitEffect")] 
+    public bool hitEffect = true;
     public float blinkIntensity;
     public float blinkDuration;
     public float _blinkTimer;
+    public GameObject bloodVFX;
     
     // Start is called before the first frame update
     void Start()
@@ -50,13 +53,17 @@ public class Health : MonoBehaviour
         if(healthBar)
             healthBar.SetHealthBarPrecentage(currentHealth / maxHealth);
         OnDamage(direction,force);
+        if (currentHealth > 0)
+        {
+         
+        }
         if (currentHealth <= 0.0f)
         {
             Die(direction,force);
             if(healthBar)
                 healthBar.gameObject.SetActive(false);
         }
-
+        
         _blinkTimer = blinkDuration;
     }
 
@@ -90,10 +97,16 @@ public class Health : MonoBehaviour
     public virtual void OnDeath(Vector3 direction,float force)
     {
         
-    }public virtual void OnDamage(Vector3 direction,float force)
+    }
+    public virtual void OnDamage(Vector3 direction,float force)
     {
         
     }
-    
+
+    public void SpawnBloodEffect(Vector3 pos)
+    {
+        GameObject bloodCloneVFX = Instantiate(bloodVFX,pos,quaternion.identity);
+        Destroy(bloodCloneVFX,0.9f);
+    }
     
 }

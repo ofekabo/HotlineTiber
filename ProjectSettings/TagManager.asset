@@ -10,7 +10,6 @@ TagManager:
   - Prop
   - Static
   - PlayerBullet
-  - PlayerMiddle
   layers:
   - Default
   - TransparentFX

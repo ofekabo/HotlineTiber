@@ -13,14 +13,12 @@ public class AiWeapons : MonoBehaviour
     public Rig aimingRig;
     public Transform weaponSlot;
     public Transform aiTarget;
-    public float inAccuracy;
     public bool weaponActive = false;
     [HideInInspector] public bool pickedUpWeapon; // not used
     public bool hasWeapon;
-    [Header("Randomness Rate")]
-    public float randomRate;
-    public float nextRandom;
 
+
+    public Transform meleeShootingPoint;
     
     void Awake()
     {
@@ -40,7 +38,10 @@ public class AiWeapons : MonoBehaviour
 
     void Start()
     {
-        
+        if (currentWeapon.weaponType == RaycastWeapon.WeaponType.MeleeWeapon)
+        {
+            currentWeapon.shootingPoint = meleeShootingPoint;
+        }
     }
 
     private void Update()
@@ -122,7 +123,7 @@ public class AiWeapons : MonoBehaviour
     {
 
         aiTarget.position = new Vector3(target.position.x, 1.5f, target.position.z);
-        aiTarget.position += UnityEngine.Random.insideUnitSphere * inAccuracy;
+        aiTarget.position += UnityEngine.Random.insideUnitSphere * currentWeapon.inAccuracy;
         return aiTarget;
     }
     

@@ -24230,7 +24230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f054fab54d1fb13499f66c1dd733f2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponPickup: {fileID: 3230312134925647468, guid: 22c13127e27e54b4f85387dec6e0a22b, type: 3}
   isFiring: 0
   fireRate: 0.07
   bulletSpeed: 1000
@@ -24239,6 +24238,7 @@ MonoBehaviour:
   weaponForce: 5
   maxAmmo: 0
   initAmmo: 250
+  shootingRange: 12
   layer:
     serializedVersion: 2
     m_Bits: 8705
@@ -24252,7 +24252,9 @@ MonoBehaviour:
   bulletLifeTime: 3
   weaponSlot: 0
   weaponID: 2
+  PNextFire: 0
   currentAmmo: 0
+  weaponType: 0
 --- !u!65 &1345081147651199861
 BoxCollider:
   m_ObjectHideFlags: 0
