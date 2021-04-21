@@ -8,8 +8,24 @@
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy (9).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemy (9).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyAr.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyAr.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyPistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyPistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +46,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/ParticleEffectOnCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +171,9 @@
       <workItem from="1618903275258" duration="3273000" />
       <workItem from="1618907467799" duration="4827000" />
       <workItem from="1618925997448" duration="1903000" />
-      <workItem from="1618941802673" duration="242000" />
+      <workItem from="1618941802673" duration="839000" />
+      <workItem from="1618957017786" duration="5679000" />
+      <workItem from="1618962919451" duration="4349000" />
     </task>
     <servers />
   </component>
@@ -174,9 +198,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="616" y="240" key="run.anything.popup" timestamp="1618929593007">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="821" y="323" key="run.anything.popup" timestamp="1618957782071">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="821" y="323" key="run.anything.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1618957782071" />
     <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618929593007" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1618907646456">
       <screen x="0" y="0" width="2560" height="1400" />

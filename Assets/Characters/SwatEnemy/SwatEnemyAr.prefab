@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 2302915140383419011}
   - component: {fileID: 1707754134965764351}
   m_Layer: 2
-  m_Name: SwatEnemyBat (11)
+  m_Name: SwatEnemyAr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,14 +531,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b0c83376896f88468671b6482899694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: {fileID: 0}
   rigController: {fileID: 2302915139424560242}
   aimingRig: {fileID: 2302915138705512172}
   weaponSlot: {fileID: 2302915140743031494}
   aiTarget: {fileID: 2302915139923594629}
+  currentWeapon: {fileID: 0}
   weaponActive: 0
   pickedUpWeapon: 0
   hasWeapon: 0
+  showWeaponRange: 0
   meleeShootingPoint: {fileID: 2302915139608306081}
 --- !u!114 &2302915140383419010
 MonoBehaviour:
@@ -608,6 +609,7 @@ MonoBehaviour:
   blinkDuration: 0.1
   _blinkTimer: 0
   bloodVFX: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
+  dissolveEffect: {fileID: 2100000, guid: 280789ef2b4eed644b61f068f084a804, type: 2}
 --- !u!1 &2302915138632083475
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,6 +36,5 @@ public class AiStateMachine
       GetState(currentState)?.Exit(agent);
       currentState = newState;
       GetState(currentState)?.Enter(agent);
-      Debug.Log(currentState);
   }
 }

@@ -16,6 +16,7 @@ public class WeaponPickup : MonoBehaviour
         AiWeapons aiWeapon = other.gameObject.GetComponent<AiWeapons>();
         if (aiWeapon)
         {
+            if(aiWeapon.hasWeapon) { return; }
             RaycastWeapon newWeapon = Instantiate(weaponFab);
             aiWeapon.EquipWeapon(newWeapon);
             aiWeapon.pickedUpWeapon = true;

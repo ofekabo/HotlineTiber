@@ -2407,14 +2407,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b0c83376896f88468671b6482899694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: {fileID: 0}
   rigController: {fileID: 4774742830892900872}
   aimingRig: {fileID: 4774742831243366550}
   weaponSlot: {fileID: 4774742831940545724}
   aiTarget: {fileID: 4774742832205270015}
+  currentWeapon: {fileID: 0}
   weaponActive: 0
   pickedUpWeapon: 0
   hasWeapon: 0
+  showWeaponRange: 0
   meleeShootingPoint: {fileID: 4774742830810343387}
 --- !u!114 &4774742831579262200
 MonoBehaviour:
@@ -2484,6 +2485,7 @@ MonoBehaviour:
   blinkDuration: 0.1
   _blinkTimer: 0
   bloodVFX: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
+  dissolveEffect: {fileID: 2100000, guid: 280789ef2b4eed644b61f068f084a804, type: 2}
 --- !u!1 &5503329139553432730
 GameObject:
   m_ObjectHideFlags: 0
