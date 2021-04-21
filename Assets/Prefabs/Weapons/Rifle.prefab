@@ -24239,6 +24239,9 @@ MonoBehaviour:
   maxAmmo: 0
   initAmmo: 250
   shootingRange: 12
+  inAccuracy: 0.3
+  randomSpeed: 0.1
+  nextRandom: 0
   layer:
     serializedVersion: 2
     m_Bits: 8705

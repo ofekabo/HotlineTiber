@@ -10011,8 +10011,8 @@ MonoBehaviour:
   weaponForce: 10
   maxAmmo: 0
   initAmmo: 500
-  shootingRange: 10
-  inAccuracy: 0.1
+  shootingRange: 5
+  inAccuracy: 0.3
   randomSpeed: 0.1
   nextRandom: 0
   layer:
