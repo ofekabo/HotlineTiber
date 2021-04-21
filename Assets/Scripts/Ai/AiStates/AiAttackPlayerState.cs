@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AiAttackPlayerState : AiState
 {
     
-
+    float timer;
+   
+    
     public AiStateId GetId()
     {
         return AiStateId.AttackPlayer;
@@ -20,6 +23,7 @@ public class AiAttackPlayerState : AiState
 
     public void Update(AiAgent agent)
     {
+        timer += Time.deltaTime;
         
         float sqrDistancePfromA = (agent.playerTransform.position - agent.weapons.currentWeapon.shootingPoint.position).sqrMagnitude;
         float sqrShootingRange = agent.weapons.currentWeapon.shootingRange * agent.weapons.currentWeapon.shootingRange;
@@ -40,7 +44,12 @@ public class AiAttackPlayerState : AiState
         {
             agent.navMeshAgent.destination = agent.playerTransform.position;
         }
-       
+
+        if (!agent.weapons.weaponActive && sqrDistancePfromA < sqrShootingRange) { return; }
+     
+        // implement going around sphere if shooting
+        
+        
     }
 
     public void Exit(AiAgent agent)

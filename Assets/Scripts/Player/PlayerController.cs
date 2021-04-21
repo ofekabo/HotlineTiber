@@ -6,6 +6,8 @@ using UnityEngine.Animations.Rigging;
 
 public class PlayerController : MonoBehaviour
 {
+    private const KeyCode Aiming = KeyCode.Mouse1;
+    
     private const int Pistol = 1;
     private const int Shotgun = 2;
     private const int AR = 3;
@@ -57,7 +59,6 @@ public class PlayerController : MonoBehaviour
     {
         _rb.velocity = Vector3.zero;
         Aim();
-        // Shoot();
         LookAtObject();
         ClappingMechanic();
     }
@@ -126,7 +127,7 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
         if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity))
         {
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKey(Aiming))
             {
                 mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
             }

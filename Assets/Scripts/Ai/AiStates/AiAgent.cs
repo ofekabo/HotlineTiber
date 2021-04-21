@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -14,6 +15,8 @@ public class AiAgent : MonoBehaviour
     [HideInInspector] public RagdollController ragdoll;
     [HideInInspector] public UIHealthBar healthBar;
     [HideInInspector] public AiWeapons weapons;
+    
+    public float timerCooldown;
     
 
     public CapsuleCollider capsuleCollider;
@@ -74,5 +77,11 @@ public class AiAgent : MonoBehaviour
      void PlayerDeathHandler()
      {
          stateMachine.ChangeState(AiStateId.Death); // cause why not
+     }
+
+     private void OnDrawGizmos()
+     {
+         Gizmos.color = new Vector4(1,0,0,0.15f);
+         Gizmos.DrawCube(transform.position,Vector3.one * config.viewDistance);
      }
 }
