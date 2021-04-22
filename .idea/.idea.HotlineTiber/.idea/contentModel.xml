@@ -107,7 +107,7 @@
           <e p="Game" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="GameEvents.cs" t="Include" />
-            <e p="UIManager.cs" t="Include" />
+            <e p="PlayerUIManager.cs" t="Include" />
           </e>
           <e p="Graphics" t="Include">
             <e p="DissolveAnim.cs" t="Include" />
@@ -120,6 +120,7 @@
           </e>
           <e p="Player" t="Include">
             <e p="ActiveWeapon.cs" t="Include" />
+            <e p="HealthPickup.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayerWeapons.cs" t="Include" />
           </e>
