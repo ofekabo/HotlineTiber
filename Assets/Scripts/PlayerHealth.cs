@@ -22,13 +22,6 @@ public class PlayerHealth : Health
         UpdateInterface?.Invoke();
     }
     
-    public static event Action<float> ReturnCurrentHealth;
-    
-    private void GetCurrentHealth()
-    {
-        ReturnCurrentHealth?.Invoke(currentHealth);
-    }
-    
     #endregion
     
     public override void OnStart()

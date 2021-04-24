@@ -57,10 +57,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _rb.velocity = Vector3.zero;
         Aim();
         LookAtObject();
-        ClappingMechanic();
+        Roll();
+        if(_rb.velocity.magnitude <= 0.01f) { return; }
+        _rb.velocity = Vector3.zero;
     }
 
     private void LateUpdate()
@@ -138,20 +139,39 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void ClappingMechanic()
-    {
-        if (Input.GetKey(KeyCode.E))
-        {
-            _anim.SetBool("Clapping", true);
-            isDancing = true;
-            // mainIKRig.weight = 0.0f;
-        }
-        else
-        {
-            _anim.SetBool("Clapping", false);
+    // private void ClappingMechanic()
+    // {
+    //     if (Input.GetKey(KeyCode.E))
+    //     {
+    //         _anim.SetBool("Clapping", true);
+    //         isDancing = true;
+    //         // mainIKRig.weight = 0.0f;
+    //     }
+    //     else
+    //     {
+    //         _anim.SetBool("Clapping", false);
+    //
+    //         isDancing = false;
+    //         // mainIKRig.weight = 1.0f;
+    //     }
+    // }
 
-            isDancing = false;
-            // mainIKRig.weight = 1.0f;
-        }
+    private void Roll()
+    {
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     _anim.SetTrigger("Roll");
+        //     
+        // }
+    }
+
+    void SetIK()
+    {
+        mainIKRig.weight = 0.0f;
+    }
+
+    void ResetIK()
+    {
+        mainIKRig.weight = 1.0f;
     }
 }

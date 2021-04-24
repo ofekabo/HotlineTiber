@@ -10,7 +10,9 @@ public class RadioScript : MonoBehaviour
 {
 
     private AudioSource _as;
+    
 
+    [SerializeField] AudioClip[] songs;
     [SerializeField] private LayerMask layer;
     private int _lastBullet;
     private Vector3 _center;
@@ -46,8 +48,8 @@ public class RadioScript : MonoBehaviour
 
     public void ReducePitch()
     { // -0.4 - 0.4
-        
-        
+
+       _as.clip = songs[UnityEngine.Random.Range(0,songs.Length)];
         _as.pitch = UnityEngine.Random.Range(0.5f, 1.5f);
     }
 

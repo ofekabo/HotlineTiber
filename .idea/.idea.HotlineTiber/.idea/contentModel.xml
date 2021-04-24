@@ -89,6 +89,15 @@
             </e>
             <e p="DebugNavMeshAgent.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
+            <e p="Innocents" t="Include">
+              <e p="AiInnocent.cs" t="Include" />
+              <e p="InnocentDeathState.cs" t="Include" />
+              <e p="InnocentHealth.cs" t="Include" />
+              <e p="InnocentIdleState.cs" t="Include" />
+              <e p="InnocentLocomotion.cs" t="Include" />
+              <e p="InnocentState.cs" t="Include" />
+              <e p="InnocentStateMachine.cs" t="Include" />
+            </e>
             <e p="RagdollController.cs" t="Include" />
             <e p="UIHealthBar.cs" t="Include" />
           </e>

@@ -15,12 +15,12 @@ public class AiAgent : MonoBehaviour
     [HideInInspector] public RagdollController ragdoll;
     [HideInInspector] public UIHealthBar healthBar;
     [HideInInspector] public AiWeapons weapons;
-    
+    [HideInInspector] public CapsuleCollider capsuleCollider;
+        
     public float timerCooldown;
     
 
-    public CapsuleCollider capsuleCollider;
-    
+  
     private PlayerHealth _playerHealth;
    
 

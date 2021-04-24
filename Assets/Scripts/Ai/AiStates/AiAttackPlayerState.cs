@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 public class AiAttackPlayerState : AiState
 {
     
-    float timer;
+    private LayerMask layerProp;
    
     
     public AiStateId GetId()
@@ -19,11 +19,12 @@ public class AiAttackPlayerState : AiState
     {
         agent.weapons.SetWeightAiming(1);
         agent.weapons.DrawWeapon(true);
+        layerProp = LayerMask.NameToLayer("Prop");
     }
 
     public void Update(AiAgent agent)
     {
-        timer += Time.deltaTime;
+        
         
         float sqrDistancePfromA = (agent.playerTransform.position - agent.weapons.currentWeapon.shootingPoint.position).sqrMagnitude;
         float sqrShootingRange = agent.weapons.currentWeapon.shootingRange * agent.weapons.currentWeapon.shootingRange;
@@ -84,7 +85,7 @@ public class AiAttackPlayerState : AiState
         
         if (Physics.Raycast(ray, out RaycastHit hit, agent.weapons.currentWeapon.shootingRange))
         {
-            if(hit.collider.GetComponent<PlayerController>()) { return true; }
+            if(hit.collider.GetComponent<PlayerController>() || hit.transform.gameObject.layer == layerProp) { return true; }
             if(!hit.collider.GetComponent<PlayerController>()) { return false; }
         }
         
