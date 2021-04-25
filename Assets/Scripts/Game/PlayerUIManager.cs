@@ -13,12 +13,15 @@ public class PlayerUIManager : MonoBehaviour
    [SerializeField] ActiveWeapon playerWeapons;
    [SerializeField] Text ammoText;
 
+
+   
    private void Start()
    {
       HealthSlider.maxValue = playerHealthScript.maxHealth;
       HealthSlider.value = playerHealthScript.maxHealth;
       PlayerHealth.UpdateInterface += HandleHealthSlider;
-      ActiveWeapon.UpdateAmmo += HandleAmmoText;
+      ActiveWeapon.UpdateFireAmmo += HandleFireWeaponText;
+      WeaponPickup.UpdatePickupWeapon += HandleFireWeaponText;
       
       try
       {
@@ -36,7 +39,7 @@ public class PlayerUIManager : MonoBehaviour
       HealthSlider.value = playerHealthScript.currentHealth;
    }
 
-   void HandleAmmoText()
+   void HandleFireWeaponText()
    {
       ammoText.text = $"Ammo : {playerWeapons.weapon.CurrentAmmo}";
    }

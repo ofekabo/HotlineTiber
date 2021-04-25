@@ -225,6 +225,7 @@ public class RaycastWeapon : MonoBehaviour
 
     public void AddAmmo(int amount)
     {
+       
         currentAmmo += amount;
     }
 

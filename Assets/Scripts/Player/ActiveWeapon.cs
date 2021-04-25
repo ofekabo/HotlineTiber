@@ -30,7 +30,7 @@ public class ActiveWeapon : MonoBehaviour
 
     public bool PickupWeapon {get => _pickupWeapon;}
 
-    public static event Action UpdateAmmo;
+    public static event Action UpdateFireAmmo;
     void Start()
     {
         
@@ -64,7 +64,7 @@ public class ActiveWeapon : MonoBehaviour
                 if (Input.GetButton("Fire1"))
                 {
                     weapon.StartFiring();
-                    UpdateAmmo?.Invoke();
+                    UpdateFireAmmo?.Invoke();
                 }
 
                 if (Input.GetButtonUp("Fire1"))
