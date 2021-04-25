@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 4173d344018fa244c982cdb77cc9b436
+guid: e571d9bc837696148b6aa9dda6d9e468
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: breathing
+    second: Talking On Phone 2
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: breathing
+      name: Talking On Phone 2
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 298
+      lastFrame: 144
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

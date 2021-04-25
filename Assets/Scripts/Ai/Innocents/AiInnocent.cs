@@ -12,6 +12,7 @@ public class AiInnocent : MonoBehaviour
    [HideInInspector] public CapsuleCollider capsuleCollider;
    [HideInInspector] public RagdollController ragdollController;
    [HideInInspector] public InnocentLocomotion locomotion;
+   [HideInInspector] public InnocentHealth health;
 
    private void Start()
    {
@@ -26,6 +27,7 @@ public class AiInnocent : MonoBehaviour
       
       stateMachine.RegisterState(new InnocentIdleState());
       stateMachine.RegisterState(new InnocentDeathState());
+      stateMachine.RegisterState(new InnocentRunState());
       
       stateMachine.ChangeState(initState);
    }

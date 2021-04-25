@@ -18,4 +18,15 @@ public class InnocentHealth : Health
         deathState.ForceFromWep = force;
         _innocent.capsuleCollider.enabled = false;
     }
+
+    public override void OnDamage(Vector3 direction, float force)
+    {
+        if (_innocent.stateMachine.currentState == InnocentStateId.Idle)
+        {
+            _innocent.locomotion.anim.SetTrigger("Run1");
+            _innocent.stateMachine.ChangeState(InnocentStateId.Run);
+        }
+        
+        
+    }
 }

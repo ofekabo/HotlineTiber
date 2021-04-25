@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 4173d344018fa244c982cdb77cc9b436
+guid: c8adc4a7eb4182d43ab54466c41a829c
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: breathing
+    second: talking arguing
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: breathing
+      name: talking arguing
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 298
+      lastFrame: 624
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

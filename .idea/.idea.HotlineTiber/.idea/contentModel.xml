@@ -95,6 +95,7 @@
               <e p="InnocentHealth.cs" t="Include" />
               <e p="InnocentIdleState.cs" t="Include" />
               <e p="InnocentLocomotion.cs" t="Include" />
+              <e p="InnocentRunState.cs" t="Include" />
               <e p="InnocentState.cs" t="Include" />
               <e p="InnocentStateMachine.cs" t="Include" />
             </e>

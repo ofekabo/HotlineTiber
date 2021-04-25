@@ -19,8 +19,16 @@ public class PlayerUIManager : MonoBehaviour
       HealthSlider.value = playerHealthScript.maxHealth;
       PlayerHealth.UpdateInterface += HandleHealthSlider;
       ActiveWeapon.UpdateAmmo += HandleAmmoText;
-      ammoText.text = $"Ammo : {playerWeapons.weapon.CurrentAmmo}";
-         
+      
+      try
+      {
+         ammoText.text = $"Ammo : {playerWeapons.weapon.CurrentAmmo}";
+      }
+      catch (NullReferenceException e)
+      {
+         Debug.Log(e + "setting text too early");
+      }
+      
    }
 
    void HandleHealthSlider()

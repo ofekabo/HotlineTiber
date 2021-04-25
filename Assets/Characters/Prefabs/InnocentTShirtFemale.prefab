@@ -806,6 +806,7 @@ GameObject:
   - component: {fileID: 3767114971626535642}
   - component: {fileID: 3767114971626535641}
   - component: {fileID: 3767114971626535648}
+  - component: {fileID: 1779678364}
   m_Layer: 2
   m_Name: InnocentTShirtFemale
   m_TagString: Untagged
@@ -871,10 +872,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 360
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -900,6 +901,7 @@ MonoBehaviour:
   capsuleCollider: {fileID: 0}
   ragdollController: {fileID: 0}
   locomotion: {fileID: 0}
+  health: {fileID: 0}
 --- !u!114 &3767114971626535642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -924,6 +926,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a1219fa911fca4da0f4c94028418b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  generateAnimationCooldown: 2
+  randomAnimationLength: 3
 --- !u!114 &3767114971626535648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,6 +949,21 @@ MonoBehaviour:
   blinkDuration: 0
   _blinkTimer: 0
   bloodVFX: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
+--- !u!114 &1779678364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3767114971626535640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c44dc327c3870e4c8e903a076271857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 1
+  desiredVelocity: 1
+  path: 1
 --- !u!1 &4017563976447260266
 GameObject:
   m_ObjectHideFlags: 0

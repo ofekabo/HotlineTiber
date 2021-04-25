@@ -8,19 +8,15 @@
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/PlayerAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/MoveableOfficeRelated/WaitingTable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Innocents/Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Innocents/Idle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Innocents/InnocentAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Innocents/InnocentAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leve2 test/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leve2 test/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/AiInnocent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/AiInnocent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RadioScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RadioScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RadioScript.cs" />
         <option value="$PROJECT_DIR$/Assets/InnocentHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Innocent.cs" />
@@ -67,13 +62,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentDeathState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/AiInnocent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/AiInnocent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentRunState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" />
       </list>
     </option>
   </component>
@@ -188,7 +186,8 @@
       <workItem from="1618962919451" duration="4349000" />
       <workItem from="1619044072974" duration="2336000" />
       <workItem from="1619090381464" duration="4715000" />
-      <workItem from="1619260996147" duration="8318000" />
+      <workItem from="1619260996147" duration="8917000" />
+      <workItem from="1619366715194" duration="3293000" />
     </task>
     <servers />
   </component>
@@ -213,10 +212,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1114" y="402" key="RiderGenerateDialog" timestamp="1619269573909">
+    <state x="1114" y="402" key="RiderGenerateDialog" timestamp="1619366732495">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1114" y="402" key="RiderGenerateDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1619269573909" />
+    <state x="1114" y="402" key="RiderGenerateDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1619366732495" />
+    <state x="93" y="93" width="2375" height="1215" key="VCS.FileHistoryDialog" timestamp="1619367181445">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="93" y="93" width="2375" height="1215" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1619367181445" />
     <state x="821" y="323" key="run.anything.popup" timestamp="1618957782071">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

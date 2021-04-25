@@ -17,8 +17,7 @@ public class InnocentIdleState : InnocentState
 
     public void Update(AiInnocent innocent)
     {
-        
-        
+        innocent.locomotion.GenerateAnimation();
     }
 
     public void Exit(AiInnocent innocent)
