@@ -6,6 +6,11 @@ using UnityEngine.AI;
 
 public class AiAgent : MonoBehaviour
 {
+    [Header("Debugging")]
+    [SerializeField] bool showViewRange = false;
+    [SerializeField][Range(0.3f,0.8f)] float alpha = 0.3f;
+    
+    [Header("State Machine")]
     public AiStateId initState;
     public AiAgentConfig config;
     [HideInInspector] public DissolveAnim dissolveAnim;
@@ -81,7 +86,11 @@ public class AiAgent : MonoBehaviour
 
      private void OnDrawGizmos()
      {
-         Gizmos.color = new Vector4(1,0,0,0.15f);
-         Gizmos.DrawCube(transform.position,Vector3.one * config.viewDistance);
+         if (showViewRange)
+         {
+             Gizmos.color = new Vector4(1,0,0,alpha);
+             Gizmos.DrawCube(transform.position,Vector3.one * 2 * config.viewDistance);
+         }
+         
      }
 }

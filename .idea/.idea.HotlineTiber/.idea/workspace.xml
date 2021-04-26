@@ -7,12 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Innocents/InnocentAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Innocents/InnocentAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,6 @@
         <option value="$PROJECT_DIR$/Assets/InnocentHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Innocent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentDeathState.cs" />
@@ -68,6 +66,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
       </list>
     </option>
   </component>
@@ -184,7 +183,8 @@
       <workItem from="1619090381464" duration="4715000" />
       <workItem from="1619260996147" duration="8917000" />
       <workItem from="1619366715194" duration="3293000" />
-      <workItem from="1619380643267" duration="1483000" />
+      <workItem from="1619380643267" duration="1521000" />
+      <workItem from="1619388072458" duration="953000" />
     </task>
     <servers />
   </component>
