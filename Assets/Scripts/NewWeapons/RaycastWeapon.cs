@@ -143,15 +143,20 @@ public class RaycastWeapon : MonoBehaviour
     private void RaycastSegment(Vector3 start, Vector3 end, Bullet bullet)
     {
         Vector3 direction = end - start;
-        float distance = (end - start).magnitude;
+        float distance = direction.magnitude;
         ray.origin = start;
         ray.direction = direction;
+        
+       
+        
         Debug.DrawRay(ray.origin, ray.direction * distance, Color.blue, 3);
 
         if (Physics.Raycast(ray, out hitInfo, distance, layer))
         {
             hitEffect.transform.position = hitInfo.point;
             hitEffect.transform.forward = hitInfo.normal;
+            
+            end = hitInfo.point;
             hitEffect.Emit(1);
             try
             {
@@ -196,7 +201,7 @@ public class RaycastWeapon : MonoBehaviour
 
         if (bullet.tracer)
         {
-            // bullet.tracer.transform.position = end;
+            bullet.tracer.transform.position = end;
             // bullet.tracer.SetPosition(0,shootingPoint.position);
             // bullet.tracer.SetPosition(1,hitInfo.point);
         }
