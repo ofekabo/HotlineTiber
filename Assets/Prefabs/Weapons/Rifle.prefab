@@ -24232,7 +24232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFiring: 0
   fireRate: 0.07
-  bulletSpeed: 1000
+  bulletSpeed: 500
   bulletDrop: 0
   damage: 5
   weaponForce: 5
