@@ -47,7 +47,7 @@ public class PlayerHealth : Health
 
     public void AddHealth(float healthToAdd)
     {
-        currentHealth = Mathf.Min(currentHealth += healthToAdd,100);
+        currentHealth = Mathf.Min(currentHealth += healthToAdd,maxHealth);
         UpdateUI();
     }
 
