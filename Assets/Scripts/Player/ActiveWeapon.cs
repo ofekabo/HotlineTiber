@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
@@ -30,16 +29,17 @@ public class ActiveWeapon : MonoBehaviour
 
     public bool PickupWeapon {get => _pickupWeapon;}
 
-    public static event Action UpdateFireAmmo;
+    // Start is called before the first frame update
     void Start()
     {
-        
+
 
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
         {
             Equip(existingWeapon);
         }
+
         
     }
 
@@ -64,7 +64,6 @@ public class ActiveWeapon : MonoBehaviour
                 if (Input.GetButton("Fire1"))
                 {
                     weapon.StartFiring();
-                    UpdateFireAmmo?.Invoke();
                 }
 
                 if (Input.GetButtonUp("Fire1"))

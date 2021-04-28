@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BatScript.cs" t="Include" />
+        <e p="DebugDrawLine.cs" t="Include" />
+        <e p="DebugDrawSphere.cs" t="Include" />
         <e p="ExampleAssets 1" t="Include">
           <e p="Scripts" t="Include">
             <e p="SimpleCameraController.cs" t="Include" />
@@ -20,56 +23,9 @@
             </e>
           </e>
         </e>
-        <e p="LeanTween" t="Include">
-          <e p="Editor" t="Include">
-            <e p="LeanTweenDocumentationEditor.cs" t="Include" />
-          </e>
-          <e p="Examples" t="Include">
-            <e p="Archived" t="Include">
-              <e p="2dUnlitWithFade.shader" t="Include" />
-              <e p="OldGUIExamplesCS.cs" t="Include" />
-              <e p="TestingPunch.cs" t="Include" />
-              <e p="TestingRigidbodyCS.cs" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="Following.cs" t="Include" />
-              <e p="GeneralAdvancedTechniques.cs" t="Include" />
-              <e p="GeneralBasic.cs" t="Include" />
-              <e p="GeneralBasics2d.cs" t="Include" />
-              <e p="GeneralCameraShake.cs" t="Include" />
-              <e p="GeneralEasingTypes.cs" t="Include" />
-              <e p="GeneralEventsListeners.cs" t="Include" />
-              <e p="GeneralSequencer.cs" t="Include" />
-              <e p="GeneralSimpleUI.cs" t="Include" />
-              <e p="GeneralUISpace.cs" t="Include" />
-              <e p="LogoCinematic.cs" t="Include" />
-              <e p="PathBezier.cs" t="Include" />
-              <e p="PathBezier2d.cs" t="Include" />
-              <e p="PathSpline.cs" t="Include" />
-              <e p="PathSpline2d.cs" t="Include" />
-              <e p="PathSplineEndless.cs" t="Include" />
-              <e p="PathSplinePerformance.cs" t="Include" />
-              <e p="PathSplines.cs" t="Include" />
-              <e p="PathSplineTrack.cs" t="Include" />
-              <e p="TestingUnitTests.cs" t="Include" />
-              <e p="TestingZLegacy.cs" t="Include" />
-              <e p="TestingZLegacyExt.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Framework" t="Include">
-            <e p="LeanAudio.cs" t="Include" />
-            <e p="LeanSmooth.cs" t="Include" />
-            <e p="LeanTest.cs" t="Include" />
-            <e p="LeanTween.cs" t="Include" />
-            <e p="LeanTweenExt.cs" t="Include" />
-            <e p="LTDescr.cs" t="Include" />
-            <e p="LTDescrOptional.cs" t="Include" />
-            <e p="LTSeq.cs" t="Include" />
-          </e>
-          <e p="License.txt" t="Include" />
-          <e p="ReadMe.txt" t="Include" />
-        </e>
-        <e p="ParticleEffectOnCollision.cs" t="Include" />
+        <e p="FootstepSoundsHandler.cs" t="Include" />
+        <e p="PlayerHealth.cs" t="Include" />
+        <e p="RadioScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiAgentConfig.cs" t="Include" />
@@ -89,16 +45,6 @@
             </e>
             <e p="DebugNavMeshAgent.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
-            <e p="Innocents" t="Include">
-              <e p="AiInnocent.cs" t="Include" />
-              <e p="InnocentDeathState.cs" t="Include" />
-              <e p="InnocentHealth.cs" t="Include" />
-              <e p="InnocentIdleState.cs" t="Include" />
-              <e p="InnocentLocomotion.cs" t="Include" />
-              <e p="InnocentRunState.cs" t="Include" />
-              <e p="InnocentState.cs" t="Include" />
-              <e p="InnocentStateMachine.cs" t="Include" />
-            </e>
             <e p="RagdollController.cs" t="Include" />
             <e p="UIHealthBar.cs" t="Include" />
           </e>
@@ -107,20 +53,13 @@
             <e p="MeshSocket.cs" t="Include" />
             <e p="MeshSockets.cs" t="Include" />
           </e>
-          <e p="BatScript.cs" t="Include" />
           <e p="CameraScript.cs" t="Include" />
           <e p="CameraShake.cs" t="Include" />
-          <e p="DebugDrawLine.cs" t="Include" />
-          <e p="DebugDrawSphere.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
-          <e p="FootstepSoundsHandler.cs" t="Include" />
           <e p="Game" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="GameEvents.cs" t="Include" />
-            <e p="PlayerUIManager.cs" t="Include" />
-          </e>
-          <e p="Graphics" t="Include">
-            <e p="DissolveAnim.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
           <e p="Health.cs" t="Include" />
           <e p="MeleeEnemy.cs" t="Include" />
@@ -130,14 +69,10 @@
           </e>
           <e p="Player" t="Include">
             <e p="ActiveWeapon.cs" t="Include" />
-            <e p="HealthPickup.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayerWeapons.cs" t="Include" />
           </e>
-          <e p="PlayerHealth.cs" t="Include" />
           <e p="Prop.cs" t="Include" />
-          <e p="RadioScript.cs" t="Include" />
-          <e p="WeaponIK.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="AR.cs" t="Include" />
             <e p="Bullet.cs" t="Include" />
@@ -147,6 +82,7 @@
             <e p="WeaponPickupOld.cs" t="Include" />
           </e>
         </e>
+        <e p="WeaponIK.cs" t="Include" />
       </e>
       <e p="HotlineTiber.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

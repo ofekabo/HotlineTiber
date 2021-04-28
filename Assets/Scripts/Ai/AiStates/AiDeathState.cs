@@ -20,7 +20,6 @@ public class AiDeathState : AiState
         agent.ragdoll.ApplyForce(Direction * ForceFromWep);
         agent.healthBar.gameObject.SetActive(false);
         agent.weapons.DropWeaon();
-        agent.weapons.enabled = false;
         agent.navMeshAgent.enabled = false;
     }
 

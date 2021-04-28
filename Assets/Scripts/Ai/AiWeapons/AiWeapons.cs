@@ -7,24 +7,20 @@ using Random = System.Random;
 
 public class AiWeapons : MonoBehaviour
 {
-    [Header("Refrences")] private AiAgent _aiAgent;
-   
+    private AiAgent _aiAgent;
+    [HideInInspector] public RaycastWeapon currentWeapon;
     public Animator rigController;
     public Rig aimingRig;
     public Transform weaponSlot;
     public Transform aiTarget;
-    
-    [HideInInspector] public RaycastWeapon currentWeapon;
-    [HideInInspector] public bool weaponActive = false;
+    public float inAccuracy;
+    public bool weaponActive = false;
     [HideInInspector] public bool pickedUpWeapon; // not used
-    [HideInInspector] public bool hasWeapon;
-    
-    [Header("Debugging")]
-    [Tooltip("Will only be visualized when ai has target")]
-    public bool showWeaponRange;
+    public bool hasWeapon;
+    [Header("Randomness Rate")]
+    public float randomRate;
+    public float nextRandom;
 
-
-    public Transform meleeShootingPoint;
     
     void Awake()
     {
@@ -44,10 +40,7 @@ public class AiWeapons : MonoBehaviour
 
     void Start()
     {
-        if (currentWeapon.weaponType == RaycastWeapon.WeaponType.MeleeWeapon)
-        {
-            currentWeapon.shootingPoint = meleeShootingPoint;
-        }
+        
     }
 
     private void Update()
@@ -128,8 +121,8 @@ public class AiWeapons : MonoBehaviour
     public Transform SetTarget(Transform target)
     {
 
-        aiTarget.position = new Vector3(target.position.x, UnityEngine.Random.Range(0.5f,1f), target.position.z);
-        aiTarget.position += UnityEngine.Random.insideUnitSphere * currentWeapon.inAccuracy;
+        aiTarget.position = new Vector3(target.position.x, 1.5f, target.position.z);
+        aiTarget.position += UnityEngine.Random.insideUnitSphere * inAccuracy;
         return aiTarget;
     }
     
