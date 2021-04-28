@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: ai_default_configuration
   m_EditorClassIdentifier: 
   maxTime: 0.5
-  maxDistance: 2
-  viewDistance: 10
-  shootingRange: 5
+  maxDistance: 10
+  viewDistance: 15

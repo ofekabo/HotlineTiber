@@ -10005,12 +10005,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFiring: 0
   fireRate: 0.5
-  bulletSpeed: 1000
+  bulletSpeed: 500
   bulletDrop: 0
   damage: 8
   weaponForce: 10
   maxAmmo: 0
   initAmmo: 500
+  shootingRange: 8
+  inAccuracy: 0.3
+  randomSpeed: 0.1
+  nextRandom: 0
   layer:
     serializedVersion: 2
     m_Bits: 8705

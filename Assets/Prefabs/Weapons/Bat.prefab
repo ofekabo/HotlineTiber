@@ -84,6 +84,10 @@ MonoBehaviour:
   weaponForce: 3
   maxAmmo: 0
   initAmmo: 9999
+  shootingRange: 0.3
+  inAccuracy: 0
+  randomSpeed: 0
+  nextRandom: 0
   layer:
     serializedVersion: 2
     m_Bits: 16179

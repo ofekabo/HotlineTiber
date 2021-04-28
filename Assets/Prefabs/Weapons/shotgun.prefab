@@ -29017,7 +29017,7 @@ GameObject:
   - component: {fileID: 3540875964617323551}
   - component: {fileID: 1693285947638618336}
   m_Layer: 0
-  m_Name: Shotgun
+  m_Name: shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29055,15 +29055,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f054fab54d1fb13499f66c1dd733f2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponPickup: {fileID: 2565608327538198662, guid: cae03742b79a8cb4e8a194b3e9d09347, type: 3}
   isFiring: 0
-  fireRate: 0.8
-  bulletSpeed: 100
+  fireRate: 0.5
+  bulletSpeed: 200
   bulletDrop: 100
   damage: 45
   weaponForce: 50
   maxAmmo: 0
-  initAmmo: 250
+  initAmmo: 50
+  shootingRange: 0
+  inAccuracy: 0
+  randomSpeed: 0
+  nextRandom: 0
   layer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -29077,7 +29080,9 @@ MonoBehaviour:
   bulletLifeTime: 3
   weaponSlot: 0
   weaponID: 1
+  PNextFire: 0
   currentAmmo: 0
+  weaponType: 0
 --- !u!65 &1693285947638618336
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -27,7 +27,7 @@ public class AiFindWeaponState : AiState
 
     public void Update(AiAgent agent)
     {
-        if (agent.weapons.HasWeapon() && Vector3.Distance(agent.transform.position,agent.playerTransform.position) < agent.config.shootingRange)
+        if (agent.weapons.HasWeapon() && Vector3.Distance(agent.transform.position,agent.playerTransform.position) < agent.config.viewDistance)
         {
             agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
         }
@@ -35,7 +35,7 @@ public class AiFindWeaponState : AiState
 
     public void Exit(AiAgent agent)
     {
-
+        
     }
 
     private WeaponPickup FindClosetWeapon(AiAgent agent)
