@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
-using UnityEditor.Animations;
 
 public class ActiveWeapon : MonoBehaviour
 {

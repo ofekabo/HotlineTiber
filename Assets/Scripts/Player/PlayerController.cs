@@ -31,7 +31,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody _rb;
     private Animator _anim;
-
+    private CharacterController _cc;
+    Vector3 playerVelocity;
     #endregion
 
     public bool isDancing;
@@ -45,13 +46,14 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _rb = GetComponent<Rigidbody>();
+        // _rb = GetComponent<Rigidbody>();
+        _cc = GetComponent<CharacterController>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         _anim = GetComponent<Animator>();
         isDancing = false;
         weapon = GetComponentInChildren<RaycastWeapon>();
-        _rb.isKinematic = false;
+        // _rb.isKinematic = false;
     }
 
     // Update is called once per frame
@@ -60,12 +62,9 @@ public class PlayerController : MonoBehaviour
         Aim();
         LookAtObject();
         Roll();
-        if(_rb.velocity.magnitude <= 0.01f) { return; }
-        _rb.velocity = Vector3.zero;
-    }
-
-    private void LateUpdate()
-    {
+       
+        // if(_rb.velocity.magnitude <= 0.01f) { return; }
+        // _rb.velocity = Vector3.zero;
     }
 
     private void FixedUpdate()
@@ -86,9 +85,11 @@ public class PlayerController : MonoBehaviour
         {
             movement = movement.normalized;
         }
-
+        
+        _cc.Move(movement * Time.deltaTime * moveSpeed);
+        
         // transform.Translate(movement * moveSpeed* Time.deltaTime,Space.World);
-        _rb.MovePosition(transform.position + movement * (moveSpeed * Time.deltaTime));
+        // _rb.MovePosition(transform.position + movement * (moveSpeed * Time.deltaTime));
     }
 
     private Vector3 moveDirection = Vector3.zero;

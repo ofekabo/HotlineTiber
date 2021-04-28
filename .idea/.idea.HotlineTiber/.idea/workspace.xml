@@ -7,7 +7,22 @@
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Smooth_Male_Suit (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Smooth_Male_Suit (1).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyAr.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyAr.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyPistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyPistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Radio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Radio.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Floor_Meeting.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Floor_Meeting.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/Wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/WallDoorWay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/WallDoorWay.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/mouseOBJ.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/mouseOBJ.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +35,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentDeathState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/RandomProjects/RythmDash/Assets/Script/Player/PlayerActions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/HealthPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RadioScript.cs" />
         <option value="$PROJECT_DIR$/Assets/InnocentHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Innocent.cs" />
@@ -57,12 +72,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +106,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../../Builds/HotlineTiber\HotlineTiber.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\ofeka\Desktop\Builds\HotlineTiber" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
