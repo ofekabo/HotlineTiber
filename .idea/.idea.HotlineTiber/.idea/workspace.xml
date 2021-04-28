@@ -6,12 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/Laptop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/Laptop.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/Monitor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/Monitor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorDeskVar1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorDeskVar1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorDeskVar2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorDeskVar2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/SecurityRoom/MonitorTable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/WallDoorWay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/WallDoorWay.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Table.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Tablearound.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Tablearound.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/fulldesk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/fulldesk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/BulletTracer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/BulletTracer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneFixed.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneFixed.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneFixed/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneFixed/NavMesh.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
