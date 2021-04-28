@@ -6,6 +6,8 @@ using UnityEngine.Animations.Rigging;
 
 public class PlayerController : MonoBehaviour
 {
+    private const KeyCode Aiming = KeyCode.Mouse1;
+    
     private const int Pistol = 1;
     private const int Shotgun = 2;
     private const int AR = 3;
@@ -55,11 +57,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _rb.velocity = Vector3.zero;
         Aim();
-        // Shoot();
         LookAtObject();
-        ClappingMechanic();
+        Roll();
+        if(_rb.velocity.magnitude <= 0.01f) { return; }
+        _rb.velocity = Vector3.zero;
     }
 
     private void LateUpdate()
@@ -126,7 +128,7 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
         if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity))
         {
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKey(Aiming))
             {
                 mouseObject.transform.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
             }
@@ -137,20 +139,39 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void ClappingMechanic()
-    {
-        if (Input.GetKey(KeyCode.E))
-        {
-            _anim.SetBool("Clapping", true);
-            isDancing = true;
-            // mainIKRig.weight = 0.0f;
-        }
-        else
-        {
-            _anim.SetBool("Clapping", false);
+    // private void ClappingMechanic()
+    // {
+    //     if (Input.GetKey(KeyCode.E))
+    //     {
+    //         _anim.SetBool("Clapping", true);
+    //         isDancing = true;
+    //         // mainIKRig.weight = 0.0f;
+    //     }
+    //     else
+    //     {
+    //         _anim.SetBool("Clapping", false);
+    //
+    //         isDancing = false;
+    //         // mainIKRig.weight = 1.0f;
+    //     }
+    // }
 
-            isDancing = false;
-            // mainIKRig.weight = 1.0f;
-        }
+    private void Roll()
+    {
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     _anim.SetTrigger("Roll");
+        //     
+        // }
+    }
+
+    void SetIK()
+    {
+        mainIKRig.weight = 0.0f;
+    }
+
+    void ResetIK()
+    {
+        mainIKRig.weight = 1.0f;
     }
 }

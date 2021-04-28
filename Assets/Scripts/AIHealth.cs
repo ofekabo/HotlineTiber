@@ -1,11 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AIHealth : Health
 {
     private AiAgent agent;
-    // Start is called before the first frame update
 
     public override void OnStart()
     {
@@ -18,9 +18,12 @@ public class AIHealth : Health
         deathState.Direction = direction;
         deathState.ForceFromWep = force;
         agent.capsuleCollider.enabled = false;
-
-    }public override void OnDamage(Vector3 direction,float force)
-    {
         
+
+
+    }
+    public override void OnDamage(Vector3 direction,float force)
+    {
+        agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
     }
 }

@@ -21,21 +21,26 @@ public class AiChasePlayerState : AiState
 
     public void Update(AiAgent agent)
     {
-
+        float sqrDistance = (agent.playerTransform.position - agent.navMeshAgent.destination).sqrMagnitude;
+        
+        if (sqrDistance < agent.weapons.currentWeapon.shootingRange * agent.weapons.currentWeapon.shootingRange)
+        {
+            agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
+        }
+        
         if (!agent.navMeshAgent.hasPath)
         {
             agent.navMeshAgent.destination = agent.playerTransform.position;
         }
+        
         _timer -= Time.deltaTime;
         if (_timer < 0.0f)
         {
-            float sqrDistance = (agent.playerTransform.position - agent.navMeshAgent.destination).sqrMagnitude;
             if (sqrDistance > agent.config.maxDistance*agent.config.maxDistance)
             {
                 agent.navMeshAgent.destination = agent.playerTransform.position;
             }
             _timer = agent.config.maxTime;
-            
         }
     }
 
