@@ -7,22 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Smooth_Male_Suit (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/Smooth_Male_Suit (1).fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyAr.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyAr.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyBat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyPistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/SwatEnemy/SwatEnemyPistol.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Radio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Radio.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Floor_Meeting.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Floor_Meeting.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/Wall.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/WallDoorWay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets/Static/Office/WallDoorWay.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/mouseOBJ.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/mouseOBJ.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leve2 test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneFixed.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneFixed.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +61,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
       </list>
     </option>
   </component>

@@ -28,8 +28,7 @@ public class ActiveWeapon : MonoBehaviour
     [SerializeField] private RaycastWeapon defWeapon;
 
     public bool PickupWeapon {get => _pickupWeapon;}
-
-    public static event Action UpdateFireAmmo;
+    
     void Start()
     {
         
@@ -63,7 +62,7 @@ public class ActiveWeapon : MonoBehaviour
                 if (Input.GetButton("Fire1"))
                 {
                     weapon.StartFiring();
-                    UpdateFireAmmo?.Invoke();
+                    GameEvents.events.CallUpdateAmmo();
                 }
 
                 if (Input.GetButtonUp("Fire1"))

@@ -42,5 +42,17 @@ public class GameEvents : MonoBehaviour
     {
         OnGunShotCamera?.Invoke();
     }
+
+    
+    public event Action OnUpdateAmmo;
+    public void CallUpdateAmmo()
+    {
+        OnUpdateAmmo?.Invoke();
+    }
+
+    public void CallUpdateAmmoDelayed(float delay)
+    {
+        Invoke("CallUpdateAmmo",delay);
+    }
     
 }

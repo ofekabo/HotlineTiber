@@ -19,13 +19,13 @@ public class PlayerUIManager : MonoBehaviour
    {
       HealthSlider.maxValue = playerHealthScript.maxHealth;
       HealthSlider.value = playerHealthScript.maxHealth;
+      
       PlayerHealth.UpdateInterface += HandleHealthSlider;
-      ActiveWeapon.UpdateFireAmmo += HandleFireWeaponText;
-      WeaponPickup.UpdatePickupWeapon += HandleFireWeaponText;
+      GameEvents.events.OnUpdateAmmo += HandleAmmoText;
       
       try
       {
-         ammoText.text = $"Ammo : {playerWeapons.weapon.CurrentAmmo}";
+         Invoke("HandleAmmoText", 0.1f);
       }
       catch (NullReferenceException e)
       {
@@ -39,7 +39,7 @@ public class PlayerUIManager : MonoBehaviour
       HealthSlider.value = playerHealthScript.currentHealth;
    }
 
-   void HandleFireWeaponText()
+   void HandleAmmoText()
    {
       ammoText.text = $"Ammo : {playerWeapons.weapon.CurrentAmmo}";
    }

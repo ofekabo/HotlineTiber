@@ -12,7 +12,6 @@ public class WeaponPickup : MonoBehaviour
 
     // AI
     
-    public static event Action UpdatePickupWeapon;
     private void OnTriggerEnter(Collider other)
     {
         AiWeapons aiWeapon = other.gameObject.GetComponent<AiWeapons>();
@@ -36,21 +35,23 @@ public class WeaponPickup : MonoBehaviour
             {
                 RaycastWeapon newWeapon = Instantiate(weaponFab);
                 activeWeapon.Equip(newWeapon);
-                UpdatePickupWeapon?.Invoke();
+                GameEvents.events.CallUpdateAmmo();
             }
             
             if (activeWeapon.weapon.weaponName != weaponName)
             {
                 RaycastWeapon newWeapon = Instantiate(weaponFab);
                 activeWeapon.Equip(newWeapon);
-                UpdatePickupWeapon?.Invoke();
+                GameEvents.events.CallUpdateAmmo();
             }
             
             if(activeWeapon.weapon.weaponName == weaponName)
             {
                 activeWeapon.weapon.AddAmmo(amountToAdd);
-                UpdatePickupWeapon?.Invoke();
+                GameEvents.events.CallUpdateAmmoDelayed(0.05f);
             }
+            GameEvents.events.CallUpdateAmmo();
+            
             Destroy(gameObject);
         }
     }
