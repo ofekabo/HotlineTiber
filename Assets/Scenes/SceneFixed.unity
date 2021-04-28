@@ -16780,6 +16780,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3568756028081322012, guid: bd9ec36be43b7b148b5adcac4a77cfe8, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5034715739155536120, guid: bd9ec36be43b7b148b5adcac4a77cfe8, type: 3}
       propertyPath: m_Name
       value: CoverTable
@@ -18540,7 +18544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5104470740769082953, guid: 33a811aaecab2444cbd487c693e9bb52, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.41
+      value: -3.86
       objectReference: {fileID: 0}
     - target: {fileID: 5104470740769082953, guid: 33a811aaecab2444cbd487c693e9bb52, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18548,7 +18552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5104470740769082953, guid: 33a811aaecab2444cbd487c693e9bb52, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.15
+      value: 4.72
       objectReference: {fileID: 0}
     - target: {fileID: 5104470740769082953, guid: 33a811aaecab2444cbd487c693e9bb52, type: 3}
       propertyPath: m_LocalRotation.w
