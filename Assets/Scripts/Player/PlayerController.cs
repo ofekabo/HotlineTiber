@@ -53,7 +53,8 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         isDancing = false;
         weapon = GetComponentInChildren<RaycastWeapon>();
-        // _rb.isKinematic = false;
+        // _rb.isKinematic = 
+        
     }
 
     // Update is called once per frame

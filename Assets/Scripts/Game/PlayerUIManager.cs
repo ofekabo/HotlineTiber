@@ -25,7 +25,7 @@ public class PlayerUIManager : MonoBehaviour
       
       try
       {
-         Invoke("HandleAmmoText", 0.1f);
+         Invoke(nameof(HandleAmmoText), 0.1f);
       }
       catch (NullReferenceException e)
       {

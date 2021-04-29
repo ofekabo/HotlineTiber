@@ -38,7 +38,6 @@ public class InnocentLocomotion : MonoBehaviour
     private void RandomBoolAnimation()
     {
         float randomValue = Random.value;
-        Debug.Log(randomValue);
         if (randomValue <= 0.5f)
         {
             return;

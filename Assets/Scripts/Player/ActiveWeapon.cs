@@ -31,14 +31,14 @@ public class ActiveWeapon : MonoBehaviour
     
     void Start()
     {
-        
-
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
         {
             Equip(existingWeapon);
+            
         }
-        
+        rigController.SetBool(HostlerWeapon, true);
+
     }
 
     // RaycastWeapon GetWeapon(int index)
