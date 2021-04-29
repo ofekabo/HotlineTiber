@@ -62,7 +62,8 @@ public class PlayerController : MonoBehaviour
         Aim();
         LookAtObject();
         Roll();
-       
+        playerVelocity.y += -9.81f * Time.deltaTime;
+       _cc.Move(playerVelocity * Time.deltaTime);
         // if(_rb.velocity.magnitude <= 0.01f) { return; }
         // _rb.velocity = Vector3.zero;
     }

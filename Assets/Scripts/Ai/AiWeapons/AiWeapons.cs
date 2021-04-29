@@ -113,11 +113,15 @@ public class AiWeapons : MonoBehaviour
     {
         if (currentWeapon)
         {
-            currentWeapon.transform.SetParent(null);
-            currentWeapon.gameObject.GetComponent<BoxCollider>().enabled = true;
-            currentWeapon.gameObject.AddComponent<Rigidbody>();
-            currentWeapon = null;
+            Destroy(currentWeapon.gameObject);
         }
+        // if (currentWeapon)
+        // {
+        //     currentWeapon.transform.SetParent(null);
+        //     currentWeapon.gameObject.GetComponent<BoxCollider>().enabled = true;
+        //     currentWeapon.gameObject.AddComponent<Rigidbody>();
+        //     currentWeapon = null;
+        // }
     }
 
     public bool HasWeapon()
