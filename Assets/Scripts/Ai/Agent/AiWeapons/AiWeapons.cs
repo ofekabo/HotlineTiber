@@ -24,7 +24,7 @@ public class AiWeapons : MonoBehaviour
     public bool showWeaponRange;
     public Transform meleeShootingPoint;
     [Header("Attack State")]
-    [SerializeField][Range(0.0f,0.4f)] float delayTillAttacking;
+    [SerializeField][Range(0.02f,0.4f)] float delayTillAttacking;
     public float DelayTillAttacking { get => delayTillAttacking; }
     
     void Awake()

@@ -8,7 +8,7 @@ public class AiAttackPlayerState : AiState
 {
     
     private LayerMask layerProp;
-    private float delayInterval;
+    private float _delayInterval;
 
     public AiStateId GetId()
     {
@@ -63,14 +63,14 @@ public class AiAttackPlayerState : AiState
         bool playerInSight = RaycastCheckIsPlayerInSight(agent, sqrDistancePfromA,sqrShootingRange);
         if (playerInSight)
         {
-            delayInterval += Time.deltaTime;
-            if(!agent.weapons.weaponActive && delayInterval > agent.weapons.DelayTillAttacking)
+            _delayInterval += Time.deltaTime;
+            if(!agent.weapons.weaponActive && _delayInterval > agent.weapons.DelayTillAttacking)
                 agent.weapons.weaponActive = true;
         }
         if(!playerInSight)
         {
             agent.weapons.weaponActive = false;
-            delayInterval = 0;
+            _delayInterval = 0;
         }
     }
     
