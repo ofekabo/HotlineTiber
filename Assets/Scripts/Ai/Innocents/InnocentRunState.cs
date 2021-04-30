@@ -24,6 +24,11 @@ public class InnocentRunState : InnocentState
         {
             innocent.navMeshAgent.destination = GenerateRandomDestination(innocent);
         }
+
+        if ((innocent.transform.position - innocent.navMeshAgent.destination).magnitude < 2f)
+        {
+            innocent.navMeshAgent.destination = GenerateRandomDestination(innocent);
+        }
     }
 
     public void Exit(AiInnocent innocent)

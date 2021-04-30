@@ -196,7 +196,7 @@ public class RaycastWeapon : MonoBehaviour
             var radioScript = hitInfo.collider.GetComponent<RadioScript>();
             if (radioScript)
             {
-                radioScript.ReducePitch();
+                radioScript.HandleHitRadio();
             }
         }
 

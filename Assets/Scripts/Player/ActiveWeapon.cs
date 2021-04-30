@@ -25,6 +25,7 @@ public class ActiveWeapon : MonoBehaviour
 
     private bool isHolstered;
     private bool _pickupWeapon;
+    private PlayerController _pc;
 
     [Header("Default Weapon")]
     [SerializeField] private RaycastWeapon defWeapon;
@@ -33,7 +34,7 @@ public class ActiveWeapon : MonoBehaviour
     
     void Start()
     {
-        
+        _pc = GetComponent<PlayerController>();
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
         {
@@ -60,7 +61,11 @@ public class ActiveWeapon : MonoBehaviour
         if (weapon)
         {
             isHolstered = rigController.GetBool(HostlerWeapon);
-            if(isHolstered) { weaponIKRig.weight = 0f; }
+            if (isHolstered)
+            {
+                weaponIKRig.weight = 0f;
+                _pc.ClappingMechanic();
+            }
             if (!isHolstered)
             {
                 weaponIKRig.weight = 1f;

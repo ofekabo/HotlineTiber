@@ -24,32 +24,10 @@ public class RadioScript : MonoBehaviour
         
     }
 
-    // // Update is called once per frame
-    // void Update()
-    // {
-    //
-    //     Collider[] hits = (Physics.OverlapBox(transform.position, new Vector3(1.5f, 1.5f, 1.5f), transform.rotation));
-    //     foreach (var hit in hits)
-    //     {
-    //         if (hit.gameObject.GetComponent<RaycastWeapon>() && hit.GetInstanceID() != _lastBullet)
-    //         {
-    //             
-    //             ReducePitch();
-    //             _lastBullet = GetInstanceID();
-    //
-    //         }
-    //
-    //        
-    //
-    //     }
-    //
-    //
-    // }
-
-    public void ReducePitch()
-    { // -0.4 - 0.4
-
-       _as.clip = songs[UnityEngine.Random.Range(0,songs.Length)];
+    public void HandleHitRadio()
+    {
+        _as.clip = songs[UnityEngine.Random.Range(0,songs.Length)];
+        _as.Play();
         _as.pitch = UnityEngine.Random.Range(0.5f, 1.5f);
     }
 

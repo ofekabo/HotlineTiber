@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float turnSpeed;
 
     [SerializeField] private GameObject mouseObject;
-    [SerializeField] private Rig mainIKRig;
+    [SerializeField] private Rig[] rigs;
 
 
     #region Private Refrences
@@ -62,7 +62,6 @@ public class PlayerController : MonoBehaviour
     {
         Aim();
         LookAtObject();
-        Roll();
         playerVelocity.y += -9.81f * Time.deltaTime;
        _cc.Move(playerVelocity * Time.deltaTime);
         // if(_rb.velocity.magnitude <= 0.01f) { return; }
@@ -142,39 +141,28 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // private void ClappingMechanic()
-    // {
-    //     if (Input.GetKey(KeyCode.E))
-    //     {
-    //         _anim.SetBool("Clapping", true);
-    //         isDancing = true;
-    //         // mainIKRig.weight = 0.0f;
-    //     }
-    //     else
-    //     {
-    //         _anim.SetBool("Clapping", false);
-    //
-    //         isDancing = false;
-    //         // mainIKRig.weight = 1.0f;
-    //     }
-    // }
-
-    private void Roll()
+    public void ClappingMechanic()
     {
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     _anim.SetTrigger("Roll");
-        //     
-        // }
-    }
+        if (Input.GetKey(KeyCode.E))
+        {
+            _anim.SetBool("Clapping", true);
+            isDancing = true;
+            foreach (var rig in rigs)
+            {
+                rig.weight = 0.0f;
+            }
 
-    void SetIK()
-    {
-        mainIKRig.weight = 0.0f;
-    }
+        }
+        else
+        {
+            _anim.SetBool("Clapping", false);
 
-    void ResetIK()
-    {
-        mainIKRig.weight = 1.0f;
+            isDancing = false;
+            foreach (var rig in rigs)
+            {
+                rig.weight = 1;
+            }
+        }
     }
+    
 }
