@@ -23,7 +23,6 @@ public class InnocentHealth : Health
     {
         if (_innocent.stateMachine.currentState == InnocentStateId.Idle)
         {
-            _innocent.locomotion.anim.SetTrigger("Run1");
             _innocent.stateMachine.ChangeState(InnocentStateId.Run);
         }
         

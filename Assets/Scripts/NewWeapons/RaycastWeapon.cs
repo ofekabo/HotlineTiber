@@ -147,10 +147,12 @@ public class RaycastWeapon : MonoBehaviour
         ray.origin = start;
         ray.direction = direction;
         
-       
+        
         
         Debug.DrawRay(ray.origin, ray.direction * distance, Color.blue, 3);
 
+        #region Raycast Bullet
+        
         if (Physics.Raycast(ray, out hitInfo, distance, layer))
         {
             hitEffect.transform.position = hitInfo.point;
@@ -205,6 +207,8 @@ public class RaycastWeapon : MonoBehaviour
             // bullet.tracer.SetPosition(0,shootingPoint.position);
             // bullet.tracer.SetPosition(1,hitInfo.point);
         }
+        
+        #endregion
     }
 
 

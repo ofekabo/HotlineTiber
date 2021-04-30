@@ -8,8 +8,8 @@ public class AiAttackPlayerState : AiState
 {
     
     private LayerMask layerProp;
-   
-    
+    private float delayInterval;
+
     public AiStateId GetId()
     {
         return AiStateId.AttackPlayer;
@@ -24,8 +24,6 @@ public class AiAttackPlayerState : AiState
 
     public void Update(AiAgent agent)
     {
-        
-        
         float sqrDistancePfromA = (agent.playerTransform.position - agent.weapons.currentWeapon.shootingPoint.position).sqrMagnitude;
         float sqrShootingRange = agent.weapons.currentWeapon.shootingRange * agent.weapons.currentWeapon.shootingRange;
         
@@ -65,15 +63,15 @@ public class AiAttackPlayerState : AiState
         bool playerInSight = RaycastCheckIsPlayerInSight(agent, sqrDistancePfromA,sqrShootingRange);
         if (playerInSight)
         {
-            if(!agent.weapons.weaponActive)
+            delayInterval += Time.deltaTime;
+            if(!agent.weapons.weaponActive && delayInterval > agent.weapons.DelayTillAttacking)
                 agent.weapons.weaponActive = true;
         }
         if(!playerInSight)
         {
             agent.weapons.weaponActive = false;
+            delayInterval = 0;
         }
-        
-            
     }
     
     bool RaycastCheckIsPlayerInSight(AiAgent agent , float sqrDistancePfromA, float sqrShootingRange)

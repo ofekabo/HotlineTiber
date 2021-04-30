@@ -18,10 +18,12 @@ public class ActiveWeapon : MonoBehaviour
     private RaycastWeapon[] equipped_weapons = new RaycastWeapon[2];
     private int activeWeaponIndex;
     
+    [Header("Rigs")]
+    [SerializeField] Rig weaponIKRig;
     public Animator rigController;
+    
 
     private bool isHolstered;
-
     private bool _pickupWeapon;
 
     [Header("Default Weapon")]
@@ -31,6 +33,7 @@ public class ActiveWeapon : MonoBehaviour
     
     void Start()
     {
+        
         RaycastWeapon existingWeapon = GetComponentInChildren<RaycastWeapon>();
         if (existingWeapon)
         {
@@ -57,8 +60,10 @@ public class ActiveWeapon : MonoBehaviour
         if (weapon)
         {
             isHolstered = rigController.GetBool(HostlerWeapon);
+            if(isHolstered) { weaponIKRig.weight = 0f; }
             if (!isHolstered)
             {
+                weaponIKRig.weight = 1f;
                 if (Input.GetButton("Fire1"))
                 {
                     weapon.StartFiring();

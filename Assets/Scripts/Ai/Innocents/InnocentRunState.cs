@@ -14,6 +14,7 @@ public class InnocentRunState : InnocentState
 
     public void Enter(AiInnocent innocent)
     {
+        innocent.locomotion.anim.SetTrigger("Run1");
         innocent.navMeshAgent.destination = GenerateRandomDestination(innocent);
     }
 

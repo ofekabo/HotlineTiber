@@ -22,9 +22,10 @@ public class AiWeapons : MonoBehaviour
     [Header("Debugging")]
     [Tooltip("Will only be visualized when ai has target")]
     public bool showWeaponRange;
-
-
     public Transform meleeShootingPoint;
+    [Header("Attack State")]
+    [SerializeField][Range(0.0f,0.4f)] float delayTillAttacking;
+    public float DelayTillAttacking { get => delayTillAttacking; }
     
     void Awake()
     {

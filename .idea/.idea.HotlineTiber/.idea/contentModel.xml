@@ -71,6 +71,7 @@
           <e p="ReadMe.txt" t="Include" />
         </e>
         <e p="ParticleEffectOnCollision.cs" t="Include" />
+        <e p="PlayerHandleNearbyAiStates.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Ai" t="Include">
             <e p="AiAgentConfig.cs" t="Include" />
