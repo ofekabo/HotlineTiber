@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneFixed.unity
     guid: 5eda15e19a8c6c44bb16c5b4ef5a516a
+  - enabled: 1
+    path: Assets/Scenes/ItamarLevel.unity
+    guid: 420cc52d969f3e34eb13306381fd0710
   m_configObjects: {}
