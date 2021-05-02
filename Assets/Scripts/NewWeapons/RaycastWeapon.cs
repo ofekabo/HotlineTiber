@@ -157,15 +157,17 @@ public class RaycastWeapon : MonoBehaviour
         {
             hitEffect.transform.position = hitInfo.point;
             hitEffect.transform.forward = hitInfo.normal;
-            
-            end = hitInfo.point;
             hitEffect.Emit(1);
+
+            end = hitInfo.point;
+            
             try
             {
                 bullet.tracer.transform.position = hitInfo.point;
             }
             catch (MissingReferenceException e)
             {
+                
             }
           
             bullet.time = bulletLifeTime;

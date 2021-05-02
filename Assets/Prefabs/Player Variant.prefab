@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boxSize: 21.58
   alpha: 0.2
-  drawGizmos: 1
+  drawGizmos: 0
   offset: {x: 0, y: 2.01, z: 0}
 --- !u!1 &1307187761
 GameObject:
@@ -412,7 +412,9 @@ MonoBehaviour:
   moveSpeed: 7.8
   turnSpeed: 5
   mouseObject: {fileID: 0}
-  mainIKRig: {fileID: 970107448151637649}
+  rigs:
+  - {fileID: 970107448151637649}
+  - {fileID: 8994403405362766730}
   isDancing: 0
 --- !u!114 &8994403404910041903
 MonoBehaviour:
@@ -629,12 +631,12 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 4.48
-  m_Radius: 0.68
+  m_Radius: 0.7
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 2.2, z: 0}
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1612632613807865677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,7 +2147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7224446765803108506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.012, y: 3.054, z: -0.158}
+  m_LocalPosition: {x: 0.012, y: 3.409, z: -0.158}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2228860911805499052}

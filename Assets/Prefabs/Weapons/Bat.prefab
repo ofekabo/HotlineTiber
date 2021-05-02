@@ -78,13 +78,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFiring: 0
   fireRate: 0.5
-  bulletSpeed: 40
+  bulletSpeed: 20
   bulletDrop: 0
   damage: 20
   weaponForce: 3
   maxAmmo: 0
   initAmmo: 9999
-  shootingRange: 0.3
+  shootingRange: 0.5
   inAccuracy: 0
   randomSpeed: 0
   nextRandom: 0

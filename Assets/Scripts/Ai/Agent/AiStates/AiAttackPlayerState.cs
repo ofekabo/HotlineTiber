@@ -76,6 +76,7 @@ public class AiAttackPlayerState : AiState
     
     bool RaycastCheckIsPlayerInSight(AiAgent agent , float sqrDistancePfromA, float sqrShootingRange)
     {
+        if(agent.weapons.currentWeapon.weaponType == RaycastWeapon.WeaponType.MeleeWeapon) { return true; }
         Ray ray = new Ray(agent.weapons.currentWeapon.shootingPoint.position,agent.weapons.currentWeapon.shootingPoint.forward);
         
         if(agent.weapons.showWeaponRange)
