@@ -24,11 +24,11 @@ public class DissolveAnim : MonoBehaviour
 
 
     [ContextMenu("Activate Death")]
-    public void Death()
+    public void DissolveDeath()
     {
         LeanTween.value(0, 1f, tweenTime).setOnUpdate((value) =>
         {
-            _mat.SetFloat("_DissolveAmount",value);
+            _skinnedMesh.material.SetFloat("_DissolveAmount",value);
         });
     }
 }
