@@ -24,6 +24,11 @@ public class Health : MonoBehaviour
     public float _blinkTimer;
     public GameObject bloodVFX;
     
+    
+    [Header("Death Effect")]
+    private DissolveAnim _dissolveAnim;
+    private bool _isDead;
+    public DissolveAnim DissolveAnim { get => _dissolveAnim; }
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +36,8 @@ public class Health : MonoBehaviour
         _skinnedMesh = GetComponentInChildren<SkinnedMeshRenderer>();
         healthBar = GetComponentInChildren<UIHealthBar>();
         currentHealth = maxHealth;
-        
+        _isDead = false;
+
         var rigidbodies = GetComponentsInChildren<Rigidbody>();
         foreach (var rb in rigidbodies) // going trough all rigidbodies and adding HitBox Script
         {
@@ -44,6 +50,8 @@ public class Health : MonoBehaviour
         }
 
         OnStart();
+        _dissolveAnim = GetComponent<DissolveAnim>();
+        
     }
 
 
@@ -61,6 +69,7 @@ public class Health : MonoBehaviour
         }
         if (currentHealth <= 0.0f)
         {
+            _isDead = true;
             Die(direction,force);
             if(healthBar)
                 healthBar.gameObject.SetActive(false);
@@ -108,6 +117,16 @@ public class Health : MonoBehaviour
     {
         GameObject bloodCloneVFX = Instantiate(bloodVFX,pos,quaternion.identity);
         Destroy(bloodCloneVFX,0.9f);
+    }
+
+    public void DeathDissolveAnimation()
+    {
+        if(!_isDead) { return; }
+        var rigidbodies = GetComponentsInChildren<Rigidbody>();
+        foreach (var rb in rigidbodies) // going trough all rigidbodies and adding HitBox Script
+        {
+            StartCoroutine((_dissolveAnim.LiftInAir(rb)));
+        }
     }
     
 }

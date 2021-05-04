@@ -51,6 +51,10 @@ public class RaycastWeapon : MonoBehaviour
     public float PNextFire;
 
     [Header("Read Only")] [SerializeField] float currentAmmo;
+    
+    [Header("Weapon Dissolve Effect")]
+    private DissolveAnim _dissolveAnim;
+    public DissolveAnim DissolveAnim { get => _dissolveAnim; }
 
     public float CurrentAmmo
     {
@@ -74,6 +78,11 @@ public class RaycastWeapon : MonoBehaviour
         currentAmmo = initAmmo;
 
         _isPlayer = transform.root.GetComponent<PlayerController>();
+        _dissolveAnim = GetComponent<DissolveAnim>();
+        if (_dissolveAnim == null)
+        {
+            gameObject.AddComponent<DissolveAnim>();
+        }
     }
 
 

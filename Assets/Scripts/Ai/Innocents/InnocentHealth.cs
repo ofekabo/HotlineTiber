@@ -17,6 +17,7 @@ public class InnocentHealth : Health
         deathState.Direction = direction;
         deathState.ForceFromWep = force;
         _innocent.capsuleCollider.enabled = false;
+        DeathDissolveAnimation();
     }
 
     public override void OnDamage(Vector3 direction, float force)

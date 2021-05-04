@@ -117,6 +117,8 @@ public class AiWeapons : MonoBehaviour
             currentWeapon.transform.SetParent(null);
             currentWeapon.gameObject.GetComponent<BoxCollider>().enabled = true;
             currentWeapon.gameObject.AddComponent<Rigidbody>();
+            currentWeapon.DissolveAnim.Invoke("DissolveDeath",0.5f);
+            Destroy(currentWeapon.gameObject,currentWeapon.DissolveAnim.TweenTime + 0.5f);
             currentWeapon = null;
         }
     }

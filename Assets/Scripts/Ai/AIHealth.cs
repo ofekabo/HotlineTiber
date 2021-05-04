@@ -6,6 +6,7 @@ using UnityEngine;
 public class AIHealth : Health
 {
     private AiAgent agent;
+    
 
     public override void OnStart()
     {
@@ -18,7 +19,7 @@ public class AIHealth : Health
         deathState.Direction = direction;
         deathState.ForceFromWep = force;
         agent.capsuleCollider.enabled = false;
-        
+        DeathDissolveAnimation();
 
 
     }
