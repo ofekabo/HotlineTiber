@@ -13,7 +13,7 @@ public class HealthPickup : MonoBehaviour
     private void Start()
     {
         // temp
-        GetComponent<Renderer>().material.color = Color.green;
+       
     }
 
     private void OnTriggerEnter(Collider other)

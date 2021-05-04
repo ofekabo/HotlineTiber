@@ -6,9 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/T_Texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/T_Texture.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Bat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/HealthPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/HealthPickup.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/HealthPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/HealthPickup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/HealthPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" />
       </list>
     </option>
   </component>
@@ -165,7 +172,7 @@
       <workItem from="1619958183750" duration="961000" />
       <workItem from="1620085029350" duration="283000" />
       <workItem from="1620085331920" duration="725000" />
-      <workItem from="1620121041580" duration="4291000" />
+      <workItem from="1620121041580" duration="4655000" />
     </task>
     <servers />
   </component>
