@@ -71,6 +71,7 @@
             </e>
           </e>
         </e>
+        <e p="ExplosiveProp.cs" t="Include" />
         <e p="Graphics" t="Include">
           <e p="DistanceDissolveTarget.cs" t="Include" />
         </e>
