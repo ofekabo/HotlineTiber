@@ -131,7 +131,7 @@ public class AiWeapons : MonoBehaviour
     public Transform SetTarget(Transform target)
     {
 
-        aiTarget.position = new Vector3(target.position.x, UnityEngine.Random.Range(0.5f,1f), target.position.z);
+        aiTarget.position = new Vector3(target.position.x, UnityEngine.Random.Range(1f,1.8f), target.position.z);
         aiTarget.position += UnityEngine.Random.insideUnitSphere * currentWeapon.inAccuracy;
         return aiTarget;
     }

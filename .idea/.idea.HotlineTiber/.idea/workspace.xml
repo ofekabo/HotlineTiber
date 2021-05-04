@@ -5,14 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ai/AIHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ai/AIHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prop.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,26 +15,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ExplosiveProp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/HealthPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AIHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/ExplosiveProp.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,7 +61,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -89,7 +70,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -174,6 +155,7 @@
       <workItem from="1620085029350" duration="283000" />
       <workItem from="1620085331920" duration="725000" />
       <workItem from="1620121041580" duration="6536000" />
+      <workItem from="1620165267412" duration="219000" />
     </task>
     <servers />
   </component>
