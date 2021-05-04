@@ -5,13 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Prefabs/InnocentTShirtFemale.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/weaponMat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/weaponMat.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,53 +18,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../TempProjects/RandomProjects/RythmDash/Assets/Script/Player/PlayerActions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/ParticleEffectOnCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/HitBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiDeathState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiFindWeaponState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiIdleState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiChasePlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiAgentConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AIHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/HealthPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/InnocentHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Innocent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentDeathState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/AiInnocent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiLocomotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentIdleState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerUIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentLocomotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/ElevatorScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerHandleNearbyAiStates.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiStates/AiAttackPlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/AiWeapons/AiWeapons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ActiveWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Innocents/InnocentRunState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RadioScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiStates/AiAttackPlayerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Health.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -109,7 +61,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -118,7 +70,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -200,6 +152,8 @@
       <workItem from="1619765356941" duration="3307000" />
       <workItem from="1619772590785" duration="1921000" />
       <workItem from="1619958183750" duration="961000" />
+      <workItem from="1620085029350" duration="283000" />
+      <workItem from="1620085331920" duration="725000" />
     </task>
     <servers />
   </component>

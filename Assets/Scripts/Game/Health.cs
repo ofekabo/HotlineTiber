@@ -79,17 +79,16 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-        if (hitEffect)
+        if (!hitEffect) { return; }
+        
+        _blinkTimer -= Time.deltaTime;
+        float lerp = Mathf.Clamp01(_blinkTimer / blinkDuration);
+        float intesnity = (lerp * blinkIntensity) +1f;
+        foreach (var mat in _skinnedMesh.materials)
         {
-            _blinkTimer -= Time.deltaTime;
-            float lerp = Mathf.Clamp01(_blinkTimer / blinkDuration);
-            float intesnity = (lerp * blinkIntensity) +1f;
-            foreach (var mat in _skinnedMesh.materials)
-            {
-                mat.color = Color.white * intesnity;
-           
-            } 
+            mat.SetColor("_Albedo", Color.white * intesnity);
         }
+        
     }
 
     public virtual void OnStart()

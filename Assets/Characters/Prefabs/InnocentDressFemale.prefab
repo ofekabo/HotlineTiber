@@ -1860,9 +1860,9 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.4
   m_Speed: 2
-  m_Acceleration: 40
+  m_Acceleration: 4
   avoidancePriority: 50
-  m_AngularSpeed: 720
+  m_AngularSpeed: 360
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -2097,11 +2097,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8051915825342738582, guid: 839d16cfb5a6f244ea925ce9f4d2b5af, type: 3}
-  - {fileID: 1221923065169841493, guid: 839d16cfb5a6f244ea925ce9f4d2b5af, type: 3}
-  - {fileID: -5399930768713578650, guid: 839d16cfb5a6f244ea925ce9f4d2b5af, type: 3}
-  - {fileID: 5878094081397827806, guid: 839d16cfb5a6f244ea925ce9f4d2b5af, type: 3}
-  - {fileID: -8634379476891219282, guid: 839d16cfb5a6f244ea925ce9f4d2b5af, type: 3}
+  - {fileID: 2100000, guid: 453f6b608f1dfb14b93a65e289e41874, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2126,7 +2122,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -5673117758631265011, guid: 839d16cfb5a6f244ea925ce9f4d2b5af, type: 3}
+  m_Mesh: {fileID: -5673117758631265011, guid: b53b9be75ccf32f468547aa1b1690628, type: 3}
   m_Bones:
   - {fileID: 6586984475956427179}
   - {fileID: 8801706420324773939}
