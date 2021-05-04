@@ -22,6 +22,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
@@ -155,7 +156,7 @@
       <workItem from="1620085029350" duration="283000" />
       <workItem from="1620085331920" duration="725000" />
       <workItem from="1620121041580" duration="6536000" />
-      <workItem from="1620165267412" duration="219000" />
+      <workItem from="1620165267412" duration="708000" />
     </task>
     <servers />
   </component>

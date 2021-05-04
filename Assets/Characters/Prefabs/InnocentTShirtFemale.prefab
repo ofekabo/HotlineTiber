@@ -980,9 +980,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1392db7bc271cf447a89b5b311151033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heightToGo: 10
   delayToAir: 2.5
   tweenTime: 2
-  liftTime: 2
+  liftTime: 4
+  startDissolveOffset: -2.71
 --- !u!1 &4017563976447260266
 GameObject:
   m_ObjectHideFlags: 0

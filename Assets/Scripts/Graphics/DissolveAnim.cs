@@ -9,9 +9,11 @@ public class DissolveAnim : MonoBehaviour
 {
     private SkinnedMeshRenderer _skinnedMesh;
     private MeshRenderer _meshRenderer;
+    [SerializeField] private float heightToGo = 7;
     [SerializeField] float delayToAir = 2.5f;
     [SerializeField] float tweenTime = 2f;
-    [SerializeField] float liftTime = 2f;
+    [SerializeField] float liftTime = 4f;
+    [SerializeField] [Range(-4f, -0.2f)] private float startDissolveOffset = -0.8f;
     public float TweenTime { get=> tweenTime; }
     
     
@@ -45,8 +47,8 @@ public class DissolveAnim : MonoBehaviour
     {
         yield return new WaitForSeconds(delayToAir);
         rb.isKinematic = true;
-        LeanTween.moveY(gameObject,2f,liftTime).setEaseInCubic();
-        yield return new WaitForSeconds(liftTime);
+        LeanTween.moveY(gameObject,heightToGo,liftTime).setEaseInCubic();
+        yield return new WaitForSeconds(liftTime + startDissolveOffset);
         DissolveDeath();
         yield return new WaitForSeconds(tweenTime);
         LeanTween.cancel(gameObject);
