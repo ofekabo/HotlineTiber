@@ -81,7 +81,7 @@ MonoBehaviour:
   fireRate: 0.5
   bulletSpeed: 20
   bulletDrop: 0
-  damage: 20
+  damage: 12
   weaponForce: 3
   maxAmmo: 0
   initAmmo: 9999
