@@ -80,7 +80,7 @@ public class ActiveWeapon : MonoBehaviour
                     weapon.StopFiring();
                     if (weapon.weaponID == 0)
                     {
-                        weapon.PNextFire = Time.time;
+                        weapon.PNextFire = Time.time + 0.08f;
                     }
                    
                 }
