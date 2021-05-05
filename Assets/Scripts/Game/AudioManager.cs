@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] weaponSounds;
     [SerializeField] AudioClip[] impactPropSounds;
     [SerializeField] AudioClip[] fleshImpactSounds;
+    [SerializeField] AudioClip explosionSound;
     private AudioSource _adSource;
     private int _weaponID;
 
@@ -19,6 +20,7 @@ public class AudioManager : MonoBehaviour
         GameEvents.events.OnWeaponPickup += PlayGunshotSound;
         GameEvents.events.PlayImpactSound += DelayedImpactSound;
         GameEvents.events.PlayFleshImpactSound += HandleFleshImpactSound;
+        GameEvents.events.PlayeExplosionSound += HandleExplosionSound;
     }
 
     
@@ -49,5 +51,10 @@ public class AudioManager : MonoBehaviour
     {
         if(fleshImpactSounds.Length > 0)
             _adSource.PlayOneShot(fleshImpactSounds[Random.Range(0,impactPropSounds.Length)]);
+    }
+
+    private void HandleExplosionSound()
+    {
+        _adSource.PlayOneShot(explosionSound,0.5f);
     }
 }

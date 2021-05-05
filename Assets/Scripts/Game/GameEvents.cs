@@ -67,4 +67,11 @@ public class GameEvents : MonoBehaviour
     {
         PlayFleshImpactSound?.Invoke();
     }
+    
+    public event Action PlayeExplosionSound;
+
+    public void CallExplosionSound()
+    {
+        PlayeExplosionSound?.Invoke();
+    }
 }

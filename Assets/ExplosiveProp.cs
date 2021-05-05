@@ -7,8 +7,10 @@ using UnityEngine.Animations.Rigging;
 
 public class ExplosiveProp : MonoBehaviour
 {
-    [Header("Explosion CFG")]
+    [Header("Effect")]
     [SerializeField] GameObject explosionEffect;
+    [SerializeField] Transform explosionSpawnPoint;
+    [Header("Explosion CFG")]
     [SerializeField] float radius;
     [SerializeField] float force = 700;
     [SerializeField] float damage = 6f;
@@ -17,9 +19,11 @@ public class ExplosiveProp : MonoBehaviour
     [SerializeField] bool showGizmos;
     [SerializeField][Range(0.2f,1f)] float alpha = 0.5f;
     
+
+
     public void Explode()
     {
-        GameObject eplxosionSFXClone = Instantiate(explosionEffect,transform.position,transform.rotation);
+        GameObject eplxosionSFXClone = Instantiate(explosionEffect,explosionSpawnPoint.position,transform.rotation);
         
         Collider[] _colliders = Physics.OverlapSphere(transform.position,radius);
         {
@@ -44,9 +48,9 @@ public class ExplosiveProp : MonoBehaviour
                 }
                 
             }
-
-            Destroy(eplxosionSFXClone, 1.5f);
-            Destroy(gameObject);
+            GameEvents.events.CallExplosionSound();
+            Destroy(eplxosionSFXClone, 2.2f);
+            Destroy(gameObject,2.2f);
         }
     }
 
