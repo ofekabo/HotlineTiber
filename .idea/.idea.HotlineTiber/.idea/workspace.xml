@@ -23,6 +23,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiStates/AiAgent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiStates/AiAttackPlayerState.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
@@ -157,6 +159,7 @@
       <workItem from="1620085331920" duration="725000" />
       <workItem from="1620121041580" duration="6536000" />
       <workItem from="1620165267412" duration="708000" />
+      <workItem from="1620175661502" duration="665000" />
     </task>
     <servers />
   </component>

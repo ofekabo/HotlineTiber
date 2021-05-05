@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
 public class AiAttackPlayerState : AiState
@@ -24,6 +25,7 @@ public class AiAttackPlayerState : AiState
 
     public void Update(AiAgent agent)
     {
+        
         float sqrDistancePfromA = (agent.playerTransform.position - agent.weapons.currentWeapon.shootingPoint.position).sqrMagnitude;
         float sqrShootingRange = agent.weapons.currentWeapon.shootingRange * agent.weapons.currentWeapon.shootingRange;
         
