@@ -29101,7 +29101,7 @@ MonoBehaviour:
   damage: 45
   weaponForce: 50
   maxAmmo: 0
-  initAmmo: 50
+  initAmmo: 85
   shootingRange: 0
   inAccuracy: 0
   randomSpeed: 0
@@ -29147,6 +29147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1392db7bc271cf447a89b5b311151033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heightToGo: 7
   delayToAir: 2.5
   tweenTime: 2
   liftTime: 2
+  startDissolveOffset: -0.8

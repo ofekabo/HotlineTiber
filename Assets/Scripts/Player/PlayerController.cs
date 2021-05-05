@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private const string Horizontal = "Horizontal";
 
     private const string Vertical = "Vertical";
-
+    
     private float horizontal;
     private float vertical;
     [Header("Movement")]
