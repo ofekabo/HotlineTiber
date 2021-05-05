@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 347701649798600193}
   - component: {fileID: 347701649798600192}
   - component: {fileID: 1412193045503670143}
+  - component: {fileID: 7427267777198402766}
   m_Layer: 0
   m_Name: WeaponPickup_Bat
   m_TagString: Untagged
@@ -178,6 +179,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!208 &7427267777198402766
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347701649798600194}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!65 &7399251422700111303
 BoxCollider:
   m_ObjectHideFlags: 0
