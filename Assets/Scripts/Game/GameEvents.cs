@@ -55,4 +55,16 @@ public class GameEvents : MonoBehaviour
         Invoke("CallUpdateAmmo",delay);
     }
     
+    public event Action PlayImpactSound;
+
+    public void CallImpactSound()
+    {
+        PlayImpactSound?.Invoke();
+    }
+    
+    public event Action PlayFleshImpactSound;
+    public void CallFleshImpactSound()
+    {
+        PlayFleshImpactSound?.Invoke();
+    }
 }

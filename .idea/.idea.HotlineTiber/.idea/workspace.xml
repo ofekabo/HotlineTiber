@@ -5,7 +5,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="" />
+    <list default="true" id="9def2062-1dd4-4da2-91ef-37d54f13ccb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotlineTiber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameCore/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameCore/AudioManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/bulletHit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Bat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Bat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Pistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Pistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Rifle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Shotgun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pickables/WeaponPickup_Shotgun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItamarLevel/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,17 +29,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ExplosiveProp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Graphics/DistanceDissolveTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiWeapons/AiWeapons.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/DissolveAnim.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiStates/AiAgent.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Ai/Agent/AiStates/AiAttackPlayerState.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewWeapons/RaycastWeapon.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1or7SHWpUpp4vUyzppcwwXjldiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,7 +81,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -73,7 +90,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>

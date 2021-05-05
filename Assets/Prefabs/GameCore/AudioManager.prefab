@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2148622262720197876}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.6015488, y: -617.2688, z: 38.79885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -45,9 +45,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponSounds:
-  - {fileID: 8300000, guid: 9b17ac92c1b609647b82feb86f49199c, type: 3}
-  - {fileID: 8300000, guid: 6d09496506fbabe429232f89158c9976, type: 3}
+  - {fileID: 8300000, guid: 26cbf405fd3b9de4db3b426d53be885b, type: 3}
+  - {fileID: 8300000, guid: dc826988df87fab4980d1aa34948e74d, type: 3}
   - {fileID: 8300000, guid: 4b0e4b82e74415a48bc0aed19d728153, type: 3}
+  impactPropSounds:
+  - {fileID: 8300000, guid: 1ded7534c0c3bf14fa1fb6ea46c34332, type: 3}
+  - {fileID: 8300000, guid: f8fa80879d0f37c449c2c295df0c7c98, type: 3}
+  - {fileID: 8300000, guid: 249f124a3cfaec84096df709048555ae, type: 3}
+  fleshImpactSounds:
+  - {fileID: 8300000, guid: 644bce5082795e14398e514baf3c3b30, type: 3}
+  - {fileID: 8300000, guid: 572f5ed2d4b999347a2e603d23c219f0, type: 3}
+  - {fileID: 8300000, guid: 6024156e667039b4fa1174e028710f0e, type: 3}
 --- !u!82 &2148622262720197768
 AudioSource:
   m_ObjectHideFlags: 0
@@ -60,7 +68,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9b17ac92c1b609647b82feb86f49199c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.189
   m_Pitch: 1
   Loop: 0
   Mute: 0

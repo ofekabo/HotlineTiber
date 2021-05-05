@@ -187,8 +187,7 @@ public class RaycastWeapon : MonoBehaviour
             {
                 Prop.OnRaycastHit(this);
             }
-
-
+            
             Rigidbody rb = hitInfo.collider.GetComponent<Rigidbody>();
             PlayerController pc = hitInfo.collider.GetComponent<PlayerController>();
             if (rb && !pc)
@@ -200,6 +199,7 @@ public class RaycastWeapon : MonoBehaviour
             if (hitBox)
             {
                 hitBox.OnRaycastHit(this, ray.direction, weaponForce);
+                GameEvents.events.CallFleshImpactSound();
             }
 
             Debug.DrawRay(hitInfo.point, ray.direction * distance, Color.green, 1f);
@@ -209,7 +209,14 @@ public class RaycastWeapon : MonoBehaviour
             {
                 radioScript.HandleHitRadio();
             }
+            
+            
+            if (weaponType != WeaponType.MeleeWeapon && !hitBox)
+            {
+                GameEvents.events.CallImpactSound();
+            }
         }
+
 
 
         if (bullet.tracer)

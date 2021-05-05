@@ -3,17 +3,28 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class WeaponPickup : MonoBehaviour
 {
     public RaycastWeapon weaponFab;
     public string weaponName;
     public int amountToAdd;
+    AudioSource _ac;
+    [SerializeField] AudioClip[] footstepsSounds;
+
+    private void Start()
+    {
+        _ac = GetComponent<AudioSource>();
+    }
 
     // AI
-    
     private void OnTriggerEnter(Collider other)
     {
+        PlayerController pc = other.GetComponent<PlayerController>();
+        if(pc)
+            _ac.PlayOneShot(footstepsSounds[Random.Range(0,footstepsSounds.Length)]);
+        
         AiWeapons aiWeapon = other.gameObject.GetComponent<AiWeapons>();
         if (aiWeapon)
         {
