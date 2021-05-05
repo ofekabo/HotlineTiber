@@ -31,7 +31,8 @@ public class ExplosiveProp : MonoBehaviour
             {
                 Prop prop = nearbyObject.GetComponent<Prop>();
                 Rigidbody rb = nearbyObject.GetComponent<Rigidbody>();
-                AIHealth aiHealth = nearbyObject.GetComponent<AIHealth>();
+                
+                
                 if (rb)
                 {
                     rb.AddExplosionForce(force, transform.position, radius);
@@ -41,10 +42,17 @@ public class ExplosiveProp : MonoBehaviour
                 {
                     prop.GetDamage(damage);
                 }
-
+                
+                AIHealth aiHealth = nearbyObject.GetComponent<AIHealth>();
                 if (aiHealth)
                 {
                     aiHealth.TakeDamage(damage * 2,transform.position - aiHealth.transform.position, force);
+                }
+                
+                InnocentHealth innocentHealth = nearbyObject.GetComponent<InnocentHealth>();
+                if (innocentHealth)
+                {
+                    innocentHealth.TakeDamage(damage * 4,transform.position - innocentHealth.transform.position, force);
                 }
                 
             }

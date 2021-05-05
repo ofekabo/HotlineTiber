@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
         _adSource = GetComponent<AudioSource>();
         GameEvents.events.OnWeaponPickup += PlayGunshotSound;
         GameEvents.events.PlayImpactSound += DelayedImpactSound;
-        GameEvents.events.PlayFleshImpactSound += HandleFleshImpactSound;
+        GameEvents.events.PlayFleshImpactSound += DelayedFleshImpactSound;
         GameEvents.events.PlayeExplosionSound += HandleExplosionSound;
     }
 
@@ -46,11 +46,14 @@ public class AudioManager : MonoBehaviour
         _adSource.PlayOneShot(impactPropSounds[Random.Range(0,impactPropSounds.Length)]);
     }
 
-    
+    void DelayedFleshImpactSound()
+    {
+        Invoke(nameof(HandleFleshImpactSound),0.1f);
+    }
     private void HandleFleshImpactSound()
     {
         if(fleshImpactSounds.Length > 0)
-            _adSource.PlayOneShot(fleshImpactSounds[Random.Range(0,impactPropSounds.Length)]);
+            _adSource.PlayOneShot(fleshImpactSounds[Random.Range(0,impactPropSounds.Length)], 1);
     }
 
     private void HandleExplosionSound()
