@@ -21,7 +21,10 @@ public class AiAgent : MonoBehaviour
     [HideInInspector] public CapsuleCollider capsuleCollider;
 
     public float timerCooldown;
+    
 
+    public bool flagTookOutWep = false;
+    
 
     private PlayerHealth _playerHealth;
 
@@ -31,6 +34,8 @@ public class AiAgent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        flagTookOutWep = false;
+        
         dissolveAnim = GetComponent<DissolveAnim>();
         playerTransform = FindObjectOfType<PlayerController>().transform;
         if (playerTransform == null)
@@ -46,7 +51,7 @@ public class AiAgent : MonoBehaviour
         ragdoll = GetComponentInChildren<RagdollController>();
         healthBar = GetComponentInChildren<UIHealthBar>();
         weapons = GetComponent<AiWeapons>();
-
+        
         // registering states
         stateMachine.RegisterState(new AiChasePlayerState());
         stateMachine.RegisterState(new AiDeathState());
@@ -83,6 +88,8 @@ public class AiAgent : MonoBehaviour
     {
         stateMachine.ChangeState(AiStateId.Death); // cause why not
     }
+
+   
 
     private void OnDrawGizmos()
     {

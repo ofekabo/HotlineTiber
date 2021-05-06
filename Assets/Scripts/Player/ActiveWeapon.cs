@@ -23,7 +23,10 @@ public class ActiveWeapon : MonoBehaviour
     public Animator rigController;
     
 
-    private bool isHolstered;
+    private bool _isHolstered;
+
+    public bool isHolstered => _isHolstered;
+
     private bool _pickupWeapon;
     private PlayerController _pc;
 
@@ -60,13 +63,13 @@ public class ActiveWeapon : MonoBehaviour
        
         if (weapon)
         {
-            isHolstered = rigController.GetBool(HostlerWeapon);
-            if (isHolstered)
+            _isHolstered = rigController.GetBool(HostlerWeapon);
+            if (_isHolstered)
             {
                 weaponIKRig.weight = 0f;
                 _pc.ClappingMechanic();
             }
-            if (!isHolstered)
+            if (!_isHolstered)
             {
                 weaponIKRig.weight = 1f;
                 if (Input.GetButton("Fire1"))
@@ -95,8 +98,8 @@ public class ActiveWeapon : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            isHolstered = rigController.GetBool(HostlerWeapon);
-            rigController.SetBool(HostlerWeapon, !isHolstered);
+            _isHolstered = rigController.GetBool(HostlerWeapon);
+            rigController.SetBool(HostlerWeapon, !_isHolstered);
         }
 
         if (Input.GetKeyDown(KeyCode.F))
@@ -166,7 +169,7 @@ public class ActiveWeapon : MonoBehaviour
     
     // IEnumerator HolsterWeapon(int index)
     // {
-    //     isHolstered = true;
+    //     _isHolstered = true;
     //     var weapon = GetWeapon(index);
     //     if (weapon) {
     //         rigController.SetBool("Holster_Weapon", true);
@@ -187,7 +190,7 @@ public class ActiveWeapon : MonoBehaviour
     //         do {
     //             yield return new WaitForSeconds(0.05f);
     //         } while (rigController.GetCurrentAnimatorStateInfo(0).normalizedTime <= 1.0f);
-    //         isHolstered = false;
+    //         _isHolstered = false;
     //     }
     // }
 

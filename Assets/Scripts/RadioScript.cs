@@ -10,26 +10,60 @@ public class RadioScript : MonoBehaviour
 {
 
     private AudioSource _as;
-    
 
+    [SerializeField] bool randomSongOnStart;
     [SerializeField] AudioClip[] songs;
     [SerializeField] private LayerMask layer;
     private int _lastBullet;
     private Vector3 _center;
-  
+
+
+    int randomClip;
+
+    int newClip;
+
     // Start is called before the first frame update
     void Awake()
     {
         _as = GetComponent<AudioSource>();
-        
+
+    }
+
+    private void Start()
+    {
+        if (randomSongOnStart)
+        {
+            _as.clip = songs[UnityEngine.Random.Range(0, songs.Length)];
+            _as.Play();
+        }
+
+
     }
 
     public void HandleHitRadio()
     {
-        _as.clip = songs[UnityEngine.Random.Range(0,songs.Length)];
-        _as.Play();
-        _as.pitch = UnityEngine.Random.Range(0.5f, 1.5f);
+        randomClip = UnityEngine.Random.Range(0, songs.Length);
+        if(randomClip == newClip)
+        {
+            HandleHitRadio();
+        }
+
+        if (randomClip != newClip)
+        {
+            newClip = randomClip;
+            _as.clip = songs[newClip];
+            _as.Play();
+
+        }
+       
+
+       
     }
+
+
+
+// _as.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
+    
 
     private void OnDrawGizmos()
     {

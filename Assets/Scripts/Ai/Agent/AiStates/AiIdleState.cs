@@ -33,10 +33,13 @@ public class AiIdleState : AiState
         // {
         //     agent.stateMachine.ChangeState(AiStateId.ChasePlayer);
         // }
+     
+
+        
         
         if (agent.weapons.hasWeapon && Vector3.Distance(agent.transform.position,agent.playerTransform.position) < agent.config.viewDistance)
         {
-            agent.stateMachine.ChangeState(AiStateId.ChasePlayer);
+            agent.stateMachine.ChangeState(AiStateId.AttackPlayer);
         }
     }
 
