@@ -8,6 +8,13 @@ public class AiStateMachine
   public AiAgent agent;
   public AiStateId currentState;
 
+  #region delay
+  private float timer;
+  private float delay = 0.8f;
+  
+
+  #endregion
+
   public AiStateMachine(AiAgent agent)
   {
       this.agent = agent;
@@ -28,7 +35,26 @@ public class AiStateMachine
   }
   public void Update()
   {
-      GetState(currentState)?.Update(agent);
+      timer += Time.deltaTime;
+      if (timer > delay)
+      {
+          if (agent.playerTransform.GetComponent<ActiveWeapon>().isHolstered)
+          {
+              if(agent.flagTookOutWep == false) { return; }
+          
+          }
+          else
+          {
+              agent.flagTookOutWep = true;
+          }
+      }
+
+
+      if (agent.flagTookOutWep)
+      {
+          GetState(currentState)?.Update(agent);
+      }
+      
   }
 
   public void ChangeState(AiStateId newState)
@@ -36,5 +62,10 @@ public class AiStateMachine
       GetState(currentState)?.Exit(agent);
       currentState = newState;
       GetState(currentState)?.Enter(agent);
+  }
+
+  void CheckPlayerHostlerState()
+  {
+      
   }
 }

@@ -34,7 +34,12 @@ public class ActiveWeapon : MonoBehaviour
     [SerializeField] private RaycastWeapon defWeapon;
 
     public bool PickupWeapon {get => _pickupWeapon;}
-    
+
+    private void Awake()
+    {
+        _isHolstered = false;
+    }
+
     void Start()
     {
         _pc = GetComponent<PlayerController>();
