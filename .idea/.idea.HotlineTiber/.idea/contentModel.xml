@@ -8,6 +8,36 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="3rdParty" t="Include">
+          <e p="ExampleAssets 1" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="SimpleCameraController.cs" t="Include" />
+            </e>
+            <e p="TutorialInfo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="JMO Assets" t="Include">
+            <e p="WarFX" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="WFX_S Add Scroll.shader" t="Include" />
+                <e p="WFX_S Alpha-Diffuse TintColor.shader" t="Include" />
+                <e p="WFX_S Alpha-Specular TintColor.shader" t="Include" />
+                <e p="WFX_S AlphaBlend NoSoftParticles.shader" t="Include" />
+                <e p="WFX_S AlphaBlend Scroll.shader" t="Include" />
+                <e p="WFX_S Multiply Soft Scroll.shader" t="Include" />
+                <e p="WFX_S Multiply Soft.shader" t="Include" />
+                <e p="WFX_S Particle Add A8.shader" t="Include" />
+                <e p="WFX_S Particle AddSoft A8.shader" t="Include" />
+                <e p="WFX_S Particle Multiply A8.shader" t="Include" />
+                <e p="WFX_S Smoke Scroll.shader" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="LeanTween" t="Include">
             <e p="Editor" t="Include">
               <e p="LeanTweenDocumentationEditor.cs" t="Include" />
@@ -58,39 +88,9 @@
             <e p="ReadMe.txt" t="Include" />
           </e>
         </e>
-        <e p="ExampleAssets 1" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="SimpleCameraController.cs" t="Include" />
-          </e>
-          <e p="TutorialInfo" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="Editor" t="Include">
-                <e p="ReadmeEditor.cs" t="Include" />
-              </e>
-              <e p="Readme.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="ExplosiveProp.cs" t="Include" />
         <e p="Graphics" t="Include">
           <e p="DistanceDissolveTarget.cs" t="Include" />
-        </e>
-        <e p="JMO Assets" t="Include">
-          <e p="WarFX" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="WFX_S Add Scroll.shader" t="Include" />
-              <e p="WFX_S Alpha-Diffuse TintColor.shader" t="Include" />
-              <e p="WFX_S Alpha-Specular TintColor.shader" t="Include" />
-              <e p="WFX_S AlphaBlend NoSoftParticles.shader" t="Include" />
-              <e p="WFX_S AlphaBlend Scroll.shader" t="Include" />
-              <e p="WFX_S Multiply Soft Scroll.shader" t="Include" />
-              <e p="WFX_S Multiply Soft.shader" t="Include" />
-              <e p="WFX_S Particle Add A8.shader" t="Include" />
-              <e p="WFX_S Particle AddSoft A8.shader" t="Include" />
-              <e p="WFX_S Particle Multiply A8.shader" t="Include" />
-              <e p="WFX_S Smoke Scroll.shader" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="PlayerHandleNearbyAiStates.cs" t="Include" />
         <e p="Scripts" t="Include">

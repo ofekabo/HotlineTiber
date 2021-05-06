@@ -3152,7 +3152,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 89.4
+  m_Intensity: 112.21
   m_Range: 402.43
   m_SpotAngle: 122.98039
   m_InnerSpotAngle: 104.112595
@@ -3209,13 +3209,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867136922}
-  m_LocalRotation: {x: 0.663275, y: -0, z: -0, w: 0.7483758}
-  m_LocalPosition: {x: -0.04, y: 7.83, z: -3.42}
+  m_LocalRotation: {x: 0.5149523, y: -0, z: -0, w: 0.85721886}
+  m_LocalPosition: {x: -0.04, y: 7.83, z: -6.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 83.1, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 61.989, y: 0, z: 0}
 --- !u!1001 &942421309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3890,7 +3890,7 @@ PrefabInstance:
     - target: {fileID: 5081135749451747583, guid: fe84d2a899fe2d84181dfdc4de676f49, type: 3}
       propertyPath: sharedProfile
       value: 
-      objectReference: {fileID: 11400000, guid: 6ab560705d1d2ab4a9b5c41940c59e90, type: 2}
+      objectReference: {fileID: 11400000, guid: c00eda1bee003c04b94993c26aff8be6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe84d2a899fe2d84181dfdc4de676f49, type: 3}
 --- !u!4 &1204505951 stripped
@@ -5559,9 +5559,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 07f7f072662246c4c8ab8bcb3a1d522a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ca56340145eb2d0448e08bad4fbfcbc9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.251
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 0
   Mute: 0

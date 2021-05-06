@@ -33,6 +33,7 @@ public class ActiveWeapon : MonoBehaviour
     [Header("Default Weapon")]
     [SerializeField] private RaycastWeapon defWeapon;
 
+    public static event Action OnWeaponDraw;
     public bool PickupWeapon {get => _pickupWeapon;}
 
     private void Awake()
@@ -50,7 +51,6 @@ public class ActiveWeapon : MonoBehaviour
             
         }
         rigController.SetBool(HostlerWeapon, true);
-
     }
 
     // RaycastWeapon GetWeapon(int index)
@@ -101,10 +101,11 @@ public class ActiveWeapon : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && _isHolstered)
         {
             _isHolstered = rigController.GetBool(HostlerWeapon);
             rigController.SetBool(HostlerWeapon, !_isHolstered);
+            OnWeaponDraw?.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.F))

@@ -10,13 +10,14 @@ public class RadioScript : MonoBehaviour
 {
 
     private AudioSource _as;
-
+    [SerializeField] GameObject GameVolume;
     [SerializeField] bool randomSongOnStart;
     [SerializeField] AudioClip[] songs;
     [SerializeField] private LayerMask layer;
     private int _lastBullet;
     private Vector3 _center;
-
+    
+    [SerializeField] float skipforwardTime = 4.3f;
 
     int randomClip;
 
@@ -31,10 +32,11 @@ public class RadioScript : MonoBehaviour
 
     private void Start()
     {
+        
+        ActiveWeapon.OnWeaponDraw += HandleWeaponDraw;
         if (randomSongOnStart)
         {
-            _as.clip = songs[UnityEngine.Random.Range(0, songs.Length)];
-            _as.Play();
+           
         }
 
 
@@ -60,7 +62,14 @@ public class RadioScript : MonoBehaviour
        
     }
 
-
+    void HandleWeaponDraw()
+    {
+        GameVolume.SetActive(true);
+        _as.volume = 0.3f;
+        _as.clip = songs[2];
+        _as.Play();
+        _as.time += skipforwardTime;
+    }
 
 // _as.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
     
